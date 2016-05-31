@@ -3168,6 +3168,11 @@ Copyright (c) 2014 Daniel Eden
   -moz-border-radius: 0px;
   border-radius: 0px;
 }
+.wht-drop-shad {
+  -webkit-box-shadow: 5px 4px 0px #ffffff;
+  -moz-box-shadow: 5px 4px 0px #ffffff;
+  box-shadow: 5px 4px 0px #ffffff;
+}
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -3246,6 +3251,152 @@ h3,
 h4,
 h5 {
   margin-top: 0px;
+}
+/* --------------------------- */
+/* Masthead styles */
+/* --------------------------- */
+#hp-masthead {
+  position: relative;
+  height: 750px;
+  background: #009ee3;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ffffff), color-stop(1, #009ee3));
+  background: -ms-linear-gradient(bottom, #ffffff, #009ee3);
+  background: -moz-linear-gradient(center bottom, #ffffff 0%, #009ee3 100%);
+  background: -o-linear-gradient(#009ee3, #ffffff);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#009ee3', endColorstr='#ffffff', GradientType=0);
+}
+#hp-masthead .mast-bg-imgs,
+#hp-masthead .mast-guitar-bg,
+#hp-masthead .mast-grass-bg {
+  position: absolute;
+}
+#hp-masthead .mast-bg-imgs {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/hp-mast-notes-bg.png);
+  background-repeat: no-repeat;
+  background-position: -2px -2px;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+#hp-masthead .mast-guitar-bg {
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  width: 375px;
+  background-image: url(img/hp-mast-guitar-bg.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+#hp-masthead .mast-grass-bg {
+  bottom: 0px;
+  left: 0px;
+  height: 200px;
+  width: 100%;
+  background-image: url(img/hp-mast-grass-bg.png);
+  background-repeat: repeat-x;
+  background-position: center bottom;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+#hp-masthead .container {
+  height: 100%;
+  position: relative;
+  z-index: 2;
+}
+#hp-masthead .logo-wrap {
+  width: 100%;
+  height: 520px;
+  margin-top: 30px;
+  background-image: url(img/hp-logo-wrap-bg.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+#hp-masthead .logo {
+  width: 100%;
+  height: 100%;
+  background-image: url(img/logo-lrg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: 80%;
+  -moz-background-size: 80%;
+  -o-background-size: 80%;
+  background-size: 80%;
+}
+#hp-masthead .date-location {
+  margin-top: -100px;
+}
+#hp-masthead .date-location time {
+  display: block;
+}
+#hp-masthead .date-location .dl-item {
+  color: #ffffff;
+  font-size: 26px;
+}
+#hp-masthead .date-location span {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 60px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-transform: skewX(-10deg);
+  -moz-transform: skewX(-10deg);
+  -o-transform: skewX(-10deg);
+  -ms-transform: skewX(-10deg);
+  transform: skewX(-10deg);
+  position: relative;
+}
+#hp-masthead #main-nav-btn {
+  float: right;
+  margin-top: 30px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  border: none;
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+  position: relative;
+}
+#hp-masthead #main-nav-btn span {
+  position: absolute;
+  text-align: right;
+  width: 100px;
+  padding-right: 10px;
+  height: 50px;
+  line-height: 50px;
+  left: -100px;
+  top: 0px;
+  font-size: 20px;
+}
+#hp-masthead #main-nav-btn i {
+  color: #00577d;
+}
+#hp-masthead #main-nav-btn:hover,
+#hp-masthead #main-nav-btn:active,
+#hp-masthead #main-nav-btn:focus {
+  background-color: #006f9c;
+}
+#hp-masthead #main-nav-btn:hover i,
+#hp-masthead #main-nav-btn:active i,
+#hp-masthead #main-nav-btn:focus i {
+  color: #ffffff;
 }
 /* --------------------------- */
 /* FORMS */
