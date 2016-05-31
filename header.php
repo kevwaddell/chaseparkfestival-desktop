@@ -15,3 +15,23 @@
 </head>
 
 <body <?php body_class($body_classes); ?>>
+	
+	<nav id="main-nav">
+<!-- 		<button id="close-nav" class="btn btn-block"><i class="fa fa-arrow-circle-left fa-3x"></i></button> -->
+		<div class="nav-wrapper">
+			<?php wp_nav_menu(array( 
+			'container' => 'false', 
+			'menu' => 'Main Navigation', 
+			'menu_class'  => 'menu clearfix list-unstyled',
+			'fallback_cb' => false ) ); 
+			?>
+		</div>
+	</nav>
+	
+	<div class="cpf-wrapper nav-closed">
+		
+		<?php if (is_front_page()) { ?>
+		<?php get_template_part( 'parts/homepage/hp', 'masthead' ); ?>
+		<?php } else { ?>
+		<?php get_template_part( 'parts/global/gbl', 'masthead' ); ?>
+		<?php } ?>
