@@ -3045,6 +3045,137 @@ Copyright (c) 2014 Daniel Eden
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
+/* BASE SIZES */
+/* COLORS */
+/* SOCIAL COLOURS */
+/* FONTS */
+/* LINKS */
+.no-text-dec {
+  text-decoration: none;
+}
+.underline {
+  text-decoration: underline;
+}
+/* TEXT */
+.font-normal {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: normal;
+  font-stretch: normal;
+}
+.txt-col-wht {
+  color: #ffffff;
+}
+.txt-col-green {
+  color: #5bae31;
+}
+.txt-col-green-dk {
+  color: #315e1b;
+}
+.txt-col-orange {
+  color: #eda03f;
+}
+.txt-col-orange-dk {
+  color: #b56c11;
+}
+.txt-col-blue {
+  color: #009ee3;
+}
+.txt-col-blue-dk {
+  color: #00577d;
+}
+.list-style-gone {
+  list-style: none;
+  padding-left: 0px;
+}
+/* BACKGROUND */
+.bg-col-wht {
+  background-color: #ffffff;
+}
+.bg-col-green {
+  background-color: #5bae31;
+}
+.bg-col-orange {
+  background-color: #eda03f;
+}
+.bg-col-orange-dk {
+  background-color: #a3712b;
+}
+.bg-col-blue {
+  background-color: #009ee3;
+}
+.bg-col-blue-dk {
+  background-color: #006f9c;
+}
+.bg-col-facebook {
+  background-color: #3b5998;
+}
+.bg-col-twitter {
+  background-color: #00aced;
+}
+/* SIZE */
+/* DISPLAY */
+.block {
+  display: block;
+}
+.none {
+  display: none;
+}
+.in-block {
+  display: inline-block;
+}
+.inline {
+  display: inline;
+}
+.over-hide {
+  overflow: hidden;
+}
+.fleft {
+  float: left;
+}
+.fright {
+  float: right;
+}
+.no-float {
+  float: none;
+}
+/* POSITION */
+.abs {
+  position: absolute;
+}
+.rel {
+  position: relative;
+}
+.fixed {
+  position: fixed;
+}
+/* MARGIN */
+.mag-auto {
+  margin: auto;
+}
+/* PADDING */
+/* BORDERS */
+.no-border {
+  border: none;
+}
+/* EXTRA */
+.no-shadow {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.no-rounded {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
 /* --------------------------- */
 /* Global styles */
 /* --------------------------- */
