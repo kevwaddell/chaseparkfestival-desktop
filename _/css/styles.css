@@ -3268,6 +3268,51 @@ h4,
 h5 {
   margin-top: 0px;
 }
+#main-content {
+  min-height: 800px;
+  position: relative;
+  background-color: #ffffff;
+  border-top: 10px solid #ffffff;
+}
+#main-content.notes-bg-orange {
+  background: #eda03f;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eda03f), color-stop(1, #fae5cb));
+  background: -ms-linear-gradient(bottom, #eda03f, #fae5cb);
+  background: -moz-linear-gradient(center bottom, #eda03f 0%, #fae5cb 100%);
+  background: -o-linear-gradient(#fae5cb, #eda03f);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fae5cb', endColorstr='#eda03f', GradientType=0);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#main-content.notes-bg-orange:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/gbl-notes-bg-wht.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 0;
+}
+#main-content.notes-bg-orange .container {
+  position: relative;
+  z-index: 1;
+}
+#main-content.notes-bg-orange article.hp-content {
+  background-color: #ffffff;
+  padding: 50px;
+  border: 4px solid #006f9c;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
 /* --------------------------- */
 /* NAVIGATION */
 /* --------------------------- */
@@ -3626,6 +3671,34 @@ h5 {
   padding-left: 15px;
   padding-right: 15px;
   background-color: #eda03f;
+}
+/* --------------------------- */
+/* TYPOGRAHY */
+/* --------------------------- */
+#main-content p {
+  font-size: 20px;
+  line-height: 30px;
+}
+#main-content h1.fest-tag {
+  margin-left: -10px;
+  margin-top: -10px;
+  background-image: url(img/festival-for-everyone-tag.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  height: 170px;
+  margin-bottom: 0px;
+  text-indent: -99990pxpx;
+}
+/* --------------------------- */
+/* SECTIONS */
+/* --------------------------- */
+.col-panel {
+  padding: 50px;
+  margin: 40px -50px 40px -50px;
 }
 /* --------------------------- */
 /* FORMS */
