@@ -46,6 +46,9 @@ color: @col;
 .txt-col-blue-dk {
 .col(@blue-dk);	
 }
+.bold {
+font-weight: bold;	
+}
 .indent(@sizeValue) {
 @pxValue: (@sizeValue * @baseSize);
 text-indent: ~"@{pxValue}px"; 
@@ -315,4 +318,15 @@ box-shadow: 5px 4px 0px rgba(255, 255, 255, 1.0);
   &:after {
     clear: both;
   }
+}
+
+.sr-only-helper {
+position: absolute;
+width: 1px;
+height: 1px;
+padding: 0;
+margin: -1px;
+overflow: hidden;
+clip: rect(0, 0, 0, 0);
+border: 0	
 }

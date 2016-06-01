@@ -7,7 +7,7 @@ jQuery(document).ready(function( $ ) {
 		
 		var nav_h = $('#main-nav').find('.nav-wrapper').outerHeight();
 		
-		console.log(nav_h);
+		//console.log(nav_h);
 			
 		if ($('#main-nav').hasClass('nav-closed')) {
 			

@@ -10,8 +10,7 @@ function chaseparkfest_setup() {
 	register_nav_menus( array(
 		'primary' => __( 'Main Menu',      'chaseparkfest' ),
 		'primary_quick_links'  => __( 'Main menu Quick Links', 'chaseparkfest' ),
-		'footer_left'  => __( 'Footer Menu Left', 'chaseparkfest' ),
-		'footer_right'  => __( 'Footer Menu Right', 'chaseparkfest' ),
+		'footer_main'  => __( 'Footer Main Menu', 'chaseparkfest' ),
 		'footer_base'  => __( 'Footer Base menu', 'chaseparkfest' )
 	) );
 	
