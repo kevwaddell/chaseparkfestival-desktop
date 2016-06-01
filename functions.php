@@ -9,7 +9,10 @@ function chaseparkfest_setup() {
 
 	register_nav_menus( array(
 		'primary' => __( 'Main Menu',      'chaseparkfest' ),
-		'footer'  => __( 'Footer Menu', 'chaseparkfest' ),
+		'primary_quick_links'  => __( 'Main menu Quick Links', 'chaseparkfest' ),
+		'footer_left'  => __( 'Footer Menu Left', 'chaseparkfest' ),
+		'footer_right'  => __( 'Footer Menu Right', 'chaseparkfest' ),
+		'footer_base'  => __( 'Footer Base menu', 'chaseparkfest' )
 	) );
 	
 if ( function_exists( 'register_sidebar' ) ) {
@@ -42,5 +45,23 @@ function chaseparkfest_scripts() {
 	wp_enqueue_script( 'chaseparkfest-script', get_template_directory_uri() . '/_/js/functions.js', array( 'jquery', 'bootstrap-js' ), filemtime( get_stylesheet_directory().'/_/js/functions.js' ), true );
 }
 add_action( 'wp_enqueue_scripts', 'chaseparkfest_scripts' );
+
+/*
+*  AFC Options Page
+*/
+
+if( function_exists('acf_add_options_page') ) {
+	
+	acf_add_options_page();
+	
+}
+
+if( function_exists('acf_add_options_sub_page') ) {
+	
+	acf_add_options_sub_page('Global settings');
+	acf_add_options_sub_page('Homepage');
+	acf_add_options_sub_page('Contact details');
+	
+}
 
 ?>

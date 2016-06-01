@@ -1,7 +1,41 @@
-#hp-masthead {
+.masthead {
 .rel;
-.h(75);
 .gradient(@blue, @wht, @blue);
+	#main-nav-btn {
+	.fright;
+	.mag-top(3);	
+	.no-rounded;
+	.no-border;
+	.w(5);
+	.h(5);
+	.pad-all(0);
+	.rel;
+		span {
+		.abs;
+		text-align: right;
+		.w(10);
+		.pad-right(1);
+		.h(5);
+		.line-h(5);	
+		.left(-10);
+		.top(0);
+		.font-size(2);
+		}
+		i {
+		.txt-col-blue-dk;	
+		}
+		
+		&:hover, &:active, &:focus {
+		.bg-col-blue-dk;
+			i {
+			.txt-col-wht;	
+			}
+		}
+	}	
+}
+
+#hp-masthead {
+.h(75);
 
 	.mast-bg-imgs, .mast-guitar-bg ,.mast-grass-bg {
 	.abs;	
@@ -86,36 +120,88 @@
 		.rel;
 		}
 	}
+
+}
+
+#gbl-masthead {
+.h(31);	
+
+	.mast-bg-imgs, .mast-cloud-left, .mast-cloud-right {
+	.abs;	
+	}
 	
-	#main-nav-btn {
-	.fright;
-	.mag-top(3);	
-	.no-rounded;
-	.no-border;
-	.w(5);
-	.h(5);
-	.pad-all(0);
+	.mast-bg-imgs {
+	height: 100%;
+	width: 100%;	
+	}
+	
+	.mast-cloud-left {
+	.top(0);
+	.left(0);
+	.w(20);
+	.h(16);	
+	.bg-img("gbl-mast-cloud-left.png");
+	.bg-repeat;
+	background-position: left top;
+	}
+	
+	.mast-cloud-right {
+	.bottom(3);
+	.right(0);
+	.w(20);
+	.h(18);	
+	.bg-img("gbl-mast-cloud-right.png");
+	.bg-repeat;
+	background-position: right bottom;
+	}
+	
+	.container {
+	height: 100%;	
 	.rel;
-		span {
-		.abs;
-		text-align: right;
-		.w(10);
-		.pad-right(1);
-		.h(5);
-		.line-h(5);	
-		.left(-10);
-		.top(0);
-		.font-size(2);
+	z-index: 2;
+	}
+	
+	.logo-wrap {
+	width: 100%;
+	.h(31);	
+	.pad-top(5);
+	.bg-img("gbl-logo-wrap-bg.png");
+	.bg-repeat;
+	background-position: center top;
+	.bg-size(contain);
+	text-align: center;
+		a.logo {
+		.in-block;
+		.w(51);
+		.h(16);	
+		.bg-img("logo-lrg.png");
+		.bg-repeat;
+		background-position: center center;
+		.bg-size(contain);
 		}
-		i {
-		.txt-col-blue-dk;	
+	}
+	
+	.breadcrumbs {
+	.rel;	
+	.line-h(5);	
+	.mag-top(-7.5);
+	z-index: 2;
+	.rounded(8px);
+	.transform(skewX(-10deg));	
+	.txt-col-wht;
+	.font-size(1.6);
+		a.home {
+		.in-block;	
+		.pad-left(1.5);
+		.pad-right(1.5);
+		.txt-col-wht;
 		}
 		
-		&:hover, &:active, &:focus {
-		.bg-col-blue-dk;
-			i {
-			.txt-col-wht;	
-			}
+		span > span {
+		.in-block;	
+		.pad-left(1.5);
+		.pad-right(1.5);
+		.bg-col-orange;
 		}
 	}
 

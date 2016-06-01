@@ -3255,15 +3255,53 @@ h5 {
 /* --------------------------- */
 /* Masthead styles */
 /* --------------------------- */
-#hp-masthead {
+.masthead {
   position: relative;
-  height: 750px;
   background: #009ee3;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ffffff), color-stop(1, #009ee3));
   background: -ms-linear-gradient(bottom, #ffffff, #009ee3);
   background: -moz-linear-gradient(center bottom, #ffffff 0%, #009ee3 100%);
   background: -o-linear-gradient(#009ee3, #ffffff);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#009ee3', endColorstr='#ffffff', GradientType=0);
+}
+.masthead #main-nav-btn {
+  float: right;
+  margin-top: 30px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  border: none;
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+  position: relative;
+}
+.masthead #main-nav-btn span {
+  position: absolute;
+  text-align: right;
+  width: 100px;
+  padding-right: 10px;
+  height: 50px;
+  line-height: 50px;
+  left: -100px;
+  top: 0px;
+  font-size: 20px;
+}
+.masthead #main-nav-btn i {
+  color: #00577d;
+}
+.masthead #main-nav-btn:hover,
+.masthead #main-nav-btn:active,
+.masthead #main-nav-btn:focus {
+  background-color: #006f9c;
+}
+.masthead #main-nav-btn:hover i,
+.masthead #main-nav-btn:active i,
+.masthead #main-nav-btn:focus i {
+  color: #ffffff;
+}
+#hp-masthead {
+  height: 750px;
 }
 #hp-masthead .mast-bg-imgs,
 #hp-masthead .mast-guitar-bg,
@@ -3362,41 +3400,93 @@ h5 {
   transform: skewX(-10deg);
   position: relative;
 }
-#hp-masthead #main-nav-btn {
-  float: right;
-  margin-top: 30px;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
-  border: none;
-  width: 50px;
-  height: 50px;
-  padding: 0px;
-  position: relative;
+#gbl-masthead {
+  height: 310px;
 }
-#hp-masthead #main-nav-btn span {
+#gbl-masthead .mast-bg-imgs,
+#gbl-masthead .mast-cloud-left,
+#gbl-masthead .mast-cloud-right {
   position: absolute;
-  text-align: right;
-  width: 100px;
-  padding-right: 10px;
-  height: 50px;
-  line-height: 50px;
-  left: -100px;
+}
+#gbl-masthead .mast-bg-imgs {
+  height: 100%;
+  width: 100%;
+}
+#gbl-masthead .mast-cloud-left {
   top: 0px;
-  font-size: 20px;
+  left: 0px;
+  width: 200px;
+  height: 160px;
+  background-image: url(img/gbl-mast-cloud-left.png);
+  background-repeat: no-repeat;
+  background-position: left top;
 }
-#hp-masthead #main-nav-btn i {
-  color: #00577d;
+#gbl-masthead .mast-cloud-right {
+  bottom: 30px;
+  right: 0px;
+  width: 200px;
+  height: 180px;
+  background-image: url(img/gbl-mast-cloud-right.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
-#hp-masthead #main-nav-btn:hover,
-#hp-masthead #main-nav-btn:active,
-#hp-masthead #main-nav-btn:focus {
-  background-color: #006f9c;
+#gbl-masthead .container {
+  height: 100%;
+  position: relative;
+  z-index: 2;
 }
-#hp-masthead #main-nav-btn:hover i,
-#hp-masthead #main-nav-btn:active i,
-#hp-masthead #main-nav-btn:focus i {
+#gbl-masthead .logo-wrap {
+  width: 100%;
+  height: 310px;
+  padding-top: 50px;
+  background-image: url(img/gbl-logo-wrap-bg.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  text-align: center;
+}
+#gbl-masthead .logo-wrap a.logo {
+  display: inline-block;
+  width: 510px;
+  height: 160px;
+  background-image: url(img/logo-lrg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+#gbl-masthead .breadcrumbs {
+  position: relative;
+  line-height: 50px;
+  margin-top: -75px;
+  z-index: 2;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-transform: skewX(-10deg);
+  -moz-transform: skewX(-10deg);
+  -o-transform: skewX(-10deg);
+  -ms-transform: skewX(-10deg);
+  transform: skewX(-10deg);
   color: #ffffff;
+  font-size: 16px;
+}
+#gbl-masthead .breadcrumbs a.home {
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #ffffff;
+}
+#gbl-masthead .breadcrumbs span > span {
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #eda03f;
 }
 /* --------------------------- */
 /* FORMS */
