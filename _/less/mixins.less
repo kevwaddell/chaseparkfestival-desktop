@@ -38,13 +38,13 @@ color: @col;
 .col(@orange);	
 }
 .txt-col-orange-dk {
-.col(darken(@orange, 20%));	
+.col(@orange-dk);	
 }
 .txt-col-blue {
 .col(@blue);	
 }
 .txt-col-blue-dk {
-.col(darken(@blue, 20%));	
+.col(@blue-dk);	
 }
 .indent(@sizeValue) {
 @pxValue: (@sizeValue * @baseSize);
@@ -82,6 +82,9 @@ background-color: @col;
 }
 .bg-col-twitter {
 .bg-col(@twitter_blue);	
+}
+.bg-col-trans {
+.bg-col(@trans);	
 }
 
 .bg-size(@size: cover){
