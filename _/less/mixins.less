@@ -90,6 +90,14 @@ background-color: @col;
 .bg-col(@trans);	
 }
 
+.blue-grad {
+.gradient(@blue, @blue, @blue-dk);	
+}
+
+.orange-grad {
+.gradient(@orange, @orange, @orange-dk);	
+}
+
 .bg-size(@size: cover){
 @bgsize: @size;	
  -webkit-background-size: ~"@{bgsize}";
@@ -224,6 +232,22 @@ margin: ~"@{pxValue}px";
 @leftPxValue: (@left * @baseSize);
 
  margin: ~"@{topPxValue}px @{rightPxValue}px @{botPxValue}px @{leftPxValue}px"; 
+}
+
+.mag-bot-0 {
+.mag-bot(0);
+}
+
+.mag-bot-10 {
+.mag-bot(1);
+}
+
+.mag-bot-20 {
+.mag-bot(2);
+}
+
+.mag-bot-30 {
+.mag-bot(3);
 }
 
 /* PADDING */

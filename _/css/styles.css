@@ -3118,6 +3118,22 @@ Copyright (c) 2014 Daniel Eden
 .bg-col-trans {
   background-color: transparent;
 }
+.blue-grad {
+  background: #009ee3;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #009ee3), color-stop(1, #006f9c));
+  background: -ms-linear-gradient(bottom, #009ee3, #006f9c);
+  background: -moz-linear-gradient(center bottom, #009ee3 0%, #006f9c 100%);
+  background: -o-linear-gradient(#006f9c, #009ee3);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#006f9c', endColorstr='#009ee3', GradientType=0);
+}
+.orange-grad {
+  background: #eda03f;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eda03f), color-stop(1, #a3712b));
+  background: -ms-linear-gradient(bottom, #eda03f, #a3712b);
+  background: -moz-linear-gradient(center bottom, #eda03f 0%, #a3712b 100%);
+  background: -o-linear-gradient(#a3712b, #eda03f);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a3712b', endColorstr='#eda03f', GradientType=0);
+}
 /* SIZE */
 /* DISPLAY */
 .block {
@@ -3157,6 +3173,18 @@ Copyright (c) 2014 Daniel Eden
 /* MARGIN */
 .mag-auto {
   margin: auto;
+}
+.mag-bot-0 {
+  margin-bottom: 0px;
+}
+.mag-bot-10 {
+  margin-bottom: 10px;
+}
+.mag-bot-20 {
+  margin-bottom: 20px;
+}
+.mag-bot-30 {
+  margin-bottom: 30px;
 }
 /* PADDING */
 /* BORDERS */
@@ -3307,6 +3335,7 @@ h5 {
 }
 #main-content.notes-bg-orange article.hp-content {
   background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 50px;
   border: 4px solid #006f9c;
   -webkit-border-radius: 20px;
@@ -3435,6 +3464,48 @@ h5 {
 #main-nav #close-nav-btn:focus {
   background-color: #a3712b;
   color: #ffffff;
+}
+a.book-tickets-btn-lg {
+  padding: 0px;
+  height: 100px;
+  line-height: 90px;
+  font-size: 50px;
+  background-color: #eda03f;
+  border: 5px solid #006f9c;
+  color: #ffffff;
+}
+a.book-tickets-btn-lg:before,
+a.book-tickets-btn-lg:after {
+  font-family: FontAwesome;
+  width: 90px;
+  line-height: 90px;
+  text-align: center;
+  color: #006f9c;
+  font-size: 50px;
+}
+a.book-tickets-btn-lg:before {
+  content: "\f145";
+  float: left;
+}
+a.book-tickets-btn-lg:after {
+  content: "\f054";
+  float: right;
+  font-size: 40px;
+}
+a.book-tickets-btn-lg:hover,
+a.book-tickets-btn-lg:active,
+a.book-tickets-btn-lg:focus {
+  background-color: #006f9c;
+  color: #ffffff;
+  border-color: #006f9c;
+}
+a.book-tickets-btn-lg:hover:before,
+a.book-tickets-btn-lg:active:before,
+a.book-tickets-btn-lg:focus:before,
+a.book-tickets-btn-lg:hover:after,
+a.book-tickets-btn-lg:active:after,
+a.book-tickets-btn-lg:focus:after {
+  color: #eda03f;
 }
 /* --------------------------- */
 /* Masthead styles */
@@ -3678,6 +3749,14 @@ h5 {
 #main-content p {
   font-size: 20px;
   line-height: 30px;
+  margin-bottom: 20px;
+}
+#main-content p:last-child {
+  margin-bottom: 0px;
+}
+#main-content p.txt-lg {
+  font-size: 28px;
+  line-height: 38px;
 }
 #main-content h1.fest-tag {
   margin-left: -10px;
@@ -3696,9 +3775,176 @@ h5 {
 /* --------------------------- */
 /* SECTIONS */
 /* --------------------------- */
-.col-panel {
+#main-content {
+  /* SECTIONS */
+  /* PANELS */
+  /* SIDEBAR */
+}
+#main-content .social-section-links a {
+  display: block;
+  color: #eda03f;
+  height: 150px;
+  padding: 20px 20px 20px 150px;
+  position: relative;
+  font-size: 35px;
+  line-height: 33px;
+  border: #eda03f 5px dashed;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+#main-content .social-section-links a i {
+  position: absolute;
+  left: 20px;
+  top: 15px;
+  width: 110px;
+  height: 110px;
+  line-height: 102px;
+  font-size: 60px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  color: #ffffff;
+  text-align: center;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
+  border: 4px solid #ffffff;
+}
+#main-content .social-section-links a i.fa-facebook {
+  background-color: #3b5998;
+}
+#main-content .social-section-links a i.fa-twitter {
+  background-color: #00aced;
+}
+#main-content .social-section-links a:hover,
+#main-content .social-section-links a:active,
+#main-content .social-section-links a:focus {
+  background-color: #eda03f;
+  color: #ffffff;
+}
+#main-content .social-section-links a.facebook span {
+  color: #3b5998;
+}
+#main-content .social-section-links a.twitter span {
+  color: #00aced;
+}
+#main-content .col-panel {
   padding: 50px;
   margin: 40px -50px 40px -50px;
+  position: relative;
+}
+#main-content .col-panel .panel-imgs {
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-position: center center;
+}
+#main-content .col-panel .panel-imgs.offset-imgs {
+  position: absolute;
+  top: -40px;
+  left: 0px;
+  bottom: -40px;
+  width: 42%;
+}
+#main-content .sidebar .info-panel {
+  padding: 20px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+#main-content .sidebar .info-panel h3 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  line-height: 29px;
+}
+#main-content .sidebar .info-panel.with-icon {
+  padding-top: 100px;
+}
+#main-content .sidebar .info-panel.with-icon i.icon {
+  position: absolute;
+  left: 50%;
+  top: -30px;
+  margin-left: -55px;
+  display: block;
+  width: 110px;
+  height: 110px;
+  line-height: 100px;
+  border: 5px solid #ffffff;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  font-size: 70px;
+}
+#main-content .sidebar .info-panel ul.artist-list li {
+  font-size: 25px;
+  line-height: 25px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+#main-content .sidebar .info-panel ul.artist-list li:last-child {
+  margin-bottom: 10px;
+}
+#main-content .sidebar .info-panel ul.artist-list a {
+  color: #ffffff;
+  text-decoration: none;
+}
+#main-content .sidebar .info-panel ul.artist-list a:hover,
+#main-content .sidebar .info-panel ul.artist-list a:active,
+#main-content .sidebar .info-panel ul.artist-list a:focus {
+  color: #eda03f;
+}
+#main-content .sidebar .info-panel .well {
+  border: 5px solid #ffffff;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+}
+#main-content .sidebar .info-panel .well figure.line-up-img {
+  min-height: 140px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: -45px;
+  margin-right: -45px;
+}
+#main-content .sidebar .info-panel .well p {
+  font-size: 16px;
+  line-height: 20px;
+}
+#main-content .sidebar .info-panel .well .social-links a {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  text-decoration: none;
+  color: #ffffff;
+  padding-left: 5px;
+  margin-right: 5px;
+}
+#main-content .sidebar .info-panel .well .social-links a i {
+  display: block;
+  width: 80px;
+  height: 80px;
+  line-height: 74px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  border: 3px solid #ffffff;
+  font-size: 40px;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+#main-content .sidebar .info-panel .well .social-links a i.fa-facebook {
+  background-color: #3b5998;
+}
+#main-content .sidebar .info-panel .well .social-links a i.fa-twitter {
+  background-color: #00aced;
 }
 /* --------------------------- */
 /* FORMS */
@@ -4088,8 +4334,9 @@ footer#footer-site-info .ticket-details .btn:before {
   float: left;
 }
 footer#footer-site-info .ticket-details .btn:after {
-  content: "\f0a9";
+  content: "\f054";
   float: right;
+  font-size: 20px;
 }
 footer#footer-site-info .ticket-info {
   font-weight: bold;
