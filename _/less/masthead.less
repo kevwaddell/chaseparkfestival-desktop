@@ -124,7 +124,7 @@
 }
 
 #gbl-masthead {
-.h(31);	
+.h(28);	
 
 	.mast-bg-imgs, .mast-cloud-left, .mast-cloud-right {
 	.abs;	
@@ -163,7 +163,7 @@
 	
 	.logo-wrap {
 	width: 100%;
-	.h(31);	
+	.h(28);	
 	.pad-top(5);
 	.bg-img("gbl-logo-wrap-bg.png");
 	.bg-repeat;
@@ -184,25 +184,54 @@
 	.breadcrumbs {
 	.rel;	
 	.line-h(5);	
-	.mag-top(-7.5);
+	.mag-top(-5);
 	z-index: 2;
-	.rounded(8px);
-	.transform(skewX(-10deg));	
+	//.rounded(8px);
+	//.transform(skewX(-10deg));	
 	.txt-col-wht;
 	.font-size(1.6);
-		a.home {
-		.in-block;	
+	
+		a {
+		.block;
+		.txt-col-wht;
+		.no-text-dec;	
+		.bg-col-orange-dk;
+		.mag-left(-1.5);
+		.mag-right(-1.5);
 		.pad-left(1.5);
 		.pad-right(1.5);
-		.txt-col-wht;
+		.border-right(@wht; 0.5);
+			&:hover, &:active, &:focus {
+			.bg-col-blue-dk;
+			}
+		}
+	
+		a.home {
+		.bg-col-orange;
+		//.no-border;
+			&:hover, &:active, &:focus {
+			.bg-col-blue-dk;
+			}
 		}
 		
-		span > span {
-		.in-block;	
+		
+		span[property="itemListElement"] {
+		.in-block;
+		//.mag-right(0.5);	
 		.pad-left(1.5);
 		.pad-right(1.5);
-		.bg-col-orange;
+		.transform(skewX(-10deg));
+		
+			&:first-child {
+			.pad-left(1.5);
+			}
+			
+			&:last-child {
+			.bg-col-blue-dk;
+			}
 		}
+		
+		
 	}
 
 }

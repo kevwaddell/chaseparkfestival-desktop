@@ -107,3 +107,32 @@
 		}
 	}
 }
+
+nav.more-links {
+	a {
+	.block;
+	.no-text-dec;
+	.txt-col-wht;
+	.bg-col-blue-dk;
+	.font-size(5);
+	.border-top(@wht; 1);
+
+		&:last-child {
+		//.no-border;	
+		}
+		&:hover, &:active, &:focus {
+		.bg-col-orange;
+		}
+		
+		span {
+		.line-h(9);
+			&:after {
+			.fright;
+			content: "\f054";
+			font-family: FontAwesome;
+			.font-size(4);
+			.line-h(9);
+			}	
+		}
+	}	
+}

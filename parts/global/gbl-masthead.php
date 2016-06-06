@@ -15,10 +15,11 @@
 				<button id="main-nav-btn" class="btn btn-default btn-block"><span class="menu-label txt-col-wht tk-azo-sans-uber">Menu</span><i class="fa fa-bars fa-lg"></i></button>
 			</div>
 		</div>
-		<div class="row">
-			<div class="breadcrumbs bg-col-blue tk-azo-sans-uber wht-drop-shad" typeof="BreadcrumbList" vocab="http://schema.org/">
-				<?php if(function_exists('bcn_display')){ bcn_display(); }?>
-			</div>
+	</div>
+	
+	<div class="breadcrumbs bg-col-blue tk-azo-sans-uber wht-drop-shad" typeof="BreadcrumbList" vocab="http://schema.org/">
+		<div class="container">
+		<?php if(function_exists('bcn_display')){ bcn_display(); }?>
 		</div>
 	</div>
 	

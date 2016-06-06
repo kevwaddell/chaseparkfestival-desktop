@@ -29,10 +29,10 @@ $social_links = get_field('gbl_social_links', 'options');
 				<img src="<?php bloginfo('stylesheet_directory'); ?>/_/img/line-up-panel-imgs.png" class="img-responsive" />
 			</figure>
 			
-			<p>The line up for this years Festival will be available soon.</p>
+			<p>The line up for this years <span class="txt-col-blue-dk">Chase Park Festival</span> will be available soon.</p>
 			
 			<?php if ($social_links) { ?>
-			<p>Keep up to date by following us on Twitter or Liking us on Facebook.</p>
+			<p>Keep up to date by following us on <span class="txt-col-blue-dk">Twitter</span> or Liking us on <span class="txt-col-blue-dk">Facebook</span></p>
 			
 			<div class="social-links">
 				<?php foreach ($social_links as $link) { ?>

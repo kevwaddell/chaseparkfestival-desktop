@@ -25,7 +25,88 @@
 	.indent(-9999px);
 	}
 	
+	.strip-header {
+	.h(9);
+	.font-size(5);	
+	.line-h(9);	
+		h1 {
+		.mag-bot-0;	
+		.font-size(5);	
+		.line-h(9);	
+		}
+	}
+	
 	.main-txt {
+	.pad-top(4);
+	.pad-bot(6);
+	
+		.main-text-header {
+		.mag-bot-20;
+			
+			.social-links {
+			.mag-bot(3);
+					
+				a {
+				.w(6);
+				.h(6);
+				.in-block;
+				.rounded(100%);
+				.mag-right(1);
+				.txt-col-wht;	
+				.no-text-dec;
+					i {
+					.block;
+					.line-h(6);
+					text-align: center;	
+					.font-size(3.5);
+					}	 
+
+					&:hover, &:active, &:focus {
+					.bg-col-orange;
+					}
+				}
+				
+			}
+			
+			h1 {
+			.font-size(5);
+			.line-h(4.8);
+			.mag-bot-0;
+			}
+			
+			a.artist-website {
+			.txt-col-orange;
+			.bold;
+			.font-size(2.5);
+			.line-h(3.5);	
+			}	
+				
+		}
+		
+		.main-text-body {
+			
+			figure.feat-img {
+			.mag-bot-30;
+			}
+			
+			blockquote {
+			.border-col(@orange);
+			.bold;
+			.txt-col-blue-dk;
+				 p {
+				.font-size(2.5);
+				.line-h(3.5);
+				font-style: italic;	
+				 }
+			}
+		}
+
+		.cols-2 {
+		.columns(50%, 2, 30px, @trans, solid, 0px);
+		-webkit-column-break-inside: avoid;
+        page-break-inside: avoid;
+        break-inside: avoid;
+		}
 		
 	}
 }
