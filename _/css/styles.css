@@ -3949,9 +3949,6 @@ a.book-tickets-btn-lg:focus:after {
   color: #00aced;
 }
 /* .social-section-links */
-.wide-panel {
-  border-top: 10px solid #ffffff;
-}
 .wide-panel .panel-header {
   line-height: 60px;
   font-size: 30px;
@@ -3975,15 +3972,27 @@ a.book-tickets-btn-lg:focus:after {
   margin-top: -10px;
   margin-bottom: 30px;
 }
-.wide-panel .sponsors-outer-wrap {
+#sponsors-and-stalls {
+  border-top: 10px solid #ffffff;
+}
+#sponsors-and-stalls .sponsors-outer-wrap {
+  position: relative;
   height: 200px;
   overflow: hidden;
 }
-.wide-panel .sponsors-inner-wrap {
-  width: 100%;
+#sponsors-and-stalls .sponsors-inner-wrap {
+  position: absolute;
+  top: 0px;
   height: 200px;
+  width: 100%;
 }
-.wide-panel .sponsor-logo {
+#sponsors-and-stalls .sponsors-inner-wrap.active {
+  left: 0%;
+}
+#sponsors-and-stalls .sponsors-inner-wrap.inactive {
+  left: 100%;
+}
+#sponsors-and-stalls .sponsor-logo {
   overflow: hidden;
   display: inline-block;
   width: 175px;
@@ -4004,7 +4013,7 @@ a.book-tickets-btn-lg:focus:after {
   -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
 }
-.wide-panel .sponsor-logo a {
+#sponsors-and-stalls .sponsor-logo a {
   display: block;
   width: 100%;
   height: 100%;
@@ -4012,15 +4021,15 @@ a.book-tickets-btn-lg:focus:after {
   position: relative;
   color: #ffffff;
 }
-.wide-panel .sponsor-logo a:hover,
-.wide-panel .sponsor-logo a:active,
-.wide-panel .sponsor-logo a:focus {
+#sponsors-and-stalls .sponsor-logo a:hover,
+#sponsors-and-stalls .sponsor-logo a:active,
+#sponsors-and-stalls .sponsor-logo a:focus {
   background-color: #333333;
   background-color: rgba(51, 51, 51, 0.8);
 }
-.wide-panel .sponsor-logo a:hover:after,
-.wide-panel .sponsor-logo a:active:after,
-.wide-panel .sponsor-logo a:focus:after {
+#sponsors-and-stalls .sponsor-logo a:hover:after,
+#sponsors-and-stalls .sponsor-logo a:active:after,
+#sponsors-and-stalls .sponsor-logo a:focus:after {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -4031,6 +4040,48 @@ a.book-tickets-btn-lg:focus:after {
   text-align: center;
   font-size: 50px;
   line-height: 160px;
+}
+#sponsors-and-stalls .slides-nav {
+  height: 30px;
+}
+#sponsors-and-stalls .slides-nav a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  background-color: #eda03f;
+  color: #ffffff;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+  filter: alpha(opacity=50);
+}
+#sponsors-and-stalls .slides-nav a:hover,
+#sponsors-and-stalls .slides-nav a:active,
+#sponsors-and-stalls .slides-nav a:focus {
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  -webkit-opacity: 1;
+  opacity: 1;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+  filter: alpha(opacity=100);
+}
+#sponsors-and-stalls .slides-nav a.active {
+  background-color: #ffffff;
+  color: #eda03f;
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  -webkit-opacity: 1;
+  opacity: 1;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+  filter: alpha(opacity=100);
+  pointer-events: none;
 }
 #main-content {
   /* SECTIONS */

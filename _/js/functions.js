@@ -38,6 +38,12 @@ jQuery(document).ready(function( $ ) {
 		return false;	
 	});
 	
+	/* 	SLIDER NAV BUTTONS 
+		Nav button functions for Artists profiles slider and
+		Sponsors and stall logo slider
+	*/
+	
+	/* ARTISTS PROFILE SLIDER */
 	$('body').on('click', '.slider-nav-btns button' ,function(){
 		
 		var direct = $(this).data().direction;
@@ -66,5 +72,36 @@ jQuery(document).ready(function( $ ) {
 				
 		return false;	
 	});
+	
+	/* SPONSORS LOGOS SLIDER */
+	
+	$('body').on('click', '#sponsors-and-stalls .slides-nav a' ,function(){
+		var next_slide_id = $(this).attr('href');
+		var current_slide = $('.sponsors-outer-wrap').find('div.active');
+		var next_slide = $(next_slide_id);
+		var next_pos = parseInt($(next_slide).css('left'));
+		var mov_left = '-100%';
+		
+		if (next_pos < 0) {
+		mov_left = 	'+100%';
+		}
+		
+		$(this).siblings().toggleClass('active inactive');
+		$(this).toggleClass('active inactive');
+		
+		$(next_slide).animate({left: '0%'}, 500, function(){
+			$(this).removeClass('inactive').addClass('active');	
+		});
+		
+		$(current_slide).animate({left: mov_left}, 500, function(){
+			$(this).removeClass('active').addClass('inactive');	
+		});
+		
+		//console.log(current_slide);		
+		//console.log(next_slide);			
+		return false;	
+	});
+
+	
 
 });
