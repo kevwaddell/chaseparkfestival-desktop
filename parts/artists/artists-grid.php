@@ -70,6 +70,7 @@ array_unshift($more_artists, $current_y_post[0]);
 <main id="main-content"<?php echo ($post->post_parent == 0) ? ' class="notes-bg-orange"':''; ?>>
 	<?php get_template_part( 'parts/artists/artists', 'message' ); ?>
 <?php } ?>
+</main>
 
 <?php if ($more_artists ) { ?>
 <nav class="more-links">
@@ -80,5 +81,3 @@ array_unshift($more_artists, $current_y_post[0]);
 	<?php } ?>	
 </nav>	
 <?php } ?>
-
-</main>
