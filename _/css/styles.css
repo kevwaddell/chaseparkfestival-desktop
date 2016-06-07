@@ -3949,6 +3949,89 @@ a.book-tickets-btn-lg:focus:after {
   color: #00aced;
 }
 /* .social-section-links */
+.wide-panel {
+  border-top: 10px solid #ffffff;
+}
+.wide-panel .panel-header {
+  line-height: 60px;
+  font-size: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  -webkit-border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 12px;
+  -webkit-border-bottom-left-radius: 12px;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topright: 0;
+  -moz-border-radius-bottomright: 12px;
+  -moz-border-radius-bottomleft: 12px;
+  -moz-border-radius-topleft: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-top-left-radius: 0;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+.wide-panel .sponsors-outer-wrap {
+  height: 200px;
+  overflow: hidden;
+}
+.wide-panel .sponsors-inner-wrap {
+  width: 100%;
+  height: 200px;
+}
+.wide-panel .sponsor-logo {
+  overflow: hidden;
+  display: inline-block;
+  width: 175px;
+  height: 175px;
+  border: 10px solid #ffffff;
+  margin-left: 15px;
+  margin-right: 15px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+}
+.wide-panel .sponsor-logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  position: relative;
+  color: #ffffff;
+}
+.wide-panel .sponsor-logo a:hover,
+.wide-panel .sponsor-logo a:active,
+.wide-panel .sponsor-logo a:focus {
+  background-color: #333333;
+  background-color: rgba(51, 51, 51, 0.8);
+}
+.wide-panel .sponsor-logo a:hover:after,
+.wide-panel .sponsor-logo a:active:after,
+.wide-panel .sponsor-logo a:focus:after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: "\f08e";
+  font-family: FontAwesome;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 50px;
+  line-height: 160px;
+}
 #main-content {
   /* SECTIONS */
   /* #artist-posts */

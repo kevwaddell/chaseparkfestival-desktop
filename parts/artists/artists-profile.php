@@ -37,7 +37,7 @@
 						$website = get_field('artist_website');	
 						$strip_http = str_replace("http://", "", $website);
 						?>
-						<a href="<?php echo $website; ?>" target="_blank" class="artist-website" rel="no-index"><?php echo $strip_http; ?></a>
+						<a href="<?php echo $website; ?>" target="_blank" class="artist-website" rel="nofollow"><?php echo $strip_http; ?></a>
 						<?php } ?>
 						
 	
