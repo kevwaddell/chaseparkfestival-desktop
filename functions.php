@@ -67,12 +67,12 @@ if( function_exists('acf_add_options_sub_page') ) {
 
 /* POST THUMBNAIL FUNCTIONS */
 
-function bg_img ( $post ) {	
+function bg_img ( $post, $size = 'thumb_650x400' ) {	
 	
 	if (has_post_thumbnail($post->ID)) {
 		
 		$post_thumbnail_id = get_post_thumbnail_id( $post );
-		$feat_img = wp_get_attachment_image_src($post_thumbnail_id, 'thumb_650x400' );
+		$feat_img = wp_get_attachment_image_src($post_thumbnail_id, $size );
 	
 		echo $feat_img[0];
 		

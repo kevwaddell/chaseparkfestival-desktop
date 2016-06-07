@@ -37,5 +37,34 @@ jQuery(document).ready(function( $ ) {
 			
 		return false;	
 	});
+	
+	$('body').on('click', '.slider-nav-btns button' ,function(){
+		
+		var direct = $(this).data().direction;
+		var this_btn = $(this);
+		var slider_outer_w = $('.artists-slider-outer').outerWidth();
+		var slider_w = $('.artists-slider-inner').outerWidth();
+		var slider_pos = parseInt($('.artists-slider-inner').css('left'));
+		//console.log("Calculation = "+ (slider_w - slider_outer_w) );
+		
+		if (direct == "right") {
+			
+			$('.artists-slider-inner').animate({left: -(slider_w - slider_outer_w) + 'px'}, 500, function(){
+				$(this_btn).removeClass('show').addClass('hidden');
+				$(this_btn).siblings().removeClass('hidden').addClass('show');
+			});	
+				
+		}
+		
+		if (direct == "left") {
+			
+			$('.artists-slider-inner').animate({left: '0px'}, 500, function(){
+				$(this_btn).removeClass('show').addClass('hidden');	
+				$(this_btn).siblings().removeClass('hidden').addClass('show');
+			});	
+		}
+				
+		return false;	
+	});
 
 });

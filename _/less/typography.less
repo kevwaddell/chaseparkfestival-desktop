@@ -29,7 +29,7 @@
 	.h(9);
 	.font-size(5);	
 	.line-h(9);	
-		h1 {
+		h1, h2 {
 		.mag-bot-0;	
 		.font-size(5);	
 		.line-h(9);	
@@ -37,9 +37,12 @@
 	}
 	
 	.main-txt {
-	.pad-top(4);
-	.pad-bot(6);
-	
+		
+		&.with-pad {
+		.pad-top(4);
+		.pad-bot(6);	
+		}
+
 		.main-text-header {
 		.mag-bot-20;
 			
@@ -87,6 +90,8 @@
 			
 			figure.feat-img {
 			.mag-bot-30;
+			.over-hide;
+			.rounded(20px);
 			}
 			
 			blockquote {
@@ -99,13 +104,6 @@
 				font-style: italic;	
 				 }
 			}
-		}
-
-		.cols-2 {
-		.columns(50%, 2, 30px, @trans, solid, 0px);
-		-webkit-column-break-inside: avoid;
-        page-break-inside: avoid;
-        break-inside: avoid;
 		}
 		
 	}
