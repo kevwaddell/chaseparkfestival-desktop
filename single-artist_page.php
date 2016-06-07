@@ -10,4 +10,6 @@
 	
 <?php } ?>
 
+<?php get_template_part( 'parts/sections/section', 'social' ); ?>
+
 <?php get_footer(); ?>

@@ -3892,15 +3892,12 @@ a.book-tickets-btn-lg:focus:after {
 /* --------------------------- */
 /* SECTIONS */
 /* --------------------------- */
-#main-content {
-  /* SECTIONS */
-  /* .social-section-links */
-  /* PANELS */
-  /* col-panel */
-  /* SIDEBAR */
-  /* .sidebar */
+/* SOCIAL LINKS SECTIONS */
+.social-section-links.with-pad {
+  padding-top: 50px;
+  padding-bottom: 40px;
 }
-#main-content .social-section-links a {
+.social-section-links a {
   display: block;
   color: #eda03f;
   height: 150px;
@@ -3915,7 +3912,7 @@ a.book-tickets-btn-lg:focus:after {
   background-color: #ffffff;
   text-decoration: none;
 }
-#main-content .social-section-links a i {
+.social-section-links a i {
   position: absolute;
   left: 20px;
   top: 15px;
@@ -3933,23 +3930,34 @@ a.book-tickets-btn-lg:focus:after {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
   border: 4px solid #ffffff;
 }
-#main-content .social-section-links a i.fa-facebook {
+.social-section-links a i.fa-facebook {
   background-color: #3b5998;
 }
-#main-content .social-section-links a i.fa-twitter {
+.social-section-links a i.fa-twitter {
   background-color: #00aced;
 }
-#main-content .social-section-links a:hover,
-#main-content .social-section-links a:active,
-#main-content .social-section-links a:focus {
+.social-section-links a:hover,
+.social-section-links a:active,
+.social-section-links a:focus {
   background-color: #eda03f;
   color: #ffffff;
 }
-#main-content .social-section-links a.facebook span {
+.social-section-links a.facebook span {
   color: #3b5998;
 }
-#main-content .social-section-links a.twitter span {
+.social-section-links a.twitter span {
   color: #00aced;
+}
+/* .social-section-links */
+#main-content {
+  /* SECTIONS */
+  /* #artist-posts */
+  /* .line-up-message */
+  /* #artists-slider */
+  /* PANELS */
+  /* col-panel */
+  /* SIDEBAR */
+  /* .sidebar */
 }
 #main-content #artist-posts:before,
 #main-content #artist-posts:after {

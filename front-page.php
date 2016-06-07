@@ -18,7 +18,7 @@
 		
 		<?php get_template_part( 'parts/homepage/section', 'infopanel' ); ?>
 		
-		<?php get_template_part( 'parts/sections/section', 'social' ); ?>
+		<?php get_template_part( 'parts/homepage/section', 'social' ); ?>
 		
 	</article>
 </div>

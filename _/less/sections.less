@@ -1,55 +1,62 @@
-#main-content {
-	/* SECTIONS */
-	.social-section-links {
-		a {
-		.block;
-		.txt-col-orange;
-		.h(15);
-		.pad(2;2;2;15);
-		.rel;
-		.font-size(3.5);
-		.line-h(3.3);
-		border: @orange 5px dashed;
-		.rounded(20px);
-		.bg-col-wht;
-		.no-text-dec;
-			i {
-			.abs;
-			.left(2);
-			.top(1.5);
-			.w(11);
-			.h(11);
-			.line-h(10.2);
-			.font-size(6);
-			.rounded(100%);
-			.txt-col-wht;
-			text-align: center;
-			.drop-shadow(0, 3px, 10px, 0.8);
-			.border(@wht; 0.4);
-				&.fa-facebook {
-				.bg-col-facebook;	
-				}
-				
-				&.fa-twitter {
-				.bg-col-twitter;	
-				}
-			}
-			
-			&:hover, &:active, &:focus {
-			.bg-col-orange;
-			.txt-col-wht;
-			}
-			
-			&.facebook span {
-			.col(@facebook_blue);	
-			}
-			
-			&.twitter span {
-			.col(@twitter_blue);		
-			}
-		}	
-	} /* .social-section-links */
+/* SOCIAL LINKS SECTIONS */	
+.social-section-links {
 	
+	&.with-pad {
+	.pad-top(5);
+	.pad-bot(4);	
+	}
+	
+	a {
+	.block;
+	.txt-col-orange;
+	.h(15);
+	.pad(2;2;2;15);
+	.rel;
+	.font-size(3.5);
+	.line-h(3.3);
+	border: @orange 5px dashed;
+	.rounded(20px);
+	.bg-col-wht;
+	.no-text-dec;
+		i {
+		.abs;
+		.left(2);
+		.top(1.5);
+		.w(11);
+		.h(11);
+		.line-h(10.2);
+		.font-size(6);
+		.rounded(100%);
+		.txt-col-wht;
+		text-align: center;
+		.drop-shadow(0, 3px, 10px, 0.8);
+		.border(@wht; 0.4);
+			&.fa-facebook {
+			.bg-col-facebook;	
+			}
+			
+			&.fa-twitter {
+			.bg-col-twitter;	
+			}
+		}
+		
+		&:hover, &:active, &:focus {
+		.bg-col-orange;
+		.txt-col-wht;
+		}
+		
+		&.facebook span {
+		.col(@facebook_blue);	
+		}
+		
+		&.twitter span {
+		.col(@twitter_blue);		
+		}
+	}	
+} /* .social-section-links */
+
+#main-content {
+	/* SECTIONS */	
 	#artist-posts {
 	.clearfix;
 		article.grid-item {
@@ -104,7 +111,7 @@
 				}
 			}
 		}
-	}// #artist-posts
+	} /* #artist-posts */
 	
 	.line-up-message {
 	.rounded(20px);	
@@ -157,10 +164,9 @@
 				}
 			}	
 		}
-	}// .line-up-message
+	}/* .line-up-message */
 	
 	#artists-slider {
-
 		
 		.artists-slider-outer {
 		.border-top(@wht; 1);
@@ -259,7 +265,7 @@
 		.border-radius(8px, 8px, 0, 0);	
 		.left(0);	
 		}
-	}
+	}/* #artists-slider */
 	
 	/* PANELS */
 	.col-panel {

@@ -66,12 +66,9 @@ array_unshift($more_artists, $current_y_post[0]);
 		wp_reset_postdata();?>
 	
 	</section>
-	
-</main>
 <?php } else { ?>
 <main id="main-content"<?php echo ($post->post_parent == 0) ? ' class="notes-bg-orange"':''; ?>>
 	<?php get_template_part( 'parts/artists/artists', 'message' ); ?>
-</main>
 <?php } ?>
 
 <?php if ($more_artists ) { ?>
@@ -83,3 +80,5 @@ array_unshift($more_artists, $current_y_post[0]);
 	<?php } ?>	
 </nav>	
 <?php } ?>
+
+</main>
