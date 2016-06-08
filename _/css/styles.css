@@ -3345,6 +3345,10 @@ h5 {
   -moz-border-radius: 20px;
   border-radius: 20px;
 }
+#acfv-wrap.adminbar-visible {
+  top: 0px;
+  padding-bottom: 50px;
+}
 /* --------------------------- */
 /* NAVIGATION */
 /* --------------------------- */
