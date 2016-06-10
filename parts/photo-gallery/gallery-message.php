@@ -1,17 +1,17 @@
 <?php  
-$this_year = date('Y', time());
+global $year;
 $social_links = get_field('gbl_social_links', 'options');	
 ?>
 <div class="container">
 	<div class="no-content-message text-center">
 		
 		<figure class="message-img in-block">
-			<img src="<?php bloginfo('stylesheet_directory'); ?>/_/img/line-up-panel-imgs.png" class="img-responsive" />
+			<img src="<?php bloginfo('stylesheet_directory'); ?>/_/img/photo-gallery-panel-imgs.png" class="img-responsive" />
 		</figure>
 		
-		<h1 class="text-uppercase txt-col-orange tk-azo-sans-uber">Artists for <?php echo $this_year; ?></h1>
+		<h1 class="text-uppercase txt-col-orange tk-azo-sans-uber">Photo gallery <?php echo $year; ?></h1>
 		
-		<p>The line up for this years <span class="txt-col-orange">Chase Park Festival</span> will be available soon.</p>
+		<p>The Photo Gallery for <span class="txt-col-orange">Chase Park Festival</span> will be available soon.</p>
 		
 		<?php if ($social_links) { ?>
 		<p>Keep up to date by following us on <span class="txt-col-orange">Twitter</span> or Liking us on <span class="txt-col-orange">Facebook</span></p>
