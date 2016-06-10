@@ -289,7 +289,7 @@ z-index: 2000;
 			.h(0);	
 			}		
 		}
-		figure.grid-item {
+		.grid-item {
 		width: 100/4%;
 		.h(40);
 		.fleft;	
@@ -335,10 +335,28 @@ z-index: 2000;
 					}
 				}
 			}
+			
+			&.placeholder {
+			.rel;
+			.bg-col(lighten(@blk, 70%));
+				&:after {
+				.abs;
+				.top(0);
+				.left(0);
+				content: "\f083";
+				font-family: FontAwesome;
+				width: 100%;
+				height: 100%;
+				text-align: center;
+				.font-size(9.5);
+				.line-h(40);
+				.col( lighten(@blk, 60%) );
+				}	
+			}
 		}
 		
 		.btn-wrap {
-		.h(9);
+		.h(10);
 		.border-bot(@wht; 1);
 			.btn {
 			.pad-all(0);
@@ -348,7 +366,7 @@ z-index: 2000;
 			.txt-col-wht;
 			text-align: left;
 			.no-rounded;
-			.bg-col-blue-dk;
+			.bg-col-orange;
 				span {
 				.block;	
 				}
@@ -358,7 +376,7 @@ z-index: 2000;
 				}
 				
 				&:hover, &:active, &:focus {
-				.bg-col-orange;
+				.bg-col-orange-dk;
 				}
 			}	
 		}

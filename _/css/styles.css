@@ -3318,6 +3318,7 @@ h5 {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fae5cb', endColorstr='#eda03f', GradientType=0);
   padding-top: 50px;
   padding-bottom: 50px;
+  border-bottom: 10px solid #ffffff;
 }
 #main-content.notes-bg-orange:before {
   content: "";
@@ -3480,14 +3481,33 @@ nav.more-links a {
   display: block;
   text-decoration: none;
   color: #ffffff;
-  background-color: #006f9c;
+  background-color: #eda03f;
   font-size: 50px;
-  border-top: 10px solid #ffffff;
+  border-bottom: 10px solid #ffffff;
+}
+nav.more-links a:last-child {
+  border: none;
 }
 nav.more-links a:hover,
 nav.more-links a:active,
 nav.more-links a:focus {
-  background-color: #eda03f;
+  background-color: #a3712b;
+}
+nav.more-links a:first-child {
+  background-color: #006f9c;
+}
+nav.more-links a:first-child:hover,
+nav.more-links a:first-child:active,
+nav.more-links a:first-child:focus {
+  background-color: #009ee3;
+}
+nav.more-links a:nth-child(2) {
+  background-color: #009ee3;
+}
+nav.more-links a:nth-child(2):hover,
+nav.more-links a:nth-child(2):active,
+nav.more-links a:nth-child(2):focus {
+  background-color: #006f9c;
 }
 nav.more-links a span {
   line-height: 90px;
@@ -4291,7 +4311,7 @@ a.book-tickets-btn-lg:focus:after {
 #main-content .img-grid .grid-section.closed {
   height: 0px;
 }
-#main-content .img-grid figure.grid-item {
+#main-content .img-grid .grid-item {
   width: 25%;
   height: 400px;
   float: left;
@@ -4303,14 +4323,14 @@ a.book-tickets-btn-lg:focus:after {
   background-size: cover;
   border-top: 10px solid #ffffff;
 }
-#main-content .img-grid figure.grid-item:nth-child(2n) {
+#main-content .img-grid .grid-item:nth-child(2n) {
   border-left: 10px solid #ffffff;
   border-right: 10px solid #ffffff;
 }
-#main-content .img-grid figure.grid-item:nth-child(4n) {
+#main-content .img-grid .grid-item:nth-child(4n) {
   border-right: none;
 }
-#main-content .img-grid figure.grid-item a {
+#main-content .img-grid .grid-item a {
   display: block;
   width: 100%;
   height: 100%;
@@ -4319,18 +4339,18 @@ a.book-tickets-btn-lg:focus:after {
   color: #ffffff;
   font-size: 30px;
 }
-#main-content .img-grid figure.grid-item a span {
+#main-content .img-grid .grid-item a span {
   display: none;
 }
-#main-content .img-grid figure.grid-item a:hover,
-#main-content .img-grid figure.grid-item a:active,
-#main-content .img-grid figure.grid-item a:focus {
+#main-content .img-grid .grid-item a:hover,
+#main-content .img-grid .grid-item a:active,
+#main-content .img-grid .grid-item a:focus {
   background-color: #333333;
   background-color: rgba(51, 51, 51, 0.8);
 }
-#main-content .img-grid figure.grid-item a:hover:after,
-#main-content .img-grid figure.grid-item a:active:after,
-#main-content .img-grid figure.grid-item a:focus:after {
+#main-content .img-grid .grid-item a:hover:after,
+#main-content .img-grid .grid-item a:active:after,
+#main-content .img-grid .grid-item a:focus:after {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -4342,8 +4362,25 @@ a.book-tickets-btn-lg:focus:after {
   font-size: 95px;
   line-height: 400px;
 }
+#main-content .img-grid .grid-item.placeholder {
+  position: relative;
+  background-color: #e5e5e5;
+}
+#main-content .img-grid .grid-item.placeholder:after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: "\f083";
+  font-family: FontAwesome;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 95px;
+  line-height: 400px;
+  color: #cccccc;
+}
 #main-content .img-grid .btn-wrap {
-  height: 90px;
+  height: 100px;
   border-bottom: 10px solid #ffffff;
 }
 #main-content .img-grid .btn-wrap .btn {
@@ -4356,7 +4393,7 @@ a.book-tickets-btn-lg:focus:after {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
-  background-color: #006f9c;
+  background-color: #eda03f;
 }
 #main-content .img-grid .btn-wrap .btn span {
   display: block;
@@ -4368,7 +4405,7 @@ a.book-tickets-btn-lg:focus:after {
 #main-content .img-grid .btn-wrap .btn:hover,
 #main-content .img-grid .btn-wrap .btn:active,
 #main-content .img-grid .btn-wrap .btn:focus {
-  background-color: #eda03f;
+  background-color: #a3712b;
 }
 #main-content #artist-posts:before,
 #main-content #artist-posts:after {

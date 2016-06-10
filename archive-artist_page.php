@@ -16,7 +16,8 @@ $prev_y_posts_args = array(
 	'meta_key'	=> 'festival_year',
 	'meta_value'	=> $last_year,
 	'meta_compare'	=> '<=',
-	'post_parent'	=> 0
+	'post_parent'	=> 0,
+	'post_per_page'	=> 3
 );	
 
 $prev_y_posts = get_posts($prev_y_posts_args);

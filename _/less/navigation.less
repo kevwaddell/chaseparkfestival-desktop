@@ -113,15 +113,30 @@ nav.more-links {
 	.block;
 	.no-text-dec;
 	.txt-col-wht;
-	.bg-col-blue-dk;
+	.bg-col-orange;
 	.font-size(5);
-	.border-top(@wht; 1);
+	.border-bot(@wht; 1);
 
 		&:last-child {
-		//.no-border;	
+		.no-border;	
 		}
+		
 		&:hover, &:active, &:focus {
-		.bg-col-orange;
+		.bg-col-orange-dk;
+		}
+			
+		&:first-child {
+		.bg-col-blue-dk;
+			&:hover, &:active, &:focus {
+			.bg-col-blue;
+			}
+		}
+		
+		&:nth-child(2) {
+		.bg-col-blue;	
+			&:hover, &:active, &:focus {
+			.bg-col-blue-dk;
+			}
 		}
 		
 		span {
