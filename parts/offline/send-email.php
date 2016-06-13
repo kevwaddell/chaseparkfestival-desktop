@@ -18,7 +18,7 @@ $logo_src = $_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['HTTP_HOST'].'/wp-content/
 		</div>
 		
 		<div class="content" style="padding: 20px 40px; font-size: 16px; line-height: 20px; min-height: 100px;">
-			<h2 style="color: #009FE3">Online Enquiry from the Chase Park Festival 2016 form</h2>
+			<h2 style="color: #009FE3">Online Enquiry for Chase Park Festival 2016</h2>
 			<p>Full name: <?php echo $name; ?><br />Email: <a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a>
 			</p>
 		</div>
