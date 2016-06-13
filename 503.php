@@ -79,7 +79,7 @@
 				$to = "kwaddell@tlwsolicitors.co.uk";
 				$subject = "Chase Park Festival 2016 online form.";
 				$message = $body;
-				$headers[] = 'From: '. $name .' <'. $email .'>' . "\r\n";
+				$headers[] = "From: Webmaster <webmaster@tlwsolicitors.co.uk>\r\n";
 				$headers[] = 'Content-Type: text/html; charset=UTF-8';
 				
 				$send_mail = wp_mail( $to, $subject, $message, $headers );
