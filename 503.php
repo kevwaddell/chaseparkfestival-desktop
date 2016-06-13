@@ -74,6 +74,8 @@
 				$name = $_POST['fullname'];
 				$email = $_POST['email'];
 				
+				add_filter( 'wp_mail_content_type', 'wpdocs_set_html_mail_content_type' );
+				
 				$body = file_get_contents(get_option('siteurl').'/wp-content/themes/chaseparkfestival-desktop/parts/offline/send-email.php?name='.urlencode($name).'&email='.urlencode($email));
 				
 				$to = "kwaddell@tlwsolicitors.co.uk";
@@ -83,6 +85,7 @@
 				
 				$send_mail = wp_mail( $to, $subject, $message, $headers );
 				
+				remove_filter( 'wp_mail_content_type', 'wpdocs_set_html_mail_content_type' );
 				//echo '<pre class="debug">';print_r($body);echo '</pre>';
 				
 				if ($send_mail) {
