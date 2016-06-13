@@ -76,7 +76,7 @@
 
 				$body = file_get_contents(get_option('siteurl').'/wp-content/themes/chaseparkfestival-desktop/parts/offline/send-email.php?name='.urlencode($name).'&email='.urlencode($email));
 				
-				$to = "kwaddell@tlwsolicitors.co.uk";
+				$to = "amcdonald@tlwsolicitors.co.uk";
 				$subject = "Chase Park Festival 2016 online form.";
 				$message = $body;
 				$headers[] = "From: Webmaster <webmaster@tlwsolicitors.co.uk>\r\n";
@@ -129,7 +129,7 @@
 						<div class="contact-info text-center txt-col-orange"><strong>For more Information contact <?php echo $contact_name; ?> on<br> <a href="tel:<?php echo $contact_tel_link; ?>"><?php echo $contact_tel; ?></a> or <a href="mailto:<?php echo $contact_email; ?>"><?php echo $contact_email; ?></a> or use the contact form below.</strong></div>
 					</div>
 					
-					<a href="#" class="btn btn-default btn-block btn-lg tk-azo-sans-uber txt-col-wht">Buy Your Tickets</a>
+					<a href="http://www.seetickets.com/event/chase-park-festival-2016/chase-park/992864" target="_blank" class="btn btn-default btn-block btn-lg tk-azo-sans-uber txt-col-wht">Buy Your Tickets</a>
 					
 					<div class="contact-form">
 						<div class="row">
