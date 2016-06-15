@@ -1,6 +1,7 @@
 <?php
 $name = $_GET['name'];
 $email = $_GET['email'];
+$message = $_GET['message'];
 $logo_src = $_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['HTTP_HOST'].'/wp-content/themes/chaseparkfestival-desktop/_/css/img/logo-lrg.png';	
 ?>
 
@@ -21,7 +22,8 @@ $logo_src = $_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['HTTP_HOST'].'/wp-content/
 			<h2 style="color: #009FE3">New online Enquiry</h2>
 			<p>Full name: <?php echo $name; ?><br />
 			Email: <a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a><br />
-			Sent: <?php echo date('l jS F - Y', time()); ?>
+			Sent: <?php echo date('l jS F - Y', time()); ?><br /><br />
+			Message:<?php echo $message; ?>
 			</p>
 		</div>
 			
