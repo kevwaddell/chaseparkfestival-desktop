@@ -3233,7 +3233,6 @@ html {
 }
 body#offline-503 {
   height: 100%;
-  overflow-y: hidden;
   background: #009ee3;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ffffff), color-stop(1, #009ee3));
   background: -ms-linear-gradient(bottom, #ffffff, #009ee3);
@@ -3515,4 +3514,29 @@ body#offline-503 footer#site-info {
 body#offline-503 footer#site-info .copyright {
   font-size: 18px;
   line-height: 50px;
+}
+body#offline-503 footer#site-info .login-btn {
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+  padding: 10px 20px 10px 20px;
+  background-color: #ffffff;
+  color: #eda03f;
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  -webkit-opacity: 0;
+  opacity: 0;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+  filter: alpha(opacity=0);
+  text-decoration: none;
+}
+body#offline-503 footer#site-info .login-btn:hover,
+body#offline-503 footer#site-info .login-btn:active,
+body#offline-503 footer#site-info .login-btn:focus {
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  -webkit-opacity: 1;
+  opacity: 1;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+  filter: alpha(opacity=100);
 }
