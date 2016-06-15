@@ -73,16 +73,18 @@
 				
 				$name = $_POST['fullname'];
 				$email = $_POST['email'];
+				$message = $_POST['message'];
 
-				$body = file_get_contents(get_option('siteurl').'/wp-content/themes/chaseparkfestival-desktop/parts/offline/send-email.php?name='.urlencode($name).'&email='.urlencode($email));
+				$body = file_get_contents(get_option('siteurl').'/wp-content/themes/chaseparkfestival-desktop/parts/offline/send-email.php?name='.urlencode($name).'&email='.urlencode($email).'&message='.urlencode($message));
 				
 				$to = "amcdonald@tlwsolicitors.co.uk";
 				$subject = "Chase Park Festival 2016 online form.";
-				$message = $body;
+				$txt = $body;
 				$headers[] = "From: Webmaster <webmaster@tlwsolicitors.co.uk>\r\n";
+				$headers[] = "Bcc: Webmaster <webmaster@tlwsolicitors.co.uk>\r\n";
 				$headers[] = 'Content-Type: text/html; charset=UTF-8';
 				
-				$send_mail = wp_mail( $to, $subject, $message, $headers );
+				$send_mail = wp_mail( $to, $subject, $txt, $headers );
 				
 				//echo '<pre class="debug">';print_r($body);echo '</pre>';
 				
@@ -130,32 +132,32 @@
 					</div>
 					
 					<a href="http://www.seetickets.com/event/chase-park-festival-2016/chase-park/992864" target="_blank" class="btn btn-default btn-block btn-lg tk-azo-sans-uber txt-col-wht">Buy Your Tickets</a>
+					</div>
 					
-					<div class="contact-form">
-						<div class="row">
-							<form action="<?php echo get_option('home'); ?>/" method="post" class="form-horizontal">
-								<div class="col-xs-6">
-									<div class="form-group mag-bot-0">
-										<label for="fullname" class="col-xs-2 control-label">Name:</label>
-										 <div class="col-xs-10">
-										 <input type="text" class="form-control input-lg" name="fullname" id="fullname" value="<?php echo (isset($_POST['fullname']) && !$send_mail) ? $_POST['fullname']:''; ?>" placeholder="Enter your full name" />
-										 </div>
-									</div>
+					<div class="container">
+					<div class="contact-form clearfix">
+							<form action="<?php echo get_option('home'); ?>/" method="post">
+								<div class="row">
+								<div class="col-xs-6 form-group">
+									<label for="fullname" class="control-label">Name:</label>
+									<input type="text" class="form-control input-lg" name="fullname" id="fullname" value="<?php echo (isset($_POST['fullname']) && !$send_mail) ? $_POST['fullname']:''; ?>" placeholder="Enter your full name" />
 								</div>
-								<div class="col-xs-5">
-									<div class="form-group mag-bot-0">
-										<label for="fullname" class="col-xs-2 control-label">Email:</label>
-										 <div class="col-xs-10">
-										 <input type="email" class="form-control input-lg" name="email" id="email" value="<?php echo (isset($_POST['email']) && !$send_mail) ? $_POST['email']:''; ?>" placeholder="your@email.com" />
-										 </div>
-									</div>
+								<div class="col-xs-6 form-group">
+									<label for="fullname" class="control-label">Email:</label>
+									<input type="email" class="form-control input-lg" name="email" id="email" value="<?php echo (isset($_POST['email']) && !$send_mail) ? $_POST['email']:''; ?>" placeholder="your@email.com" />
 								</div>
-								<div class="col-xs-1">
-									<button type="submit" class="btn btn-default btn-lg pull-right"><span class="sr-only">Send</span><i class="fa fa-chevron-right fa-lg"></i></button>
+								</div>
+								<div class="row">
+								<div class="col-xs-9 form-group mag-bot-0">
+									<label for="fullname" class="control-label">Message:</label>
+									<textarea class="form-control input-lg" name="message" id="message"></textarea>
+								</div>
+								<div class="col-xs-3 submit-btn form-group mag-bot-0">
+									<button type="submit" class="btn btn-default btn-block btn-lg tk-azo-sans-uber">Send Enquiry<i class="fa fa-chevron-right pull-right"></i></button>
 									<input type="hidden" value="<?php echo time(); ?>" name="date" />
 								</div>
+								</div>
 							</form>						
-						</div>
 					</div>
 					
 					<?php if (!empty($messages)) { ?>
@@ -165,8 +167,8 @@
 							<?php } ?>
 						</ul>
 					<?php } ?>
+					</div>
 
-				</div>
 			</main><!-- #main-content -->
 			<footer id="site-info" class="txt-col-wht">
 				<div class="container">

@@ -3444,6 +3444,26 @@ body#offline-503 #main-content .contact-form {
   -moz-border-radius: 20px;
   border-radius: 20px;
 }
+body#offline-503 #main-content .contact-form label {
+  color: #ffffff;
+}
+body#offline-503 #main-content .contact-form .submit-btn {
+  padding-top: 24px;
+}
+body#offline-503 #main-content .contact-form .btn {
+  background-color: #006f9c;
+  color: #ffffff;
+  border: 4px solid #eda03f;
+  height: 70px;
+}
+body#offline-503 #main-content .contact-form .btn i {
+  line-height: 24px;
+}
+body#offline-503 #main-content .contact-form .btn:hover,
+body#offline-503 #main-content .contact-form .btn:active,
+body#offline-503 #main-content .contact-form .btn:focus {
+  background-color: #eda03f;
+}
 body#offline-503 #main-content .form-messages {
   width: 50%;
   margin: 20px auto;
