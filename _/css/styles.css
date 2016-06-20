@@ -3341,7 +3341,8 @@ h5 {
   position: relative;
   z-index: 1;
 }
-#main-content.notes-bg-orange article.hp-content {
+#main-content.notes-bg-orange article.hp-content,
+#main-content.notes-bg-orange article.pg-content {
   background-color: #FFF;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 50px;
@@ -3820,6 +3821,20 @@ a.book-tickets-btn-lg:focus:after {
 /* --------------------------- */
 /* TYPOGRAHY */
 /* --------------------------- */
+.strip-header {
+  height: 90px;
+  font-size: 50px;
+  line-height: 90px;
+}
+.strip-header h1,
+.strip-header h2 {
+  margin-bottom: 0px;
+  font-size: 50px;
+  line-height: 90px;
+}
+#main-content {
+  min-height: 600px;
+}
 #main-content p {
   font-size: 20px;
   line-height: 30px;
@@ -3845,17 +3860,6 @@ a.book-tickets-btn-lg:focus:after {
   height: 170px;
   margin-bottom: 0px;
   text-indent: -99990pxpx;
-}
-#main-content .strip-header {
-  height: 90px;
-  font-size: 50px;
-  line-height: 90px;
-}
-#main-content .strip-header h1,
-#main-content .strip-header h2 {
-  margin-bottom: 0px;
-  font-size: 50px;
-  line-height: 90px;
 }
 #main-content .main-txt.with-pad {
   padding-top: 40px;
@@ -4791,6 +4795,18 @@ a.book-tickets-btn-lg:focus:after {
 }
 #main-content .sidebar .info-panel .well .social-links a i.fa-twitter {
   background-color: #00aced;
+}
+#videos-section .row {
+  margin-bottom: 20px;
+}
+#videos-section .row:last-child {
+  margin-bottom: 0px;
+}
+#videos-section .video-wrap h3 {
+  margin-top: 0px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
 }
 /* --------------------------- */
 /* FORMS */

@@ -1,5 +1,5 @@
 <?php  
-$artists = false;	
+$hp_artist_list_active = get_field('hp_artist_list_active', 'options');	
 /* SOCIAL MEDIA LINKS DATA */
 $social_links = get_field('gbl_social_links', 'options');	
 ?>
@@ -8,18 +8,14 @@ $social_links = get_field('gbl_social_links', 'options');
 	<div class="info-panel blue-grad with-icon">
 		<i class="icon fa fa-microphone bg-col-blue-dk txt-col-wht text-center"></i>
 		<h3 class="txt-col-orange text-center tk-azo-sans-uber">Artist Line up</h3>
-		<?php if ($artists) { ?>
+		<?php if ($hp_artist_list_active) { 
+		$artists = get_field('hp_artists', 'options');		
+		?>
 		
 		<ul class="artist-list list-unstyled text-center text-uppercase mag-bot-0">
-			<li><a href="#">Turin Brakes</a></li>
-			<li><a href="#">Slug</a></li>
-			<li><a href="#">Blizzard</a></li>
-			<li><a href="#">Gallery Circus</a></li>
-			<li><a href="#">Hulkenberg</a></li>
-			<li><a href="#">Monogram</a></li>
-			<li><a href="#">Hot soles</a></li>
-			<li><a href="#">Beth Macari</a></li>
-			<li><a href="#">Mc Creazy Legs</a></li>
+			<?php foreach ($artists as $artist) { ?>
+			<li><a href="<?php echo get_permalink($artist['artist']); ?>"><?php echo get_the_title($artist['artist']); ?></a></li>
+			<?php } ?>
 		</ul>
 
 		<?php } else { ?>
