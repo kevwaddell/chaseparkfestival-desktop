@@ -101,7 +101,7 @@ $prev_years = get_posts($prev_years_args);
 
 <?php } else { ?>
 <main id="main-content" class="notes-bg-orange"> 
-	<?php get_template_part( 'parts/photo-gallery/gallery', 'message' ); ?>
+	<?php get_template_part( 'parts/messages/gallery', 'message' ); ?>
 <?php } ?>	
 </main> 
 

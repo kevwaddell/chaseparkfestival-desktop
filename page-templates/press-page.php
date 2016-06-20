@@ -1,6 +1,6 @@
 <?php 
 /*
-Template Name: Videos page template
+Template Name: Press page template
 */
  ?>
 
@@ -9,7 +9,7 @@ Template Name: Videos page template
 <?php if ( have_posts() ): while ( have_posts() ) : the_post(); ?>
 <?php  
 $year = date("Y", time());
-$videos_active = get_field('videos_active');
+$press_active = get_field('press_active');
 ?>
 <div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber">
 	<div class="container">
@@ -18,38 +18,27 @@ $videos_active = get_field('videos_active');
 </div>
 <main id="main-content" class="notes-bg-orange"> 
 	<div class="container">
-<?php if ($videos_active) { ?>
+<?php if ($press_active) { ?>
 <?php  
-$videos = get_field('videos');	
-global $wp_embed;
-$video_counter = 0;
+$press = get_field('press');	
 ?>
 	<article <?php post_class('pg-content'); ?>>
 
-		<section id="videos-section" class="video-grid">
-			<div class="row">
-				<?php foreach ($videos as $video) { 
-				$video_counter++;
-				?>
-					<div class="col-xs-6 video-wrap">
+		<section id="press-section" class="video-grid">
+
+				<?php foreach ($press as $article) { ?>
+					<div class="press-item">
 						<h3 class="txt-col-blue text-center"><?php echo $video['video_title']; ?></h3>
 						<iframe width="500" height="281" src="<?php echo $video['video_url']; ?>" frameborder="0" allowfullscreen></iframe>
-					</div>
-			<?php if ($video_counter == 2) { 
-			$video_counter;
-			?>
-			</div>
-			<div class="row">		
-			<?php } ?>
-			
+					</div>			
 				<?php } ?>
-			</div>
-		</div>
+				
+		</section>
 
 	</article>
 
 <?php } else { ?>
-	<?php get_template_part( 'parts/messages/video', 'message' ); ?>
+	<?php get_template_part( 'parts/messages/press', 'message' ); ?>
 <?php } ?>	
 	</div>
 

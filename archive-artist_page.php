@@ -60,7 +60,7 @@ $found_posts = $wp_query->found_posts;
 	</section>
 <?php else: ?>
 
-	<?php get_template_part( 'parts/artists/artists', 'message' ); ?>
+	<?php get_template_part( 'parts/messages/artists', 'message' ); ?>
 
 <?php endif; ?>
 
