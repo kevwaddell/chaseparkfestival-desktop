@@ -41,7 +41,7 @@ $social_links = get_field('gbl_social_links', 'options');
 						Tickets are available for purchase from<br />
 						<a href="<?php echo $ticket_provider_http; ?>"><?php echo $ticket_provider[1]; ?></a>
 					</div>
-					<a href="<?php echo $tickets_url; ?>" class="btn btn-default btn-block book-tickets-btn tk-azo-sans-uber">Book Your Tickets</a>
+					<a href="<?php echo $tickets_url; ?>" target="_blank" class="btn btn-default btn-block book-tickets-btn tk-azo-sans-uber">Book Your Tickets</a>
 				</div>
 			</div>
 			

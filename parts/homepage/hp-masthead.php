@@ -3,6 +3,7 @@
 $fest_location = get_field('cpf_location', 'options');
 $fest_date = get_field('cpf_date', 'options');
 $fest_time = get_field('cpf_time', 'options');	
+$gbl_tickets_url = get_field('gbl_tickets_url', 'options');
 ?>
 
 <header id="hp-masthead" class="masthead" role="banner">
@@ -27,6 +28,9 @@ $fest_time = get_field('cpf_time', 'options');
 				<button id="main-nav-btn" class="btn btn-default btn-block"><span class="menu-label txt-col-wht tk-azo-sans-uber">Menu</span><i class="fa fa-bars fa-lg"></i></button>
 			</div>
 		</div>
+		
+		<a href="<?php echo $gbl_tickets_url; ?>" target="_blank" class="btn btn-default btn-block btn-lg book-tickets-btn-lg tk-azo-sans-uber">Book Your Tickets</a>
+		
 	</div>
 	
 </header>
