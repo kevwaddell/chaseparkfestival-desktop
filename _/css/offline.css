@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* --------------------------- */
 /* OFFLINE COMMING SOON STYLES */
 /* --------------------------- */
@@ -268,7 +269,6 @@ select.mobile-device {
     A set of useful LESS mixins
     More info at: http://lesselements.com
   ---------------------------------------------------*/
-@charset "UTF-8";
 /*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license - http://opensource.org/licenses/MIT
@@ -3063,7 +3063,7 @@ Copyright (c) 2014 Daniel Eden
   font-stretch: normal;
 }
 .txt-col-wht {
-  color: #ffffff;
+  color: #FFF;
 }
 .txt-col-green {
   color: #5bae31;
@@ -3092,7 +3092,7 @@ Copyright (c) 2014 Daniel Eden
 }
 /* BACKGROUND */
 .bg-col-wht {
-  background-color: #ffffff;
+  background-color: #FFF;
 }
 .bg-col-green {
   background-color: #5bae31;
@@ -3233,13 +3233,12 @@ html {
 }
 body#offline-503 {
   height: 100%;
-  overflow-y: hidden;
   background: #009ee3;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ffffff), color-stop(1, #009ee3));
-  background: -ms-linear-gradient(bottom, #ffffff, #009ee3);
-  background: -moz-linear-gradient(center bottom, #ffffff 0%, #009ee3 100%);
-  background: -o-linear-gradient(#009ee3, #ffffff);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#009ee3', endColorstr='#ffffff', GradientType=0);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFF), color-stop(1, #009ee3));
+  background: -ms-linear-gradient(bottom, #FFF, #009ee3);
+  background: -moz-linear-gradient(center bottom, #FFF 0%, #009ee3 100%);
+  background: -o-linear-gradient(#009ee3, #FFF);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#009ee3', endColorstr='#FFF', GradientType=0);
 }
 body#offline-503 h1,
 body#offline-503 h2 {
@@ -3363,7 +3362,7 @@ body#offline-503 #branding .date-location .time {
   text-align: right;
 }
 body#offline-503 #main-content .message {
-  background-color: #ffffff;
+  background-color: #FFF;
   padding: 40px 30px 60px 30px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -3384,7 +3383,7 @@ body#offline-503 #main-content .message h2 span {
   display: block;
 }
 body#offline-503 #main-content .message p {
-  color: #333333;
+  color: #333;
 }
 body#offline-503 #main-content .message p,
 body#offline-503 #main-content .message .contact-info {
@@ -3402,7 +3401,7 @@ body#offline-503 #main-content .message .contact-info a:focus {
 body#offline-503 #main-content a.btn {
   padding: 0px;
   line-height: 60px;
-  border: 5px solid #ffffff;
+  border: 5px solid #FFF;
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
   border-radius: 12px;
@@ -3415,7 +3414,7 @@ body#offline-503 #main-content a.btn:hover,
 body#offline-503 #main-content a.btn:active,
 body#offline-503 #main-content a.btn:focus {
   background-color: #009ee3;
-  color: #ffffff;
+  color: #FFF;
 }
 body#offline-503 #main-content a.btn:before,
 body#offline-503 #main-content a.btn:after {
@@ -3436,13 +3435,33 @@ body#offline-503 #main-content a.btn:after {
   float: right;
 }
 body#offline-503 #main-content .contact-form {
-  border: 5px solid #ffffff;
+  border: 5px solid #FFF;
   padding: 20px;
   background-color: #009ee3;
   margin-top: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
+}
+body#offline-503 #main-content .contact-form label {
+  color: #FFF;
+}
+body#offline-503 #main-content .contact-form .submit-btn {
+  padding-top: 24px;
+}
+body#offline-503 #main-content .contact-form .btn {
+  background-color: #eda03f;
+  color: #FFF;
+  border: 4px solid #006f9c;
+  height: 70px;
+}
+body#offline-503 #main-content .contact-form .btn i {
+  line-height: 24px;
+}
+body#offline-503 #main-content .contact-form .btn:hover,
+body#offline-503 #main-content .contact-form .btn:active,
+body#offline-503 #main-content .contact-form .btn:focus {
+  background-color: #006f9c;
 }
 body#offline-503 #main-content .form-messages {
   width: 50%;
@@ -3451,7 +3470,7 @@ body#offline-503 #main-content .form-messages {
 body#offline-503 #main-content .form-messages li {
   padding: 10px;
   text-align: center;
-  color: #ffffff;
+  color: #FFF;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
@@ -3464,19 +3483,19 @@ body#offline-503 #main-content .form-messages li {
   backface-visibility: visible !important;
   -webkit-animation-name: flipInX;
   animation-name: flipInX;
-  border: 4px solid #ffffff;
+  border: 4px solid #FFF;
   -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
 }
 body#offline-503 #main-content .form-messages li.error {
-  background-color: #ff0000;
+  background-color: red;
 }
 body#offline-503 #main-content .form-messages li.success {
   background-color: #5bae31;
 }
 body#offline-503 #main-content .form-messages li.success a {
-  color: #ffffff;
+  color: #FFF;
   font-weight: bold;
 }
 body#offline-503 footer#site-info {
@@ -3486,13 +3505,38 @@ body#offline-503 footer#site-info {
   width: 100%;
   height: 50px;
   background: transparent;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #333333), color-stop(1, transparent));
-  background: -ms-linear-gradient(bottom, #333333, transparent);
-  background: -moz-linear-gradient(center bottom, #333333 0%, transparent 100%);
-  background: -o-linear-gradient(transparent, #333333);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='transparent', endColorstr='#333333', GradientType=0);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #333), color-stop(1, transparent));
+  background: -ms-linear-gradient(bottom, #333, transparent);
+  background: -moz-linear-gradient(center bottom, #333 0%, transparent 100%);
+  background: -o-linear-gradient(transparent, #333);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='transparent', endColorstr='#333', GradientType=0);
 }
 body#offline-503 footer#site-info .copyright {
   font-size: 18px;
   line-height: 50px;
+}
+body#offline-503 footer#site-info .login-btn {
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+  padding: 10px 20px 10px 20px;
+  background-color: #FFF;
+  color: #eda03f;
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  -webkit-opacity: 0;
+  opacity: 0;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+  filter: alpha(opacity=0);
+  text-decoration: none;
+}
+body#offline-503 footer#site-info .login-btn:hover,
+body#offline-503 footer#site-info .login-btn:active,
+body#offline-503 footer#site-info .login-btn:focus {
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  -webkit-opacity: 1;
+  opacity: 1;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+  filter: alpha(opacity=100);
 }
