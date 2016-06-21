@@ -1,6 +1,6 @@
 <?php 
 /*
-Template Name: Access Information page page template
+Template Name: Access Information page template
 */
  ?>
  
