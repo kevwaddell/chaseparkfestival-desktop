@@ -3869,6 +3869,10 @@ a.book-tickets-btn-lg:focus:after {
   padding-top: 40px;
   padding-bottom: 60px;
 }
+#main-content .main-txt h2 {
+  font-size: 45px;
+  line-height: 50px;
+}
 #main-content .main-txt .main-text-header {
   margin-bottom: 20px;
 }
@@ -4007,6 +4011,48 @@ a.book-tickets-btn-lg:focus:after {
   background-clip: padding-box;
   margin-top: -10px;
   margin-bottom: 30px;
+}
+.info-panel {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  padding: 0px 40px 20px 40px;
+}
+.info-panel h3 {
+  font-size: 30px;
+  background-color: #FFF;
+  padding-bottom: 20px;
+  -webkit-border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topright: 0;
+  -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-topleft: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 0;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.info-panel.panel-blue {
+  background: #009ee3;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #006f9c), color-stop(1, #009ee3));
+  background: -ms-linear-gradient(bottom, #006f9c, #009ee3);
+  background: -moz-linear-gradient(center bottom, #006f9c 0%, #009ee3 100%);
+  background: -o-linear-gradient(#009ee3, #006f9c);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#009ee3', endColorstr='#006f9c', GradientType=0);
+}
+.info-panel.panel-orange {
+  background: #eda03f;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #a3712b), color-stop(1, #eda03f));
+  background: -ms-linear-gradient(bottom, #a3712b, #eda03f);
+  background: -moz-linear-gradient(center bottom, #a3712b 0%, #eda03f 100%);
+  background: -o-linear-gradient(#eda03f, #a3712b);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eda03f', endColorstr='#a3712b', GradientType=0);
 }
 #sponsors-and-stalls {
   border-top: 10px solid #FFF;

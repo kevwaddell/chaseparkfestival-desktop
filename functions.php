@@ -62,6 +62,7 @@ if( function_exists('acf_add_options_sub_page') ) {
 	acf_add_options_sub_page('Global settings');
 	acf_add_options_sub_page('Homepage');
 	acf_add_options_sub_page('Contact details');
+	acf_add_options_sub_page('Access information');
 	
 }
 
