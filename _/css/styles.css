@@ -3393,10 +3393,6 @@ h5 {
   top: 0px;
   padding-bottom: 50px;
 }
-body.home #main-content.notes-bg-orange {
-  padding-top: 80px;
-  border-bottom: none;
-}
 /* --------------------------- */
 /* NAVIGATION */
 /* --------------------------- */
@@ -3765,7 +3761,7 @@ a.book-tickets-btn-lg:focus:after {
   position: absolute;
   left: 15px;
   right: 15px;
-  bottom: -50px;
+  bottom: 50px;
   -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
