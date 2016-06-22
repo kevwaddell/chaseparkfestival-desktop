@@ -3393,6 +3393,10 @@ h5 {
   top: 0px;
   padding-bottom: 50px;
 }
+body.home #main-content.notes-bg-orange {
+  padding-top: 80px;
+  border-bottom: none;
+}
 /* --------------------------- */
 /* NAVIGATION */
 /* --------------------------- */
@@ -3567,7 +3571,6 @@ a.book-tickets-btn-lg {
   border: 5px solid #FFF;
   color: #FFF;
   position: relative;
-  top: 60px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
@@ -3618,8 +3621,9 @@ a.book-tickets-btn-lg:focus:after {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#009ee3', endColorstr='#FFF', GradientType=0);
 }
 .masthead #main-nav-btn {
-  float: right;
-  margin-top: 30px;
+  position: absolute;
+  top: 30px;
+  right: 0px;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
@@ -3627,7 +3631,6 @@ a.book-tickets-btn-lg:focus:after {
   width: 50px;
   height: 50px;
   padding: 0px;
-  position: relative;
 }
 .masthead #main-nav-btn span {
   position: absolute;
@@ -3706,9 +3709,11 @@ a.book-tickets-btn-lg:focus:after {
   z-index: 2;
 }
 #hp-masthead .logo-wrap {
-  width: 100%;
+  width: 945px;
   height: 520px;
   margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
   background-image: url(img/hp-logo-wrap-bg.png);
   background-repeat: no-repeat;
   background-position: center top;
@@ -3731,17 +3736,16 @@ a.book-tickets-btn-lg:focus:after {
 #hp-masthead .date-location {
   margin-top: -100px;
 }
-#hp-masthead .date-location time {
-  display: block;
-}
 #hp-masthead .date-location .dl-item {
+  display: inline-block;
   color: #FFF;
   font-size: 26px;
+  margin-left: -20px;
 }
-#hp-masthead .date-location span {
+#hp-masthead .date-location .dl-item span {
   display: inline-block;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 40px;
   line-height: 60px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -3752,6 +3756,19 @@ a.book-tickets-btn-lg:focus:after {
   -ms-transform: skewX(-10deg);
   transform: skewX(-10deg);
   position: relative;
+}
+#hp-masthead .date-location .dl-item.hp-mast-time span {
+  padding-right: 20px;
+}
+#hp-masthead a.book-tickets-btn-lg {
+  width: auto;
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  bottom: -50px;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
 }
 #gbl-masthead {
   height: 280px;
@@ -4678,6 +4695,7 @@ a.book-tickets-btn-lg:focus:after {
 }
 #main-content .no-content-message h1 {
   font-size: 70px;
+  line-height: 65px;
 }
 #main-content .no-content-message p {
   font-size: 20px;

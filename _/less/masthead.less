@@ -2,14 +2,15 @@
 .rel;
 .gradient(@blue, @wht, @blue);
 	#main-nav-btn {
-	.fright;
-	.mag-top(3);	
+	.abs;
+	.top(3);
+	.right(0);
+	//.mag-top(3);	
 	.no-rounded;
 	.no-border;
 	.w(5);
 	.h(5);
 	.pad-all(0);
-	.rel;
 		span {
 		.abs;
 		text-align: right;
@@ -81,9 +82,11 @@
 	}
 	
 	.logo-wrap {
-	width: 100%;
+	.w(94.5);
 	.h(52);	
 	.mag-top(3);
+	margin-left: auto;
+	margin-right: auto;
 	.bg-img("hp-logo-wrap-bg.png");
 	.bg-repeat;
 	background-position: center top;
@@ -101,24 +104,36 @@
 	
 	.date-location {
 	.mag-top(-10);
-		time {
-		.block;	
-		}
 		
 		.dl-item {
+		.in-block;	
 		.txt-col-wht;
 		.font-size(2.6);
+		.mag-left(-2);
+			span {
+			.in-block;
+			.pad-left(2);
+			.pad-right(4);	
+			.line-h(6);
+			.rounded(8px);
+			.transform(skewX(-10deg));	
+			.rel;
+			}
+			
+			&.hp-mast-time span {
+			.pad-right(2);	
+			}
 		}
 		
-		span {
-		.in-block;
-		.pad-left(2);
-		.pad-right(2);	
-		.line-h(6);
-		.rounded(8px);
-		.transform(skewX(-10deg));	
-		.rel;
-		}
+	}
+	
+	a.book-tickets-btn-lg {
+	width: auto;
+	.abs;
+	.left(1.5);
+	.right(1.5);
+	.bottom(-5);
+	.drop-shadow(0, 3px, 10px, 0.7);
 	}
 
 }
