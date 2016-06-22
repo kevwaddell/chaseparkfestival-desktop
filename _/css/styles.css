@@ -3190,6 +3190,45 @@ Copyright (c) 2014 Daniel Eden
   margin-bottom: 30px;
 }
 /* PADDING */
+.pad-bot-0 {
+  padding-bottom: 0px;
+}
+.pad-bot-10 {
+  padding-bottom: 10px;
+}
+.pad-bot-20 {
+  padding-bottom: 20px;
+}
+.pad-bot-30 {
+  padding-bottom: 30px;
+}
+.pad-bot-40 {
+  padding-bottom: 40px;
+}
+.pad-bot-50 {
+  padding-bottom: 50px;
+}
+.pad-bot-60 {
+  padding-bottom: 60px;
+}
+.pad-top-0 {
+  padding-top: 0px;
+}
+.pad-top-10 {
+  padding-top: 10px;
+}
+.pad-top-20 {
+  padding-top: 20px;
+}
+.pad-top-30 {
+  padding-top: 30px;
+}
+.pad-top-40 {
+  padding-top: 40px;
+}
+.pad-top-50 {
+  padding-top: 50px;
+}
 /* BORDERS */
 .no-border {
   border: none;
@@ -3851,6 +3890,52 @@ a.book-tickets-btn-lg:focus:after {
   font-size: 28px;
   line-height: 38px;
 }
+#main-content hr {
+  position: relative;
+  border-top: 3px solid #eda03f;
+  border-bottom: 3px solid #eda03f;
+  height: 16px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #009ee3;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#main-content hr:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -10px;
+  width: 30px;
+  height: 30px;
+  background-color: #eda03f;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  margin-left: -15px;
+  border: 3px solid #FFF;
+}
+#main-content hr:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  width: 10px;
+  height: 10px;
+  background-color: #009ee3;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  margin-left: -5px;
+}
 #main-content h1.fest-tag {
   margin-left: -10px;
   margin-top: -10px;
@@ -4053,6 +4138,53 @@ a.book-tickets-btn-lg:focus:after {
   background: -moz-linear-gradient(center bottom, #a3712b 0%, #eda03f 100%);
   background: -o-linear-gradient(#eda03f, #a3712b);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eda03f', endColorstr='#a3712b', GradientType=0);
+}
+.info-panel .contact-info {
+  font-size: 30px;
+  line-height: 50px;
+}
+.info-panel .contact-info.panel-tel:after,
+.info-panel .contact-info.panel-email:after,
+.info-panel .contact-info.panel-name:after {
+  float: left;
+  font-family: FontAwesome;
+  font-size: 50px;
+  line-height: 50px;
+  color: #FFF;
+  width: 60px;
+  height: 50px;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+  filter: alpha(opacity=50);
+}
+.info-panel .contact-info.panel-tel {
+  font-size: 35px;
+}
+.info-panel .contact-info.panel-name {
+  margin-bottom: 5px;
+}
+.info-panel .contact-info.panel-name:after {
+  content: "\f007";
+}
+.info-panel .contact-info.panel-tel:after {
+  content: "\f098";
+}
+.info-panel .contact-info.panel-email:after {
+  content: "\f199";
+}
+.info-panel .contact-info a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 50px;
+}
+.info-panel .contact-info a:hover,
+.info-panel .contact-info a:active,
+.info-panel .contact-info a:focus {
+  color: #eda03f;
 }
 #sponsors-and-stalls {
   border-top: 10px solid #FFF;
@@ -4858,6 +4990,61 @@ a.book-tickets-btn-lg:focus:after {
   line-height: 24px;
   font-weight: bold;
 }
+.contact-section .ticket-info {
+  font-size: 25px;
+  line-height: 35px;
+}
+.contact-section .ticket-info a.site-link {
+  color: #eda03f;
+  font-size: 30px;
+}
+.contact-section .ticket-info a.site-link:hover,
+.contact-section .ticket-info a.site-link:active,
+.contact-section .ticket-info a.site-link:focus {
+  color: #a3712b;
+}
+.contact-section .ticket-info .btn {
+  padding: 0px;
+  line-height: 80px;
+  border: 5px solid #006f9c;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  background-color: #006f9c;
+  color: #FFF;
+  font-size: 30px;
+}
+.contact-section .ticket-info .btn:before,
+.contact-section .ticket-info .btn:after {
+  font-family: FontAwesome;
+  width: 80px;
+  line-height: 80px;
+  text-align: center;
+  color: #eda03f;
+  font-size: 40px;
+}
+.contact-section .ticket-info .btn:before {
+  content: "\f145";
+  float: left;
+}
+.contact-section .ticket-info .btn:after {
+  content: "\f054";
+  float: right;
+  font-size: 30px;
+}
+.contact-section .ticket-info .btn:hover,
+.contact-section .ticket-info .btn:active,
+.contact-section .ticket-info .btn:focus {
+  background-color: #eda03f;
+}
+.contact-section .ticket-info .btn:hover:before,
+.contact-section .ticket-info .btn:active:before,
+.contact-section .ticket-info .btn:focus:before,
+.contact-section .ticket-info .btn:hover:after,
+.contact-section .ticket-info .btn:active:after,
+.contact-section .ticket-info .btn:focus:after {
+  color: #006f9c;
+}
 /* --------------------------- */
 /* FORMS */
 /* --------------------------- */
@@ -5117,6 +5304,181 @@ figure.alignnone {
 }
 .gform_wrapper.two-column_wrapper ul.gform_column li.gsection:first-child {
   display: none;
+}
+#contact-form h3.section-header {
+  font-size: 40px;
+  line-height: 35px;
+  padding-bottom: 20px;
+  -webkit-border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topright: 0;
+  -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-topleft: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 0;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #FFF;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#contact-form .gform_confirmation_message {
+  padding: 40px;
+  background-color: #5bae31;
+  color: #FFF;
+  border: 5px solid #FFF;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+#contact-form .gform_confirmation_message h3 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+#contact-form .gform_confirmation_message p {
+  font-size: 30px;
+}
+#contact-form .gform_wrapper .gform_heading {
+  text-align: center;
+  font-size: 20px;
+  color: #FFF;
+  margin-bottom: 10px;
+}
+#contact-form .gform_wrapper .gform_heading .gform_description {
+  font-weight: bold;
+}
+#contact-form .gform_wrapper input[type=text],
+#contact-form .gform_wrapper input[type=url],
+#contact-form .gform_wrapper input[type=email],
+#contact-form .gform_wrapper input[type=tel],
+#contact-form .gform_wrapper input[type=number],
+#contact-form .gform_wrapper input[type=password] {
+  height: 60px;
+  border: 5px solid #FFF;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  padding-left: 10px;
+}
+#contact-form .gform_wrapper input[type=text]:focus,
+#contact-form .gform_wrapper input[type=url]:focus,
+#contact-form .gform_wrapper input[type=email]:focus,
+#contact-form .gform_wrapper input[type=tel]:focus,
+#contact-form .gform_wrapper input[type=number]:focus,
+#contact-form .gform_wrapper input[type=password]:focus {
+  outline: none;
+  border: 5px solid #009ee3;
+  -webkit-box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+}
+#contact-form .gform_wrapper textarea {
+  padding: 10px;
+  border: 5px solid #FFF;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+#contact-form .gform_wrapper textarea:focus {
+  outline: none;
+  border: 5px solid #009ee3;
+  -webkit-box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+}
+#contact-form .gform_wrapper select {
+  height: 40px;
+}
+#contact-form .gform_wrapper select:focus {
+  outline: none;
+  border: 1px solid #009ee3;
+}
+#contact-form .gform_wrapper div.validation_error {
+  font-size: 20px !important;
+  margin-bottom: 20px !important;
+  margin-top: 15px;
+  text-align: center;
+  border: none;
+  background-color: #790000;
+  color: #FFF;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+#contact-form .gform_wrapper .gfield_label {
+  font-size: 20px;
+  color: #FFF;
+}
+#contact-form .gform_wrapper .gfield.gfield_error {
+  padding-left: 20px;
+  border: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+#contact-form .gform_wrapper .gfield.gfield_error .gfield_label {
+  color: #790000;
+}
+#contact-form .gform_wrapper .gfield.gfield_error input[type=text],
+#contact-form .gform_wrapper .gfield.gfield_error input[type=url],
+#contact-form .gform_wrapper .gfield.gfield_error input[type=email],
+#contact-form .gform_wrapper .gfield.gfield_error input[type=tel],
+#contact-form .gform_wrapper .gfield.gfield_error input[type=number],
+#contact-form .gform_wrapper .gfield.gfield_error input[type=password] {
+  border-color: #790000;
+}
+#contact-form .gform_wrapper .gfield.gfield_error input[type=text]:focus,
+#contact-form .gform_wrapper .gfield.gfield_error input[type=url]:focus,
+#contact-form .gform_wrapper .gfield.gfield_error input[type=email]:focus,
+#contact-form .gform_wrapper .gfield.gfield_error input[type=tel]:focus,
+#contact-form .gform_wrapper .gfield.gfield_error input[type=number]:focus,
+#contact-form .gform_wrapper .gfield.gfield_error input[type=password]:focus {
+  background-color: #FFF;
+}
+#contact-form .gform_wrapper .gfield.gfield_error .ginput_container {
+  margin-left: 0px;
+  max-width: 100%;
+}
+#contact-form .gform_wrapper .gfield .validation_message {
+  font-size: 16px;
+}
+#contact-form .gform_wrapper .gform_footer button.gform_button {
+  display: block;
+  width: 98%;
+  background-color: #a3712b;
+  color: #FFF;
+  line-height: 60px;
+  padding: 0px;
+  font-size: 25px;
+  text-decoration: none;
+  border: 5px solid #a3712b;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+}
+#contact-form .gform_wrapper .gform_footer button.gform_button:hover,
+#contact-form .gform_wrapper .gform_footer button.gform_button:active,
+#contact-form .gform_wrapper .gform_footer button.gform_button:focus {
+  background-color: #006f9c;
+  border-color: #FFF;
+}
+#contact-form .gform_wrapper .gform_footer button.gform_button:active {
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
+}
+#contact-form .gform_wrapper .gform_footer img.gform_ajax_spinner {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
 }
 /* --------------------------- */
 /* FOOTER */

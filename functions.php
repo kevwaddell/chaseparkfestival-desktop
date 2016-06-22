@@ -114,5 +114,20 @@ function feat_img ( $post ) {
 	
 }
 
+function custom_gf_class($classes, $field, $form) {
+
+	 if($field["type"] == "submit"){
+        $classes .= " selectpicker";
+       // echo '<pre>';print_r($classes);echo '</pre>';
+    }
+    return $classes;
+}	
+add_filter("gform_field_css_class", "custom_gf_class", 10, 3);
+
+add_filter( 'gform_submit_button', 'form_submit_button', 10, 2 );
+function form_submit_button( $button, $form ) {
+    return "<button class='btn btn-default btn-block gform_button tk-azo-sans-uber' id='gform_submit_button_{$form['id']}'><span>Submit</span></button>";
+}
+
 
 ?>

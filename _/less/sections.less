@@ -85,6 +85,55 @@
 	&.panel-orange {
 	.gradient(@orange, @orange-dk, @orange);		
 	}
+	
+	.contact-info {
+	.font-size(3);	
+	.line-h(5);
+		
+		&.panel-tel, &.panel-email, &.panel-name {
+		//.pad-left(6);	
+			&:after {
+			.fleft;
+			font-family: FontAwesome;
+			.font-size(5);
+			.line-h(5);
+			.txt-col-wht;
+			.w(6);
+			.h(5);
+			.opacity;
+			}
+		}
+		
+		&.panel-tel {
+		.font-size(3.5);	
+		}
+		
+		&.panel-name {
+		.mag-bot(0.5);	
+		}
+		
+		&.panel-name:after {
+		content: "\f007";	
+		}
+		
+		&.panel-tel:after {
+		content: "\f098";	
+		}
+		
+		&.panel-email:after {
+		content: "\f199";	
+		}
+		
+		a {
+		.txt-col-wht;
+		.no-text-dec;
+		.font-size(2);
+		.line-h(5);
+			&:hover, &:active, &:focus {
+			.txt-col-orange;
+			}	
+		}
+	}
 }
 
 #sponsors-and-stalls {
@@ -753,4 +802,60 @@ z-index: 2000;
 		.bold;
 		}	
 	}
+}
+
+.contact-section {
+	.ticket-info {
+	.font-size(2.5);	
+	.line-h(3.5);
+	
+		a.site-link {
+		.txt-col-orange;
+		.font-size(3);
+			&:hover, &:active, &:focus {
+			.txt-col-orange-dk;
+			}	
+		}
+		
+		.btn {	
+		.pad-all(0);
+		.line-h(8);
+		.border(@blue-dk; 0.5);
+		.rounded(12px);
+		.bg-col-blue-dk;
+		.txt-col-wht;
+		.font-size(3);
+						
+			&:before, &:after {
+			font-family: FontAwesome;	
+			.w(8);
+			.line-h(8);	
+			text-align: center;
+			.txt-col-orange;
+			.font-size(4);
+			}
+			
+			&:before {
+			content: "\f145";
+			.fleft;	
+			}
+			
+			&:after {
+			content: "\f054";	
+			.fright;
+			.font-size(3);	
+			}
+			
+			&:hover, &:active, &:focus {
+			.bg-col-orange;
+				&:before, &:after {
+				.txt-col-blue-dk;	
+				}
+			}
+
+		}
+
+	}
+	
+	
 }

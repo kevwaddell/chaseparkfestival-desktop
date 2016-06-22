@@ -25,6 +25,47 @@
 		}
 	}
 	
+	hr {
+	.rel;
+	.border-top(@orange; 0.3);	
+	.border-bot(@orange; 0.3);
+	//.no-border;
+	.h(1.6);
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	.bg-col-blue;
+	.mag-top(4);
+	.mag-bot(5);
+	.rounded(20px);
+	.box-sizing;
+
+		&:before {
+		content: "";
+		.abs;
+		left: 50%;
+		.top(-1);
+		.w(3);
+		.h(3);
+		.bg-col-orange;
+		.rounded(100%);
+		.mag-left(-1.5);
+		.border(@wht; 0.3);
+		}
+		
+		&:after {
+		content: "";
+		.abs;
+		left: 50%;
+		.top(0);
+		.w(1);
+		.h(1);
+		.bg-col-blue;
+		.rounded(100%);
+		.mag-left(-0.5);
+		}
+	}
+	
 	h1.fest-tag {
 	.mag-left(-1);
 	.mag-top(-1);
