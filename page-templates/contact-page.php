@@ -78,7 +78,7 @@ $tickets_url = get_field('gbl_tickets_url', 'options');
 			?>
 			<section id="contact-form" class="bg-col-orange pad-bot-40">
 				<div class="container">
-				<h3 class="section-header tk-azo-sans-uber txt-col-blue text-center">Contact form</h3>
+				<h3 class="section-header tk-azo-sans-uber txt-col-blue text-center">Enquiry form</h3>
 				<?php gravity_form($form['id'], false, true, false, '', true, 1);  ?>	
 				</div>
 			</section>		
