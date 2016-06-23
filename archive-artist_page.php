@@ -36,7 +36,7 @@ $found_posts = $wp_query->found_posts;
 //echo '<pre class="debug">';print_r($found_posts);echo '</pre>';
 ?>
 
-<main id="main-content"<?php echo ($found_posts == 0) ? ' class="notes-bg-orange"':''; ?>>
+<main id="main-content"<?php echo ($found_posts == 0) ? ' class="notes-bg-orange border-bot"':''; ?>>
 <?php if ( have_posts() ): ?>
 	<section id="artist-posts">
 		<div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber">

@@ -3357,6 +3357,8 @@ h5 {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fae5cb', endColorstr='#eda03f', GradientType=0);
   padding-top: 50px;
   padding-bottom: 50px;
+}
+#main-content.notes-bg-orange.border-bot {
   border-bottom: 10px solid #FFF;
 }
 #main-content.notes-bg-orange:before {
@@ -5360,6 +5362,10 @@ figure.alignnone {
 #contact-form .gform_confirmation_message p {
   font-size: 30px;
 }
+#contact-form .gform_wrapper {
+  margin: 0px;
+  max-width: 100%;
+}
 #contact-form .gform_wrapper .gform_heading {
   text-align: center;
   font-size: 20px;
@@ -5381,6 +5387,7 @@ figure.alignnone {
   -moz-border-radius: 8px;
   border-radius: 8px;
   padding-left: 10px;
+  width: 100% !important;
 }
 #contact-form .gform_wrapper input[type=text]:focus,
 #contact-form .gform_wrapper input[type=url]:focus,
@@ -5400,6 +5407,7 @@ figure.alignnone {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
+  width: 100%;
 }
 #contact-form .gform_wrapper textarea:focus {
   outline: none;
@@ -5410,6 +5418,7 @@ figure.alignnone {
 }
 #contact-form .gform_wrapper select {
   height: 40px;
+  width: 100%;
 }
 #contact-form .gform_wrapper select:focus {
   outline: none;
@@ -5448,6 +5457,7 @@ figure.alignnone {
 #contact-form .gform_wrapper .gfield.gfield_error input[type=number],
 #contact-form .gform_wrapper .gfield.gfield_error input[type=password] {
   border-color: #790000;
+  width: 98% !important;
 }
 #contact-form .gform_wrapper .gfield.gfield_error input[type=text]:focus,
 #contact-form .gform_wrapper .gfield.gfield_error input[type=url]:focus,

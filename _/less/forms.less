@@ -29,6 +29,8 @@
 	}
 	
 	.gform_wrapper {
+	.mag-all(0);
+	max-width: 100%;
 		
 		.gform_heading {
 		text-align: center;
@@ -50,6 +52,7 @@
 		.border(@wht; 0.5);
 		.rounded(8px);
 		.pad-left(1);
+		width: 100% !important;
 		
 			&:focus {
 				outline: none;
@@ -62,6 +65,7 @@
 		.pad-all(1);
 		.border(@wht; 0.5);
 		.rounded(8px);
+		width: 100%;
 			&:focus {
 				outline: none;
 				.border(@blue; 0.5);
@@ -71,6 +75,7 @@
 		
 		select {
 		.h(4);
+		width: 100%;
 			&:focus {
 				outline: none;
 				.border(@blue; 0.1);
@@ -109,6 +114,7 @@
 				input[type=number],
 				input[type=password] {
 				.border-col(@error);
+				width: 98% !important;
 					&:focus {
 					.bg-col-wht;
 					}
