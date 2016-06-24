@@ -67,15 +67,172 @@
 	}	
 }
 
+.pg-section-full {
+.min-h(40);	
+	
+	.section-header {
+	width: 40%;
+	.mag-auto;	
+	.font-size(3);
+	.line-h(2.6);
+	.pad-bot-20;
+	.border-radius(0, 10px, 10px, 0);
+	}
+	
+	#map {
+	.h(45);
+	.bg-col(lighten(@orange, 20%));
+	}
+	
+	dl.info-list {
+	.font-size(2);
+	.line-h(3);	
+	.pad-top-40;
+	.pad-bot-40;
+		dt {
+		.rel;
+		.pad-left(10);
+		
+			i {
+			.abs;
+			.top(0.7);
+			.left(0);
+			.w(7);
+			.h(7);	
+			.line-h(7);
+			.font-size(3);
+			.rounded(100%);
+			}	
+		}
+		dd {
+		.pad-left(10);	
+		.mag-bot-30;
+			&:last-child {
+			.mag-bot-0;	
+			}
+		}
+	}
+	
+	.extra-info-panel {
+	.pad-bot-30;
+	.border-top(@wht; 0.5);
+	.border-bot(@wht; 1);
+		i {
+		.mag-auto;
+		.mag-top(-3.5);
+		.mag-bot-20;
+		.border(@wht; 0.5);
+		.block;
+		.w(7);
+		.h(7);
+		.line-h(6);
+		.rounded(100%);
+		.font-size(3);
+		}
+		
+		span {
+		.font-size(2);
+		.line-h(3);		
+		}	
+	}
+	
+}
+
+#map-and-directions-section {
+.border-top(@blue-dk; 1);	
+}
+
+#map-wrapper {
+.rel;
+.border-bot(@orange; 1);	
+	.section-header {
+	.abs;
+	.top(0);
+	left: 50%;	
+	margin-left: -20%;
+	}
+}	
+
+#attitude-plug {
+.bg-col(@blk);
+.col(@att_yellow);	
+.pad-top-30;
+.pad-bot-30;
+.bold;
+text-align: center;
+
+	.plug-logo {
+	.h(10);
+	.bg-img('attitude-is-everything-logo.png');
+	.bg-repeat;
+	background-position: left center;
+	.bg-size(contain);
+	}
+
+	span {
+	.block;
+	.mag-top(0.5);	
+	.font-size(3);
+	.line-h(3);
+	}
+
+	a {
+	.h(8);
+	.border(@att_yellow; 0.5);	
+	.bg-col-trans;
+	.col(@att_yellow);
+	.font-size(2);
+	.line-h(7);
+	text-align: left;
+	.mag-top(1);
+		i {
+		.line-h(7);	
+		}
+		
+		&:hover, &:active, &:focus {
+		.bg-col(@att_yellow);
+		.col(@blk);
+		}
+	}
+}
+
 .info-panel {
 .rounded(20px);
 .pad(0;4;2;4);
+.min-h(32);
 
 	h3.panel-header {
 	.font-size(3);
 	.bg-col-wht;
 	.pad-bot(2);
 	.border-radius(0, 10px, 10px, 0);	
+	}
+	
+	.panel-imgs-2 {
+		img {
+		.border(@wht; 0.4);	
+		.rounded(10px);
+		}	
+	}
+	
+	a.enquiry-btn {
+	.bg-col-orange;
+	.border(@wht; 0.4);
+	.txt-col-wht;	
+		&:hover, &:active, &:focus {
+		.bg-col-wht;
+		.txt-col-orange;
+		}
+		
+		i {
+		.fright;
+		.line-h(2.8);	
+		}
+	}
+	
+	.panel-text {
+	.font-size(2);
+	.line-h(2.5);	
 	}
 	
 	&.panel-blue {

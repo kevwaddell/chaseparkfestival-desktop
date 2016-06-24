@@ -3189,6 +3189,12 @@ Copyright (c) 2014 Daniel Eden
 .mag-bot-30 {
   margin-bottom: 30px;
 }
+.mag-bot-40 {
+  margin-bottom: 40px;
+}
+.mag-bot-50 {
+  margin-bottom: 50px;
+}
 /* PADDING */
 .pad-bot-0 {
   padding-bottom: 0px;
@@ -4112,11 +4118,149 @@ a.book-tickets-btn-lg:focus:after {
   margin-top: -10px;
   margin-bottom: 30px;
 }
+.pg-section-full {
+  min-height: 400px;
+}
+.pg-section-full .section-header {
+  width: 40%;
+  margin: auto;
+  font-size: 30px;
+  line-height: 26px;
+  padding-bottom: 20px;
+  -webkit-border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topright: 0;
+  -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-topleft: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 0;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.pg-section-full #map {
+  height: 450px;
+  background-color: #f6ce9c;
+}
+.pg-section-full dl.info-list {
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.pg-section-full dl.info-list dt {
+  position: relative;
+  padding-left: 100px;
+}
+.pg-section-full dl.info-list dt i {
+  position: absolute;
+  top: 7px;
+  left: 0px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 30px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+.pg-section-full dl.info-list dd {
+  padding-left: 100px;
+  margin-bottom: 30px;
+}
+.pg-section-full dl.info-list dd:last-child {
+  margin-bottom: 0px;
+}
+.pg-section-full .extra-info-panel {
+  padding-bottom: 30px;
+  border-top: 5px solid #FFF;
+  border-bottom: 10px solid #FFF;
+}
+.pg-section-full .extra-info-panel i {
+  margin: auto;
+  margin-top: -35px;
+  margin-bottom: 20px;
+  border: 5px solid #FFF;
+  display: block;
+  width: 70px;
+  height: 70px;
+  line-height: 60px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  font-size: 30px;
+}
+.pg-section-full .extra-info-panel span {
+  font-size: 20px;
+  line-height: 30px;
+}
+#map-and-directions-section {
+  border-top: 10px solid #006f9c;
+}
+#map-wrapper {
+  position: relative;
+  border-bottom: 10px solid #eda03f;
+}
+#map-wrapper .section-header {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  margin-left: -20%;
+}
+#attitude-plug {
+  background-color: #333;
+  color: #fad932;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+#attitude-plug .plug-logo {
+  height: 100px;
+  background-image: url(img/attitude-is-everything-logo.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+#attitude-plug span {
+  display: block;
+  margin-top: 5px;
+  font-size: 30px;
+  line-height: 30px;
+}
+#attitude-plug a {
+  height: 80px;
+  border: 5px solid #fad932;
+  background-color: transparent;
+  color: #fad932;
+  font-size: 20px;
+  line-height: 70px;
+  text-align: left;
+  margin-top: 10px;
+}
+#attitude-plug a i {
+  line-height: 70px;
+}
+#attitude-plug a:hover,
+#attitude-plug a:active,
+#attitude-plug a:focus {
+  background-color: #fad932;
+  color: #333;
+}
 .info-panel {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
   padding: 0px 40px 20px 40px;
+  min-height: 320px;
 }
 .info-panel h3.panel-header {
   font-size: 30px;
@@ -4137,6 +4281,31 @@ a.book-tickets-btn-lg:focus:after {
   -moz-background-clip: padding-box;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+}
+.info-panel .panel-imgs-2 img {
+  border: 4px solid #FFF;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.info-panel a.enquiry-btn {
+  background-color: #eda03f;
+  border: 4px solid #FFF;
+  color: #FFF;
+}
+.info-panel a.enquiry-btn:hover,
+.info-panel a.enquiry-btn:active,
+.info-panel a.enquiry-btn:focus {
+  background-color: #FFF;
+  color: #eda03f;
+}
+.info-panel a.enquiry-btn i {
+  float: right;
+  line-height: 28px;
+}
+.info-panel .panel-text {
+  font-size: 20px;
+  line-height: 25px;
 }
 .info-panel.panel-blue {
   background: #009ee3;
