@@ -192,6 +192,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_\/img\/festival.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1315,
+		"inputAbbreviatedPath": "\/_\/img\/festival.png",
+		"outputAbbreviatedPath": "\/_\/img\/festival.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_\/img\/hp-panel-imgs.png": {
 		"fileType": 32768,
 		"ignore": 0,
