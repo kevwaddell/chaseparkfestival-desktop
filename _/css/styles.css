@@ -4297,6 +4297,43 @@ a.book-tickets-btn-lg:focus:after {
   top: 0px;
   font-size: 20px;
 }
+.pg-section-full#stage-sponsor-package {
+  min-height: 80px;
+}
+.pg-section-full#stage-sponsor-package .stage-sponsor-text p {
+  font-size: 30px;
+  line-height: 35px;
+}
+.pg-section-full#stage-sponsor-package .stage-info {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 0px 20px 20px 20px;
+  border: 5px solid #eda03f;
+}
+.pg-section-full#stage-sponsor-package .stage-info h3 {
+  margin: 0px auto 20px auto;
+  width: 80%;
+  -webkit-border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topright: 0;
+  -moz-border-radius-bottomright: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  -moz-border-radius-topleft: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 0;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.pg-section-full#stage-sponsor-package .stage-info p.price {
+  font-size: 40px;
+  line-height: 40px;
+}
 #map-and-directions-section {
   border-top: 10px solid #006f9c;
 }
