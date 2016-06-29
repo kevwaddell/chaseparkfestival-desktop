@@ -4143,6 +4143,12 @@ a.book-tickets-btn-lg:focus:after {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
+.pg-section-full.blue-border-top {
+  border-top: 10px solid #009ee3;
+}
+.pg-section-full.orange-border-top {
+  border-top: 10px solid #eda03f;
+}
 .pg-section-full #map {
   height: 450px;
   background-color: #f6ce9c;
@@ -4176,6 +4182,11 @@ a.book-tickets-btn-lg:focus:after {
 .pg-section-full dl.info-list dd:last-child {
   margin-bottom: 0px;
 }
+.pg-section-full ul.ticks-list li:before {
+  font-family: FontAwesome;
+  content: "\f058";
+  color: #009ee3;
+}
 .pg-section-full .extra-info-panel {
   padding-bottom: 30px;
   border-top: 5px solid #FFF;
@@ -4198,6 +4209,93 @@ a.book-tickets-btn-lg:focus:after {
 .pg-section-full .extra-info-panel span {
   font-size: 20px;
   line-height: 30px;
+}
+.pg-section-full#reason-2-sponsor ul {
+  font-size: 23px;
+  line-height: 28px;
+  overflow: visible;
+}
+.pg-section-full#reason-2-sponsor ul li {
+  margin-bottom: 20px;
+  padding-left: 60px;
+  position: relative;
+}
+.pg-section-full#reason-2-sponsor ul li:last-child {
+  margin-bottom: 0px;
+}
+.pg-section-full#reason-2-sponsor ul li:before {
+  position: absolute;
+  left: 0px;
+  top: 5px;
+  font-size: 40px;
+}
+.pg-section-full#sponsor-packages .package-wrap .icon-rosette {
+  width: 80px;
+  height: 80px;
+  float: left;
+  background-image: url(img/sponsor-rosette.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+.pg-section-full#sponsor-packages .package-wrap h3 {
+  font-size: 40px;
+}
+.pg-section-full#sponsor-packages .package-wrap p.price {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.pg-section-full#sponsor-packages .package-wrap ul {
+  font-size: 20px;
+  line-height: 25px;
+  padding-top: 20px;
+}
+.pg-section-full#sponsor-packages .package-wrap ul li {
+  margin-bottom: 20px;
+  padding-left: 40px;
+  position: relative;
+}
+.pg-section-full#sponsor-packages .package-wrap ul li:last-child {
+  margin-bottom: 0px;
+}
+.pg-section-full#sponsor-packages .package-wrap ul li:before {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-size: 30px;
+}
+.pg-section-full#sponsor-packages .benefits-list {
+  padding: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  width: 70%;
+}
+.pg-section-full#sponsor-packages .benefits-list span {
+  font-size: 18px;
+  line-height: 22px;
+}
+.pg-section-full#sponsor-packages .benefits-list ul {
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 10px;
+}
+.pg-section-full#sponsor-packages .benefits-list ul li {
+  margin-bottom: 5px;
+  padding-left: 30px;
+  position: relative;
+}
+.pg-section-full#sponsor-packages .benefits-list ul li:last-child {
+  margin-bottom: 0px;
+}
+.pg-section-full#sponsor-packages .benefits-list ul li:before {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-size: 20px;
 }
 #map-and-directions-section {
   border-top: 10px solid #006f9c;
@@ -4262,6 +4360,18 @@ a.book-tickets-btn-lg:focus:after {
   padding: 0px 40px 20px 40px;
   min-height: 320px;
 }
+.info-panel .sponsor-icon-img {
+  height: 200px;
+  width: 150px;
+  margin: -60px auto 0px auto;
+  background-image: url(img/sponsor-rosette.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
 .info-panel h3.panel-header {
   font-size: 30px;
   background-color: #FFF;
@@ -4314,6 +4424,25 @@ a.book-tickets-btn-lg:focus:after {
   background: -moz-linear-gradient(center bottom, #006f9c 0%, #009ee3 100%);
   background: -o-linear-gradient(#009ee3, #006f9c);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#009ee3', endColorstr='#006f9c', GradientType=0);
+}
+.info-panel.panel-blue a.contact-btn {
+  margin-top: 20px;
+  background-color: #eda03f;
+  border: 5px solid #FFF;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  height: 70px;
+  color: #FFF;
+  padding: 0px;
+  line-height: 60px;
+  font-size: 20px;
+}
+.info-panel.panel-blue a.contact-btn:hover,
+.info-panel.panel-blue a.contact-btn:active,
+.info-panel.panel-blue a.contact-btn:focus {
+  background-color: #FFF;
+  color: #eda03f;
 }
 .info-panel.panel-orange {
   background: #eda03f;
@@ -4369,6 +4498,52 @@ a.book-tickets-btn-lg:focus:after {
 .info-panel .contact-info a:active,
 .info-panel .contact-info a:focus {
   color: #eda03f;
+}
+.info-panel .contact-info-sml {
+  font-size: 25px;
+  line-height: 30px;
+}
+.info-panel .contact-info-sml.panel-name {
+  font-size: 25px;
+  line-height: 25px;
+  margin-bottom: 5px;
+}
+.info-panel .contact-info-sml a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 16px;
+}
+.info-panel .contact-info-sml a:hover,
+.info-panel .contact-info-sml a:active,
+.info-panel .contact-info-sml a:focus {
+  color: #eda03f;
+}
+.download-panel img {
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+.download-panel span {
+  font-size: 16px;
+  line-height: 20px;
+}
+.download-panel a.download-btn {
+  margin-top: 35px;
+  background-color: #006f9c;
+  border: 5px solid #eda03f;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  height: 70px;
+  color: #FFF;
+  padding: 0px;
+  line-height: 60px;
+  font-size: 20px;
+}
+.download-panel a.download-btn:hover,
+.download-panel a.download-btn:active,
+.download-panel a.download-btn:focus {
+  background-color: #eda03f;
 }
 #sponsors-and-stalls {
   border-top: 10px solid #FFF;
