@@ -5,7 +5,7 @@ $gbl_contact_telephone = get_field('gbl_contact_telephone', 'options');
 $contact_page = get_page_by_title("Contact us");
 ?>
 
-<div class="info-panel panel-blue">
+<div class="info-panel panel-blue add-min-h">
 	<h3 class="panel-header tk-azo-sans-uber text-center txt-col-blue mag-bot-20">Access Enquiries</h3>
 	<div class="panel-inner">
 		<div class="contact-info panel-name text-center txt-col-wht tk-azo-sans-uber"><?php echo $gbl_contact_name; ?></div>

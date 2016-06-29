@@ -4395,6 +4395,8 @@ a.book-tickets-btn-lg:focus:after {
   -moz-border-radius: 20px;
   border-radius: 20px;
   padding: 0px 40px 20px 40px;
+}
+.info-panel.add-min-h {
   min-height: 320px;
 }
 .info-panel .sponsor-icon-img {
