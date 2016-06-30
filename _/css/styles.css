@@ -5150,6 +5150,9 @@ a.book-tickets-btn-lg:focus:after {
 #main-content .img-grid .btn-wrap .btn:focus {
   background-color: #a3712b;
 }
+#main-content #artist-posts {
+  border-bottom: 10px solid #FFF;
+}
 #main-content #artist-posts:before,
 #main-content #artist-posts:after {
   content: " ";

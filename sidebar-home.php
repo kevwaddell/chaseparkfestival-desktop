@@ -14,7 +14,13 @@ $social_links = get_field('gbl_social_links', 'options');
 		
 		<ul class="artist-list list-unstyled text-center text-uppercase mag-bot-0">
 			<?php foreach ($artists as $artist) { ?>
-			<li><a href="<?php echo get_permalink($artist['artist']); ?>"><?php echo get_the_title($artist['artist']); ?></a></li>
+			<li>
+			<?php if (get_post_status ( $artist['artist'] ) == 'publish') { ?>
+				<a href="<?php echo get_permalink($artist['artist']); ?>"><?php echo get_the_title($artist['artist']); ?></a>
+			<?php } else { ?>
+				<span class="txt-col-wht"><?php echo get_the_title($artist['artist']); ?></span>
+			<?php } ?>
+			</li>
 			<?php } ?>
 		</ul>
 
