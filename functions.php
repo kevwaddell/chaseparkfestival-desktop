@@ -64,6 +64,7 @@ if( function_exists('acf_add_options_sub_page') ) {
 	acf_add_options_sub_page('Contact details');
 	acf_add_options_sub_page('Access information');
 	acf_add_options_sub_page('Sponsorship');
+	acf_add_options_sub_page('Press');
 	
 }
 
@@ -110,7 +111,7 @@ function feat_img ( $post ) {
 		$img_atts['title'] = trim(strip_tags( $attachment->post_title ));
 		}
 		
-		echo get_the_post_thumbnail($post->ID ,'large', $img_atts );
+		echo get_the_post_thumbnail($post->ID ,'thumb_650x400', $img_atts );
 	
 }
 

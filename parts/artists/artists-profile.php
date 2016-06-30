@@ -26,6 +26,7 @@
 							<?php foreach ($artist_social_links as $sl) { 
 							$bg_col = 'bg-col-'.strtolower($sl['title']);
 							$icon = "fa-".strtolower($sl['title']);		
+							//echo $icon;
 							?>
 							<a href="<?php echo $sl['social_link_url']; ?>" class="<?php echo $bg_col; ?>"><i class="fa <?php echo $icon; ?>"></i><span class="sr-only"><?php echo $sl['title']; ?></span></a>
 							<?php } ?>
@@ -35,9 +36,8 @@
 						<h1 class="text-uppercase tk-azo-sans-uber txt-col-blue-dk"><?php the_title(); ?></h1>	
 						<?php if ($artist_links_active && in_array('website', $artist_links_active)) { 
 						$website = get_field('artist_website');	
-						$strip_http = str_replace("http://", "", $website);
 						?>
-						<a href="<?php echo $website; ?>" target="_blank" class="artist-website" rel="nofollow"><?php echo $strip_http; ?></a>
+						<a href="<?php echo $website; ?>" target="_blank" class="artist-website text-uppercase" rel="nofollow">View website</a>
 						<?php } ?>
 						
 	

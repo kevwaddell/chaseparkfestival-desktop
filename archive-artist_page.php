@@ -1,6 +1,7 @@
 <?php get_header(); ?>	
 
 <?php
+$artists_pg = get_page_by_title("Artists");
 $last_year = date('Y', strtotime('last year'));
 $this_year = date('Y', time());
 $current_y_post_args = array(
@@ -33,7 +34,7 @@ $wp_query = new WP_Query( $args );
 
 $found_posts = $wp_query->found_posts;
 
-//echo '<pre class="debug">';print_r($found_posts);echo '</pre>';
+//echo '<pre class="debug">';print_r($current_y_post[0]->ID);echo '</pre>';
 ?>
 
 <main id="main-content"<?php echo ($found_posts == 0) ? ' class="notes-bg-orange border-bot"':''; ?>>
@@ -43,7 +44,7 @@ $found_posts = $wp_query->found_posts;
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-9">
-						<h1><?php echo get_the_title($post); ?></h1>
+						<h1><?php echo get_the_title($artists_pg); ?></h1>
 					</div>
 					<div class="col-xs-3">
 						
@@ -53,8 +54,10 @@ $found_posts = $wp_query->found_posts;
 		</div>
 		
 	<?php while ( have_posts() ) : the_post(); ?>
-		<article <?php post_class('grid-item'); ?>>
-			<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+		<article <?php post_class('grid-item'); ?> style="background-image: url(<?php bg_img($post); ?>)">
+			<a href="<?php the_permalink(); ?>">
+				<span class="text-uppercase tk-azo-sans-uber text-center block"><?php the_title(); ?></span>
+			</a>
 		</article>
 <?php endwhile; ?>
 	</section>

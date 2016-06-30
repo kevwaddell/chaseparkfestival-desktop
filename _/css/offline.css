@@ -3083,6 +3083,12 @@ Copyright (c) 2014 Daniel Eden
 .txt-col-blue-dk {
   color: #006f9c;
 }
+.txt-col-facebook {
+  color: #3b5998;
+}
+.txt-col-twitter {
+  color: #00aced;
+}
 .bold {
   font-weight: bold;
 }
@@ -3117,6 +3123,9 @@ Copyright (c) 2014 Daniel Eden
 }
 .bg-col-youtube {
   background-color: #bb0000;
+}
+.bg-col-soundcloud {
+  background-color: #ff3a00;
 }
 .bg-col-trans {
   background-color: transparent;
