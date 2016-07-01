@@ -3864,6 +3864,11 @@ a.book-tickets-btn-lg:focus:after {
   font-size: 28px;
   line-height: 38px;
 }
+#main-content ul,
+#main-content ol {
+  font-size: 20px;
+  line-height: 30px;
+}
 #main-content hr {
   position: relative;
   border-top: 3px solid #eda03f;
