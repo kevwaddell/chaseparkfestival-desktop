@@ -5,7 +5,7 @@ $location = get_field('cpf_map_details', 'options');
 
 //MAP 
 ?>
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=4.exp&sensor=false"></script>
 <script>
 	var TLW_MAP_ID = 'TLW_style';
 	
