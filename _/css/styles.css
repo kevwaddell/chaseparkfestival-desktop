@@ -6267,3 +6267,186 @@ footer#footer-site-info ul.footer-base-menu li:first-child a {
 body.admin-bar footer#footer-site-info {
   padding-bottom: 40px;
 }
+/* --------------------------- */
+/* USER STYLES */
+/* --------------------------- */
+body#user-page {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url(img/user-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body#user-page .user-outer-wrap {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  background-image: url(img/hp-mast-stripes-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+body#user-page .wrap-center {
+  text-align: center;
+  padding: 20px;
+  height: 100%;
+}
+body#user-page .wrap-center:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+}
+body#user-page .user-form {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  padding: 160px 40px 40px 40px;
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.9);
+  background-image: url(img/logo-lrg.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: 80%;
+  -moz-background-size: 80%;
+  -o-background-size: 80%;
+  background-size: 80%;
+  background-position: 50% 10px;
+  width: 80%;
+  max-width: 500px;
+  -webkit-box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+}
+body#user-page .user-form .message {
+  background-color: #5bae31;
+  color: #FFF;
+  font-weight: bold;
+  padding: 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+body#user-page .user-form .error {
+  background-color: #bb0000;
+  color: #FFF;
+  padding: 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+body#user-page .user-form #rememberme {
+  margin-right: 5px;
+}
+body#user-page .user-form .submit-btn {
+  background-color: #eda03f;
+  color: #FFF;
+  border: none;
+}
+body#user-page .user-form .submit-btn:hover,
+body#user-page .user-form .submit-btn:active,
+body#user-page .user-form .submit-btn:focus {
+  background-color: #a3712b;
+}
+body#user-page .user-form ul.tml-action-links {
+  list-style: none;
+  padding-left: 0px;
+}
+body#user-page .user-form ul.tml-action-links a,
+body#user-page .user-form a.back-btn {
+  display: block;
+  padding: 7px;
+  background-color: #009ee3;
+  color: #FFF;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+body#user-page .user-form ul.tml-action-links a:hover,
+body#user-page .user-form a.back-btn:hover,
+body#user-page .user-form ul.tml-action-links a:active,
+body#user-page .user-form a.back-btn:active,
+body#user-page .user-form ul.tml-action-links a:focus,
+body#user-page .user-form a.back-btn:focus {
+  background-color: #006f9c;
+}
+.profile-wrap {
+  padding: 40px;
+  background-color: #FFF;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border: 5px solid #006f9c;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+}
+.profile-wrap .row {
+  margin-bottom: 20px;
+}
+.profile-wrap button.wp-generate-pw {
+  background-color: #006f9c;
+  color: #FFF;
+  border: none;
+}
+.profile-wrap button.wp-generate-pw:hover,
+.profile-wrap button.wp-generate-pw:active,
+.profile-wrap button.wp-generate-pw:focus {
+  background-color: #eda03f;
+}
+.profile-wrap .tml-form-table {
+  width: 100%;
+}
+.profile-wrap #pass-strength-result {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.profile-wrap button.button-secondary {
+  border: none;
+}
+.profile-wrap button.wp-hide-pw {
+  background-color: #5bae31;
+  color: #FFF;
+}
+.profile-wrap button.wp-hide-pw:hover,
+.profile-wrap button.wp-hide-pw:active,
+.profile-wrap button.wp-hide-pw:focus {
+  background-color: #006f9c;
+  color: #FFF;
+}
+.profile-wrap button.wp-cancel-pw {
+  background-color: #bb0000;
+  color: #FFF;
+}
+.profile-wrap button.wp-cancel-pw:hover,
+.profile-wrap button.wp-cancel-pw:active,
+.profile-wrap button.wp-cancel-pw:focus {
+  background-color: #006f9c;
+  color: #FFF;
+}
+.profile-wrap input.button-primary {
+  border: none;
+  color: #FFF;
+  background-color: #eda03f;
+}
+.profile-wrap input.button-primary:hover,
+.profile-wrap input.button-primary:active,
+.profile-wrap input.button-primary:focus {
+  background-color: #006f9c;
+  color: #FFF;
+}
