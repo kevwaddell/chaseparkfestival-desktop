@@ -85,7 +85,7 @@ function bg_img ( $post, $size = 'thumb_650x400' ) {
 	
 	} else {
 		
-		echo get_stylesheet_directory_uri().'/_/img/default-artist-img.jpg';
+		echo get_stylesheet_directory_uri().'/_/img/band-img-placeholder.png';
 		
 	}
 	

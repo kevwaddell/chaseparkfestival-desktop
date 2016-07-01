@@ -5414,31 +5414,40 @@ a.book-tickets-btn-lg:focus:after {
   line-height: 29px;
 }
 #main-content .sidebar .info-panel.with-icon {
-  padding-top: 100px;
+  padding-top: 75px;
 }
 #main-content .sidebar .info-panel.with-icon i.icon {
   position: absolute;
   left: 50%;
-  top: -30px;
-  margin-left: -55px;
+  top: -20px;
+  margin-left: -40px;
   display: block;
-  width: 110px;
-  height: 110px;
-  line-height: 100px;
+  width: 80px;
+  height: 80px;
+  line-height: 70px;
   border: 5px solid #FFF;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   border-radius: 100%;
-  font-size: 70px;
+  font-size: 50px;
+}
+#main-content .sidebar .info-panel ul.artist-list img {
+  max-width: 100%;
+  margin-bottom: 20px;
 }
 #main-content .sidebar .info-panel ul.artist-list li {
   font-size: 25px;
-  line-height: 25px;
-  margin-bottom: 20px;
+  line-height: 27px;
   font-weight: bold;
 }
 #main-content .sidebar .info-panel ul.artist-list li:last-child {
   margin-bottom: 10px;
+}
+#main-content .sidebar .info-panel ul.artist-list li:nth-child(2) img {
+  max-width: 80%;
+}
+#main-content .sidebar .info-panel ul.artist-list li:nth-child(3) img {
+  max-width: 60%;
 }
 #main-content .sidebar .info-panel ul.artist-list a {
   color: #FFF;

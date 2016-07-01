@@ -1217,30 +1217,42 @@ z-index: 2000;
 			}
 		
 			&.with-icon {
-			.pad-top(10);	
+			.pad-top(7.5);	
 				i.icon {
 				.abs;
 				left: 50%;
-				.top(-3);
-				.mag-left(-5.5);
+				.top(-2);
+				.mag-left(-4);
 				.block;
-				.w(11);
-				.h(11);
-				.line-h(10);	
+				.w(8);
+				.h(8);
+				.line-h(7);	
 				.border(@wht; 0.5);
 				.rounded(100%);
-				.font-size(7);
+				.font-size(5);
 				}
 			}
 			
 			ul.artist-list {
+				img {
+				max-width: 100%;
+				.mag-bot-20;	
+				}
+				
 				li {
 				.font-size(2.5);	
-				.line-h(2.5);
-				.mag-bot(2);
+				.line-h(2.7);
 				.bold;
 					&:last-child {
 					.mag-bot-10;	
+					}
+					
+					&:nth-child(2) img {
+					max-width: 80%;	
+					}
+					
+					&:nth-child(3) img {
+					max-width: 60%;	
 					}
 				}	
 				
@@ -1251,6 +1263,7 @@ z-index: 2000;
 					.txt-col-orange;
 					}
 				}
+				
 			}
 			
 			.well {

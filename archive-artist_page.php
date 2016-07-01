@@ -28,7 +28,9 @@ $prev_y_posts = get_posts($prev_y_posts_args);
 $args = array(
 	'post_type'	=> 'artist_page',
 	'posts_per_page' => -1,
-	'post_parent'	=> $current_y_post[0]->ID
+	'post_parent'	=> $current_y_post[0]->ID,
+	'orderby'	=> 'menu_order',
+	'order'	=> 'ASC'
 );	
 $wp_query = new WP_Query( $args );	
 

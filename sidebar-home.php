@@ -20,7 +20,7 @@ $social_links = get_field('gbl_social_links', 'options');
 				<?php if (empty($artist['logo'])) { ?>
 				<?php echo get_the_title($artist['artist']); ?>	
 				<?php } else { ?>
-				<img src="<?php echo $artist['logo']['sizes']['medium']; ?>" alt="<?php echo get_the_title($artist['artist']); ?>" style="max-width: 90%;" />
+				<img src="<?php echo $artist['logo']['sizes']['large']; ?>" alt="<?php echo get_the_title($artist['artist']); ?>" />
 				<?php } ?>
 				</a>		
 			<?php } else { ?>
