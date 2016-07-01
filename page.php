@@ -7,7 +7,7 @@
 	</div>
 </div>
 
-<main id="main-content" class="notes-bg-orange"> 
+<main id="main-content"> 
 	<div class="container">
 		<article <?php post_class('pg-content'); ?>>
 		

@@ -72,9 +72,17 @@ h1,h2,h3,h4,h5 {
 .rel;
 .bg-col-wht;
 .border-top(@wht; 1);
+
+	article.hp-content {
+		//.bg-col-wht;
+		//.trans-bg(@wht; 0.8);
+		.pad-top(5);
+		//.border(@blue-dk; 0.4);
+		//.rounded(20px);	
+	}
 	
 	&.notes-bg-orange {
-	.gradient(@orange, @orange, lighten(@orange, 30%));	
+	.bg-col(@orange);
 	.pad-top(5);
 	.pad-bot(5);
 		
@@ -103,11 +111,11 @@ h1,h2,h3,h4,h5 {
 		}
 		
 		article.hp-content, article.pg-content {
-		.bg-col-wht;
+		//.bg-col-wht;
 		//.trans-bg(@wht; 0.8);
-		.pad-all(5);
-		.border(@blue-dk; 0.4);
-		.rounded(20px);	
+		//.pad-all(5);
+		//.border(@blue-dk; 0.4);
+		//.rounded(20px);	
 		}
 	}
 }

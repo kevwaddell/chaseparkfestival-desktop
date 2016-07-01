@@ -7,20 +7,22 @@ $gbl_tickets_url = get_field('gbl_tickets_url', 'options');
 ?>
 
 <header id="hp-masthead" class="masthead" role="banner">
-	<div class="mast-bg-imgs">
-		<div class="mast-guitar-bg"></div>
-		<div class="mast-grass-bg"></div>
-	</div>
+	<div class="mast-bg-stripes"></div>
 	
 	<div class="container">
+		
+			<div class="date-location text-center tk-azo-sans-uber">
+				<time class="hp-mast-date dl-item"><?php echo $fest_date; ?></time>
+				<div class="hp-mast-location dl-item"><?php echo $fest_location; ?></div>
+				<time class="hp-mast-time dl-item"><?php echo $fest_time; ?></time>
+			</div>
+			
 			<div class="logo-wrap">
 				<div class="logo"><span class="sr-only"><?php bloginfo('name'); ?></span></div>
 			</div>
-			<div class="date-location text-center tk-azo-sans-uber">
-				<time class="hp-mast-date dl-item"><span class="bg-col-blue wht-drop-shad"><?php echo $fest_date; ?></span></time>
-				<div class="hp-mast-location dl-item"><span class="bg-col-orange wht-drop-shad"><?php echo $fest_location; ?></span></div>
-				<time class="hp-mast-time dl-item"><span class="bg-col-blue-dk wht-drop-shad"><?php echo $fest_time; ?></span></time>
-			</div>
+			
+			<div class="festival-tag text-center tk-azo-sans-uber txt-col-wht"><?php bloginfo('description'); ?></div>
+
 			
 			<button id="main-nav-btn" class="btn btn-default btn-block"><span class="menu-label txt-col-wht tk-azo-sans-uber">Menu</span><i class="fa fa-bars fa-lg"></i></button>
 		

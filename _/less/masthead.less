@@ -1,6 +1,6 @@
 .masthead {
 .rel;
-.gradient(@blue, @wht, @blue);
+//.gradient(@blue, @wht, @blue);
 	#main-nav-btn {
 	.abs;
 	.top(3);
@@ -23,59 +23,46 @@
 		.font-size(2);
 		}
 		i {
-		.txt-col-blue-dk;	
+		.txt-col-orange;	
 		}
 		
 		&:hover, &:active, &:focus {
-		.bg-col-blue-dk;
+		.bg-col-orange;
 			i {
 			.txt-col-wht;	
 			}
 		}
 	}	
+	
+	.festival-tag {
+	.font-size(2.6);	
+	letter-spacing: 3px;
+	}
 }
 
 #hp-masthead {
 .h(75);
+.bg-img("hp-mast-image-bg.jpg");
+.bg-repeat;
+background-position: right center;
+.bg-size;
 
-	.mast-bg-imgs, .mast-guitar-bg ,.mast-grass-bg {
+	.mast-bg-stripes {	
 	.abs;	
-	}
-
-	.mast-bg-imgs {	
+	.block;
 	.top(0);
 	.left(0);
 	width: 100%;
 	height: 100%;
-	.bg-img("hp-mast-notes-bg.png");
+	//.bg-img("hp-mast-notes-bg.png");
+	.bg-img("hp-mast-stripes-bg.png");
 	.bg-repeat;
 	background-position: -2px -2px;
 	.bg-size(contain);
 	}
 	
-	.mast-guitar-bg {	
-	.top(0);
-	.right(0);	
-	height: 100%;
-	.w(37.5);
-	.bg-img("hp-mast-guitar-bg.png");
-	.bg-repeat;
-	background-position: right center;
-	.bg-size(contain);
-	}
-	
-	.mast-grass-bg {	
-	.bottom(0);
-	.left(0);	
-	.h(20);
-	width: 100%;
-	.bg-img("hp-mast-grass-bg.png");
-	background-repeat: repeat-x;
-	background-position: center bottom;
-	.bg-size(contain);
-	}
-	
 	.container {
+	.pad-top(15);
 	height: 100%;	
 	.rel;
 	z-index: 2;
@@ -83,11 +70,11 @@
 	
 	.logo-wrap {
 	.w(94.5);
-	.h(52);	
-	.mag-top(3);
+	.h(30);	
+	.mag-top(0);
 	margin-left: auto;
 	margin-right: auto;
-	.bg-img("hp-logo-wrap-bg.png");
+	//.bg-img("hp-logo-wrap-bg.png");
 	.bg-repeat;
 	background-position: center top;
 	.bg-size(contain);
@@ -103,25 +90,22 @@
 	}
 	
 	.date-location {
-	.mag-top(-10);
+	//.mag-top(10);
 		
 		.dl-item {
 		.in-block;	
 		.txt-col-wht;
 		.font-size(2.6);
-		.mag-left(-2);
+		.pad-left(3);
+		.pad-right(3);	
+		//.mag-left(-2);
 			span {
 			.in-block;
 			.pad-left(2);
-			.pad-right(4);	
 			.line-h(6);
-			.rounded(8px);
-			.transform(skewX(-10deg));	
+			//.rounded(8px);
+			//.transform(skewX(-10deg));	
 			.rel;
-			}
-			
-			&.hp-mast-time span {
-			.pad-right(2);	
 			}
 		}
 		
@@ -134,40 +118,30 @@
 	.right(1.5);
 	.bottom(5);
 	.drop-shadow(0, 3px, 10px, 0.7);
+	.no-rounded;
 	}
 
 }
 
 #gbl-masthead {
 .h(28);	
-
-	.mast-bg-imgs, .mast-cloud-left, .mast-cloud-right {
-	.abs;	
-	}
+.bg-img("gbl-mast-image-bg.jpg");
+.bg-repeat;
+background-position: right center;
+.bg-size;
 	
-	.mast-bg-imgs {
-	height: 100%;
-	width: 100%;	
-	}
-	
-	.mast-cloud-left {
+	.mast-bg-stripes {	
+	.abs;
+	.block;
 	.top(0);
 	.left(0);
-	.w(20);
-	.h(16);	
-	.bg-img("gbl-mast-cloud-left.png");
+	width: 100%;
+	height: 100%;
+	//.bg-img("hp-mast-notes-bg.png");
+	.bg-img("hp-mast-stripes-bg.png");
 	.bg-repeat;
-	background-position: left top;
-	}
-	
-	.mast-cloud-right {
-	.bottom(3);
-	.right(0);
-	.w(20);
-	.h(18);	
-	.bg-img("gbl-mast-cloud-right.png");
-	.bg-repeat;
-	background-position: right bottom;
+	background-position: center center;
+	.bg-size;
 	}
 	
 	.container {
@@ -179,8 +153,8 @@
 	.logo-wrap {
 	width: 100%;
 	.h(28);	
-	.pad-top(5);
-	.bg-img("gbl-logo-wrap-bg.png");
+	//.pad-top(2);
+	//.bg-img("gbl-logo-wrap-bg.png");
 	.bg-repeat;
 	background-position: center top;
 	.bg-size(contain);
@@ -188,7 +162,7 @@
 		a.logo {
 		.in-block;
 		.w(51);
-		.h(16);	
+		.h(23);	
 		.bg-img("logo-lrg.png");
 		.bg-repeat;
 		background-position: center center;

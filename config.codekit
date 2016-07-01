@@ -77,6 +77,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_\/css\/img\/gbl-mast-image-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54636,
+		"inputAbbreviatedPath": "\/_\/css\/img\/gbl-mast-image-bg.jpg",
+		"outputAbbreviatedPath": "\/_\/css\/img\/gbl-mast-image-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_\/css\/img\/gbl-notes-bg-wht.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -121,6 +132,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_\/css\/img\/hp-mast-image-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 139145,
+		"inputAbbreviatedPath": "\/_\/css\/img\/hp-mast-image-bg.jpg",
+		"outputAbbreviatedPath": "\/_\/css\/img\/hp-mast-image-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/css\/img\/hp-mast-image-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.70379e+06,
+		"inputAbbreviatedPath": "\/_\/css\/img\/hp-mast-image-bg.png",
+		"outputAbbreviatedPath": "\/_\/css\/img\/hp-mast-image-bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_\/css\/img\/hp-mast-notes-bg.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -128,6 +161,17 @@
 		"initialSize": 189560,
 		"inputAbbreviatedPath": "\/_\/css\/img\/hp-mast-notes-bg.png",
 		"outputAbbreviatedPath": "\/_\/css\/img\/hp-mast-notes-bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/css\/img\/hp-mast-stripes-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54223,
+		"inputAbbreviatedPath": "\/_\/css\/img\/hp-mast-stripes-bg.png",
+		"outputAbbreviatedPath": "\/_\/css\/img\/hp-mast-stripes-bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

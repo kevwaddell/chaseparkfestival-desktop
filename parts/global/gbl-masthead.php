@@ -1,8 +1,5 @@
 <header id="gbl-masthead" class="masthead" role="banner">
-	<div class="mast-bg-imgs">
-		<div class="mast-cloud-left"></div>
-		<div class="mast-cloud-right"></div>
-	</div>
+	<div class="mast-bg-stripes"></div>
 	
 	<div class="container">
 		

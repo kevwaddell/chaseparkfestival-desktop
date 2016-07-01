@@ -5,6 +5,7 @@
 	$post_content = get_extended( $post->post_content );
 	$content_main = apply_filters('the_content', $post_content['main'] );
 	$content_extended = apply_filters('the_content', $post_content['extended'] );	
+	$artist_logo = get_field('artist_logo');
 	?>
 	<article <?php post_class(); ?>>
 		<div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber">
@@ -32,8 +33,11 @@
 							<?php } ?>
 						</div>
 						<?php } ?>
-						
+						<?php if (empty($artist_logo)) { ?>
 						<h1 class="text-uppercase tk-azo-sans-uber txt-col-blue-dk"><?php the_title(); ?></h1>	
+						<?php } else { ?>
+						<img src="<?php echo $artist_logo['sizes']['large']; ?>" alt="<?php the_title_attribute(); ?>" class="img-title mag-bot-10" />
+						<?php } ?>
 						<?php if ($artist_links_active && in_array('website', $artist_links_active)) { 
 						$website = get_field('artist_website');	
 						?>

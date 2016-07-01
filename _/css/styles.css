@@ -3363,13 +3363,11 @@ h5 {
   background-color: #FFF;
   border-top: 10px solid #FFF;
 }
+#main-content article.hp-content {
+  padding-top: 50px;
+}
 #main-content.notes-bg-orange {
-  background: #eda03f;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eda03f), color-stop(1, #fae5cb));
-  background: -ms-linear-gradient(bottom, #eda03f, #fae5cb);
-  background: -moz-linear-gradient(center bottom, #eda03f 0%, #fae5cb 100%);
-  background: -o-linear-gradient(#fae5cb, #eda03f);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fae5cb', endColorstr='#eda03f', GradientType=0);
+  background-color: #eda03f;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -3396,15 +3394,6 @@ h5 {
 #main-content.notes-bg-orange .container {
   position: relative;
   z-index: 1;
-}
-#main-content.notes-bg-orange article.hp-content,
-#main-content.notes-bg-orange article.pg-content {
-  background-color: #FFF;
-  padding: 50px;
-  border: 4px solid #006f9c;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
 }
 #acfv-wrap.adminbar-visible {
   top: 0px;
@@ -3626,12 +3615,6 @@ a.book-tickets-btn-lg:focus:after {
 /* --------------------------- */
 .masthead {
   position: relative;
-  background: #009ee3;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFF), color-stop(1, #009ee3));
-  background: -ms-linear-gradient(bottom, #FFF, #009ee3);
-  background: -moz-linear-gradient(center bottom, #FFF 0%, #009ee3 100%);
-  background: -o-linear-gradient(#009ee3, #FFF);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#009ee3', endColorstr='#FFF', GradientType=0);
 }
 .masthead #main-nav-btn {
   position: absolute;
@@ -3657,32 +3640,40 @@ a.book-tickets-btn-lg:focus:after {
   font-size: 20px;
 }
 .masthead #main-nav-btn i {
-  color: #006f9c;
+  color: #eda03f;
 }
 .masthead #main-nav-btn:hover,
 .masthead #main-nav-btn:active,
 .masthead #main-nav-btn:focus {
-  background-color: #006f9c;
+  background-color: #eda03f;
 }
 .masthead #main-nav-btn:hover i,
 .masthead #main-nav-btn:active i,
 .masthead #main-nav-btn:focus i {
   color: #FFF;
 }
+.masthead .festival-tag {
+  font-size: 26px;
+  letter-spacing: 3px;
+}
 #hp-masthead {
   height: 750px;
+  background-image: url(img/hp-mast-image-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-#hp-masthead .mast-bg-imgs,
-#hp-masthead .mast-guitar-bg,
-#hp-masthead .mast-grass-bg {
+#hp-masthead .mast-bg-stripes {
   position: absolute;
-}
-#hp-masthead .mast-bg-imgs {
+  display: block;
   top: 0px;
   left: 0px;
   width: 100%;
   height: 100%;
-  background-image: url(img/hp-mast-notes-bg.png);
+  background-image: url(img/hp-mast-stripes-bg.png);
   background-repeat: no-repeat;
   background-position: -2px -2px;
   -webkit-background-size: contain;
@@ -3690,44 +3681,18 @@ a.book-tickets-btn-lg:focus:after {
   -o-background-size: contain;
   background-size: contain;
 }
-#hp-masthead .mast-guitar-bg {
-  top: 0px;
-  right: 0px;
-  height: 100%;
-  width: 375px;
-  background-image: url(img/hp-mast-guitar-bg.png);
-  background-repeat: no-repeat;
-  background-position: right center;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-}
-#hp-masthead .mast-grass-bg {
-  bottom: 0px;
-  left: 0px;
-  height: 200px;
-  width: 100%;
-  background-image: url(img/hp-mast-grass-bg.png);
-  background-repeat: repeat-x;
-  background-position: center bottom;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-}
 #hp-masthead .container {
+  padding-top: 150px;
   height: 100%;
   position: relative;
   z-index: 2;
 }
 #hp-masthead .logo-wrap {
   width: 945px;
-  height: 520px;
-  margin-top: 30px;
+  height: 300px;
+  margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(img/hp-logo-wrap-bg.png);
   background-repeat: no-repeat;
   background-position: center top;
   -webkit-background-size: contain;
@@ -3746,32 +3711,18 @@ a.book-tickets-btn-lg:focus:after {
   -o-background-size: 80%;
   background-size: 80%;
 }
-#hp-masthead .date-location {
-  margin-top: -100px;
-}
 #hp-masthead .date-location .dl-item {
   display: inline-block;
   color: #FFF;
   font-size: 26px;
-  margin-left: -20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 #hp-masthead .date-location .dl-item span {
   display: inline-block;
   padding-left: 20px;
-  padding-right: 40px;
   line-height: 60px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 8px;
-  -webkit-transform: skewX(-10deg);
-  -moz-transform: skewX(-10deg);
-  -o-transform: skewX(-10deg);
-  -ms-transform: skewX(-10deg);
-  transform: skewX(-10deg);
   position: relative;
-}
-#hp-masthead .date-location .dl-item.hp-mast-time span {
-  padding-right: 20px;
 }
 #hp-masthead a.book-tickets-btn-lg {
   width: auto;
@@ -3782,36 +3733,34 @@ a.book-tickets-btn-lg:focus:after {
   -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
 }
 #gbl-masthead {
   height: 280px;
+  background-image: url(img/gbl-mast-image-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-#gbl-masthead .mast-bg-imgs,
-#gbl-masthead .mast-cloud-left,
-#gbl-masthead .mast-cloud-right {
+#gbl-masthead .mast-bg-stripes {
   position: absolute;
-}
-#gbl-masthead .mast-bg-imgs {
-  height: 100%;
-  width: 100%;
-}
-#gbl-masthead .mast-cloud-left {
+  display: block;
   top: 0px;
   left: 0px;
-  width: 200px;
-  height: 160px;
-  background-image: url(img/gbl-mast-cloud-left.png);
+  width: 100%;
+  height: 100%;
+  background-image: url(img/hp-mast-stripes-bg.png);
   background-repeat: no-repeat;
-  background-position: left top;
-}
-#gbl-masthead .mast-cloud-right {
-  bottom: 30px;
-  right: 0px;
-  width: 200px;
-  height: 180px;
-  background-image: url(img/gbl-mast-cloud-right.png);
-  background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #gbl-masthead .container {
   height: 100%;
@@ -3821,8 +3770,6 @@ a.book-tickets-btn-lg:focus:after {
 #gbl-masthead .logo-wrap {
   width: 100%;
   height: 280px;
-  padding-top: 50px;
-  background-image: url(img/gbl-logo-wrap-bg.png);
   background-repeat: no-repeat;
   background-position: center top;
   -webkit-background-size: contain;
@@ -3834,7 +3781,7 @@ a.book-tickets-btn-lg:focus:after {
 #gbl-masthead .logo-wrap a.logo {
   display: inline-block;
   width: 510px;
-  height: 160px;
+  height: 230px;
   background-image: url(img/logo-lrg.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -3977,6 +3924,10 @@ a.book-tickets-btn-lg:focus:after {
   margin-bottom: 0px;
   text-indent: -99990pxpx;
 }
+#main-content .hp-content h1 {
+  font-size: 45px;
+  line-height: 50px;
+}
 #main-content .main-txt.with-pad {
   padding-top: 40px;
   padding-bottom: 60px;
@@ -3987,6 +3938,9 @@ a.book-tickets-btn-lg:focus:after {
 }
 #main-content .main-txt .main-text-header {
   margin-bottom: 20px;
+}
+#main-content .main-txt .main-text-header img.img-title {
+  max-width: 90%;
 }
 #main-content .main-txt .main-text-header .social-links {
   margin-bottom: 30px;
@@ -5231,7 +5185,6 @@ a.book-tickets-btn-lg:focus:after {
   -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
   background-color: #FFF;
-  background-color: rgba(255, 255, 255, 0.8);
 }
 #main-content .no-content-message .message-img {
   margin-top: -30px;
@@ -5426,7 +5379,7 @@ a.book-tickets-btn-lg:focus:after {
 }
 #main-content .col-panel {
   padding: 50px;
-  margin: 40px -50px 40px -50px;
+  margin: 20px -50px 0px -50px;
   position: relative;
 }
 #main-content .col-panel .panel-imgs {
@@ -5439,9 +5392,9 @@ a.book-tickets-btn-lg:focus:after {
 }
 #main-content .col-panel .panel-imgs.offset-imgs {
   position: absolute;
-  top: -40px;
+  top: -100px;
   left: 0px;
-  bottom: -40px;
+  bottom: -100px;
   width: 42%;
 }
 #main-content .sidebar .info-panel {

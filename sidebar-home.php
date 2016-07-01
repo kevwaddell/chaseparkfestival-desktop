@@ -4,7 +4,7 @@ $hp_artist_list_active = get_field('hp_artist_list_active', 'options');
 $social_links = get_field('gbl_social_links', 'options');	
 ?>
 
-<aside class="col-xs-4 sidebar">
+<aside class="col-xs-5 sidebar">
 	<div class="info-panel blue-grad with-icon">
 		<i class="icon fa fa-microphone bg-col-blue-dk txt-col-wht text-center"></i>
 		<h3 class="txt-col-orange text-center tk-azo-sans-uber">Artist Line up</h3>
@@ -16,7 +16,13 @@ $social_links = get_field('gbl_social_links', 'options');
 			<?php foreach ($artists as $artist) { ?>
 			<li>
 			<?php if (get_post_status ( $artist['artist'] ) == 'publish') { ?>
-				<a href="<?php echo get_permalink($artist['artist']); ?>"><?php echo get_the_title($artist['artist']); ?></a>
+				<a href="<?php echo get_permalink($artist['artist']); ?>">
+				<?php if (empty($artist['logo'])) { ?>
+				<?php echo get_the_title($artist['artist']); ?>	
+				<?php } else { ?>
+				<img src="<?php echo $artist['logo']['sizes']['medium']; ?>" alt="<?php echo get_the_title($artist['artist']); ?>" style="max-width: 90%;" />
+				<?php } ?>
+				</a>		
 			<?php } else { ?>
 				<span class="txt-col-wht"><?php echo get_the_title($artist['artist']); ?></span>
 			<?php } ?>

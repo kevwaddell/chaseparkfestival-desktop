@@ -16,7 +16,7 @@ $videos_active = get_field('videos_active');
 		<h1><?php the_title(); ?></h1>
 	</div>
 </div>
-<main id="main-content" class="notes-bg-orange"> 
+<main id="main-content"> 
 	<div class="container">
 <?php if ($videos_active) { ?>
 <?php  
