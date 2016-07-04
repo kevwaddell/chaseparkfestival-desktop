@@ -3676,10 +3676,10 @@ a.book-tickets-btn-lg:focus:after {
   background-image: url(img/hp-mast-stripes-bg.png);
   background-repeat: no-repeat;
   background-position: -2px -2px;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #hp-masthead .container {
   padding-top: 150px;
@@ -5384,7 +5384,7 @@ a.book-tickets-btn-lg:focus:after {
 }
 #main-content .col-panel {
   padding: 50px;
-  margin: 20px -50px 0px -50px;
+  margin: 20px 0px 0px 0px;
   position: relative;
 }
 #main-content .col-panel .panel-imgs {
