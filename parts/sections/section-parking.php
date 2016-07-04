@@ -5,7 +5,12 @@ $location = get_field('cpf_map_details', 'options');
 
 //MAP 
 ?>
+<?php if ($_SERVER['SERVER_NAME']=='chaseparkfestival.dev') { ?>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<?php } else { ?>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApfRLHwlgmSXTpTneD-hq6ugcfRkGL5Kw&callback=initMap"></script>
+<?php } ?>
+
 <script>
 	var TLW_MAP_ID = 'TLW_style';
 	
