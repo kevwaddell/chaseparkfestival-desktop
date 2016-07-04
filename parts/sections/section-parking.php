@@ -5,15 +5,13 @@ $location = get_field('cpf_map_details', 'options');
 
 //MAP 
 ?>
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApfRLHwlgmSXTpTneD-hq6ugcfRkGL5Kw&callback=initMap"></script>
 <script>
 	var TLW_MAP_ID = 'TLW_style';
 	
     var map;
     var myLatLang = new google.maps.LatLng( <?php echo $location['lat']; ?>, <?php echo $location['lng']; ?>);
     var MAPTYPE_ID = 'custom_style';
-    var directionsDisplay;
-	var directionsService = new google.maps.DirectionsService();
 	var tent_img_url = "<?php bloginfo('stylesheet_directory'); ?>/_/img/festival.png";
 	var bus_stop_url = "<?php bloginfo('stylesheet_directory'); ?>/_/img/bus.png";
 	var entrance_url = "<?php bloginfo('stylesheet_directory'); ?>/_/img/entrance.png";
@@ -72,7 +70,7 @@ $location = get_field('cpf_map_details', 'options');
 		['Disablility drop off zone', 54.943770, -1.675272, 10, disability_img]
 	]
 
-    function initialize() {
+    function initMap() {
     
    	 	var mapOptions = {
 		zoom: 16, 
@@ -103,7 +101,7 @@ $location = get_field('cpf_map_details', 'options');
 		
 	};
 	
-	google.maps.event.addDomListener(window, 'load', initialize);
+	google.maps.event.addDomListener(window, 'load', initMap);
 	
 </script>
 
