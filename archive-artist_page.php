@@ -46,7 +46,7 @@ $found_posts = $wp_query->found_posts;
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-9">
-						<h1><?php echo get_the_title($artists_pg); ?></h1>
+						<h1><?php echo get_the_title($artists_pg); ?> <?php echo $this_year; ?></h1>
 					</div>
 					<div class="col-xs-3">
 						
