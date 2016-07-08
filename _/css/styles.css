@@ -4353,6 +4353,7 @@ a.book-tickets-btn-lg:focus:after {
   padding-bottom: 30px;
   font-weight: bold;
   text-align: center;
+  border-top: 10px solid #fad932;
 }
 #attitude-plug .plug-logo {
   height: 100px;
