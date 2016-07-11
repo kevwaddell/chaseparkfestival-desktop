@@ -5416,7 +5416,7 @@ a.book-tickets-btn-lg:focus:after {
   margin-bottom: 10px;
 }
 #main-content .sidebar .info-panel ul.artist-list li img {
-  max-width: 50%;
+  max-width: 60%;
 }
 #main-content .sidebar .info-panel ul.artist-list li:first-child img {
   max-width: 100%;
