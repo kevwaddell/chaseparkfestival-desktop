@@ -4,6 +4,7 @@
 	
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<?php header('X-UA-Compatible: IE=edge,chrome=1'); ?>
+	<meta name="google-site-verification" content="KOXbWzYdh57SLZKWEXgtetyfbTPr2i_xIHiVeD5QS5E" />
 	
 	<link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/_/img/favicon.ico">
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
