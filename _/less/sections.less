@@ -1,3 +1,8 @@
+.divider {
+.h(1);
+.mag-top(4);	
+}
+
 /* SOCIAL LINKS SECTIONS */	
 .social-section-links {
 	
@@ -972,10 +977,33 @@ z-index: 2000;
 		}
 	}
 	
-	#artist-posts {
+	.page-links {
+	.font-size(2);	
+	.txt-col-wht;
+	text-align: center;
+		.pages {
+		.in-block;
+		.pad-top-20;
+		.pad-bot-20;	
+		.mag-right(5);
+		}
+		
+		.current {
+		.in-block;
+		.bg-col-blue;
+		.pad-top-20;
+		.pad-bot-20;	
+		.pad-left(1);
+		.pad-right(1);
+		.border-left(@wht; 0.4);
+		.border-right(@wht; 0.4);
+		}
+	}
+	
+	#artist-posts, #blog-posts {
 	.clearfix;
 	.border-bot(@wht; 1);
-		article.grid-item {
+		.grid-item {
 		width: 100/3%;
 		.h(40);
 		.fleft;	
@@ -1027,7 +1055,7 @@ z-index: 2000;
 				}
 			}
 		}
-	} /* #artist-posts */
+	} /* #artist-posts + #blog-posts */
 	
 	.no-content-message {
 	.rounded(20px);	

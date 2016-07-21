@@ -130,5 +130,80 @@ function form_submit_button( $button, $form ) {
     return "<button class='btn btn-default btn-block gform_button tk-azo-sans-uber' id='gform_submit_button_{$form['id']}'><span>Submit</span></button>";
 }
 
+add_filter( 'mce_buttons_2', 'my_mce_buttons_2' );
+function my_mce_buttons_2( $buttons ) {
+	//echo '<pre>';print_r($buttons);echo '</pre>';
+    array_unshift( $buttons, 'styleselect' );
+    return $buttons;
+}
+
+add_filter( 'tiny_mce_before_init', 'my_mce_before_init' );
+function my_mce_before_init( $settings ) {
+
+    $style_formats = array(
+    	array(
+    		'title' => 'Intro',
+    		'selector' => 'p',
+    		'classes' => 'intro bold'
+    	),
+    	
+    	array(
+    		'title' => 'Lead',
+    		'selector' => 'p',
+    		'classes' => 'lead'
+    	),
+    	
+    	array(
+    		'title' => 'Large text',
+    		'selector' => 'p',
+    		'classes' => 'txt-lg'
+    	),
+    	
+    	array(
+    		'title' => 'Azo font',
+    		'classes' => 'tk-azo-sans-uber'
+    	),
+        array(
+        	'title' => 'Blue Text',
+        	'selector' => 'h1, h2, p, li',
+        	'classes' => 'txt-col-blue'
+        ),
+        array(
+        	'title' => 'Dark Blue Text',
+        	'selector' => 'h1, h2, p, li',
+        	'classes' => 'txt-col-blue-dk'
+        ),
+        array(
+        	'title' => 'Orange Text',
+        	'selector' => 'h1, h2, p, li',
+			'classes' => 'txt-col-orange'
+        )
+    );
+
+    $settings['style_formats'] = json_encode( $style_formats );
+
+    return $settings;
+    
+    add_editor_style();
+
+}
+
+function tickets_button_function($atts){
+	
+$gbl_tickets_url = get_field('gbl_tickets_url', 'options');
+
+	extract(shortcode_atts(array('title' => "Book your Tickets",), $atts));
+   
+   $return_string = '<a href="'.$gbl_tickets_url.'" target="_blank" class="btn btn-default btn-block btn-lg book-tickets-btn-lg tk-azo-sans-uber">'.$title.'</a>';
+   
+   return $return_string;
+   
+}
+
+function register_shortcodes(){
+   add_shortcode('ticket-button', 'tickets_button_function');
+}
+
+add_action( 'init', 'register_shortcodes');
 
 ?>

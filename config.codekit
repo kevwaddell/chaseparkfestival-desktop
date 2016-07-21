@@ -368,6 +368,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_\/img\/post-img-placeholder.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22811,
+		"inputAbbreviatedPath": "\/_\/img\/post-img-placeholder.png",
+		"outputAbbreviatedPath": "\/_\/img\/post-img-placeholder.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_\/img\/press-message-img.png": {
 		"fileType": 32768,
 		"ignore": 0,
