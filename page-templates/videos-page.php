@@ -57,7 +57,7 @@ $video_counter = 0;
 <?php endwhile; ?>
 <?php endif; ?>
 
-
+<div class="divider bg-col-orange"></div>
 
 <?php get_template_part( 'parts/sections/section', 'social' ); ?>
 
