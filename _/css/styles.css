@@ -5579,6 +5579,10 @@ a.book-tickets-btn-lg:focus:after {
   line-height: 24px;
   font-weight: bold;
 }
+#videos-section .video-wrap iframe {
+  margin: auto;
+  display: block;
+}
 .contact-section .ticket-info {
   font-size: 25px;
   line-height: 35px;
