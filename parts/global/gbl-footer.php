@@ -6,7 +6,7 @@ $fest_time = get_field('cpf_time', 'options');
 	
 /* TICKET DATA */
 $ticket_provider_http = get_field('gbl_ticket_provider', 'options');
-$ticket_provider = split("http://", $ticket_provider_http);
+$ticket_provider = preg_split("http://", $ticket_provider_http);
 $tickets_url = get_field('gbl_tickets_url', 'options');
 
 /* CONTACT DATA */
@@ -58,6 +58,7 @@ $social_links = get_field('gbl_social_links', 'options');
 				<?php foreach ($social_links as $link) { ?>
 					<a href="<?php echo $link['link_url']; ?>" target="_blank"><i class="fa <?php echo $link['link_icon']; ?>"></i><span class="sr-only"><?php echo $link['link_title']; ?></span></a>
 				<?php } ?>
+	
 			</div>
 			<?php } ?>
 		</div>
