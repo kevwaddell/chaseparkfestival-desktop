@@ -206,4 +206,11 @@ function register_shortcodes(){
 
 add_action( 'init', 'register_shortcodes');
 
+function my_acf_init() {
+	
+	acf_update_setting('google_api_key', 'AIzaSyApfRLHwlgmSXTpTneD-hq6ugcfRkGL5Kw');
+}
+
+add_action('acf/init', 'my_acf_init');
+
 ?>
