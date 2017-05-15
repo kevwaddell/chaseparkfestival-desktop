@@ -5536,6 +5536,10 @@ a.book-tickets-btn-lg:focus:after {
   margin-left: -45px;
   margin-right: -45px;
 }
+#main-content .sidebar .info-panel .well figure.line-up-img img {
+  display: block;
+  margin: auto;
+}
 #main-content .sidebar .info-panel .well p {
   font-size: 16px;
   line-height: 20px;
