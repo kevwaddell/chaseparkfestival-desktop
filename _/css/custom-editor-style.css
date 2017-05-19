@@ -1,0 +1,42 @@
+/* COLORS */
+body#tinymce {
+  max-width: 1140px;
+}
+body#tinymce h2 {
+  font-size: 45px;
+  line-height: 50px;
+  margin-bottom: 30px;
+}
+body#tinymce p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+body#tinymce p:last-child {
+  margin-bottom: 0px;
+}
+body#tinymce p.txt-lg {
+  font-size: 28px;
+  line-height: 38px;
+}
+body#tinymce ul,
+body#tinymce ol {
+  font-size: 20px;
+  line-height: 30px;
+}
+body#tinymce p.lead {
+  font-size: 30px;
+  line-height: 40px;
+}
+body#tinymce blockquote {
+  border-color: #eda03f;
+  font-weight: bold;
+  color: #006f9c;
+  padding-right: 100px;
+}
+body#tinymce blockquote p {
+  font-size: 25px;
+  line-height: 35px;
+  font-style: italic;
+  font-weight: bold;
+}

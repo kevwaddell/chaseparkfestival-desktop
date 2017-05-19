@@ -21,6 +21,16 @@
 		"oAP": "\/503.php",
 		"oF": 0
 		},
+	"\/_\/css\/custom-editor-style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_\/css\/custom-editor-style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/_\/css\/img\/attitude-is-everything-logo.png": {
 		"ft": 32768,
 		"iS": 8358,
@@ -584,6 +594,23 @@
 		"sM": 0,
 		"sU": 0
 		},
+	"\/_\/less\/custom-editor-style.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_\/css\/custom-editor-style.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
 	"\/_\/less\/elements.less": {
 		"aP": 0,
 		"bl": 0,
@@ -827,6 +854,16 @@
 		"oA": 0,
 		"oAP": "\/archive-artist_page.php",
 		"oF": 0
+		},
+	"\/editor-style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/editor-style-min.css",
+		"oF": 1,
+		"oS": 0
 		},
 	"\/footer-user.php": {
 		"ft": 8192,

@@ -1,4 +1,5 @@
 <?php
+	
 if ( ! function_exists( 'chaseparkfest_setup' ) ) :
 
 function chaseparkfest_setup() {
@@ -30,11 +31,16 @@ function chaseparkfest_setup() {
 	}
 	
 	require_once(STYLESHEETPATH . '/_/functions/artists-cpt.php');
-
 }
 endif; // chaseparkfest_setup
 add_action( 'after_setup_theme', 'chaseparkfest_setup' );	
 	
+add_action( 'init', 'editor_styles' );
+
+function editor_styles() {
+add_editor_style();	
+}
+		
 function chaseparkfest_scripts() {
 	// Load stylesheets.
 	wp_enqueue_style( 'bootstrap-css', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css', null, '3.3.6', 'All' );
