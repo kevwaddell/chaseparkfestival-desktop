@@ -3682,9 +3682,9 @@ a.book-tickets-btn-lg:focus:after {
 #hp-masthead .date-location .dl-item {
   display: inline-block;
   color: #FFF;
-  font-size: 26px;
-  padding-left: 30px;
-  padding-right: 30px;
+  font-size: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 #hp-masthead .date-location .dl-item span {
   display: inline-block;
