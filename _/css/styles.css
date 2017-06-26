@@ -3072,7 +3072,7 @@ Copyright (c) 2014 Daniel Eden
   color: #315e1b;
 }
 .txt-col-orange {
-  color: #eda03f;
+  color: #ee9f4a;
 }
 .txt-col-orange-dk {
   color: #a3712b;
@@ -3104,7 +3104,7 @@ Copyright (c) 2014 Daniel Eden
   background-color: #5bae31;
 }
 .bg-col-orange {
-  background-color: #eda03f;
+  background-color: #ee9f4a;
 }
 .bg-col-orange-dk {
   background-color: #a3712b;
@@ -3139,12 +3139,12 @@ Copyright (c) 2014 Daniel Eden
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#006f9c', endColorstr='#009ee3', GradientType=0);
 }
 .orange-grad {
-  background: #eda03f;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eda03f), color-stop(1, #a3712b));
-  background: -ms-linear-gradient(bottom, #eda03f, #a3712b);
-  background: -moz-linear-gradient(center bottom, #eda03f 0%, #a3712b 100%);
-  background: -o-linear-gradient(#a3712b, #eda03f);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a3712b', endColorstr='#eda03f', GradientType=0);
+  background: #ee9f4a;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ee9f4a), color-stop(1, #a3712b));
+  background: -ms-linear-gradient(bottom, #ee9f4a, #a3712b);
+  background: -moz-linear-gradient(center bottom, #ee9f4a 0%, #a3712b 100%);
+  background: -o-linear-gradient(#a3712b, #ee9f4a);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a3712b', endColorstr='#ee9f4a', GradientType=0);
 }
 /* SIZE */
 /* DISPLAY */
@@ -3333,7 +3333,7 @@ h5 {
   padding-top: 50px;
 }
 #main-content.notes-bg-orange {
-  background-color: #eda03f;
+  background-color: #ee9f4a;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -3426,7 +3426,7 @@ h5 {
 #main-nav ul.quick-menu a:active,
 #main-nav ul.quick-menu a:focus {
   background-color: #FFF;
-  color: #eda03f;
+  color: #ee9f4a;
 }
 #main-nav ul.menu {
   margin-bottom: 0px;
@@ -3464,7 +3464,7 @@ h5 {
 #main-nav ul.menu a:active,
 #main-nav ul.menu a:focus {
   background-color: #FFF;
-  color: #eda03f;
+  color: #ee9f4a;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
@@ -3494,7 +3494,7 @@ nav.more-links a {
   display: block;
   text-decoration: none;
   color: #FFF;
-  background-color: #eda03f;
+  background-color: #ee9f4a;
   font-size: 50px;
   border-bottom: 10px solid #FFF;
 }
@@ -3537,7 +3537,7 @@ a.book-tickets-btn-lg {
   height: 100px;
   line-height: 90px;
   font-size: 50px;
-  background-color: #eda03f;
+  background-color: #ee9f4a;
   border: 5px solid #FFF;
   color: #FFF;
   position: relative;
@@ -3576,7 +3576,7 @@ a.book-tickets-btn-lg:focus:before,
 a.book-tickets-btn-lg:hover:after,
 a.book-tickets-btn-lg:active:after,
 a.book-tickets-btn-lg:focus:after {
-  color: #eda03f;
+  color: #ee9f4a;
 }
 /* --------------------------- */
 /* Masthead styles */
@@ -3608,12 +3608,12 @@ a.book-tickets-btn-lg:focus:after {
   font-size: 20px;
 }
 .masthead #main-nav-btn i {
-  color: #eda03f;
+  color: #ee9f4a;
 }
 .masthead #main-nav-btn:hover,
 .masthead #main-nav-btn:active,
 .masthead #main-nav-btn:focus {
-  background-color: #eda03f;
+  background-color: #ee9f4a;
 }
 .masthead #main-nav-btn:hover i,
 .masthead #main-nav-btn:active i,
@@ -3626,9 +3626,9 @@ a.book-tickets-btn-lg:focus:after {
 }
 #hp-masthead {
   height: 750px;
-  background-image: url(img/hp-mast-image-bg.jpg);
+  background-image: url(img/hp-mast-image-bg-2017.png);
   background-repeat: no-repeat;
-  background-position: right center;
+  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -3712,9 +3712,9 @@ a.book-tickets-btn-lg:focus:after {
 }
 #gbl-masthead {
   height: 280px;
-  background-image: url(img/gbl-mast-image-bg.jpg);
+  background-image: url(img/gbl-mast-image-bg-2017.png);
   background-repeat: no-repeat;
-  background-position: right center;
+  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -3788,7 +3788,7 @@ a.book-tickets-btn-lg:focus:after {
   background-color: #006f9c;
 }
 #gbl-masthead .breadcrumbs a.home {
-  background-color: #eda03f;
+  background-color: #ee9f4a;
 }
 #gbl-masthead .breadcrumbs a.home:hover,
 #gbl-masthead .breadcrumbs a.home:active,
@@ -3844,8 +3844,8 @@ a.book-tickets-btn-lg:focus:after {
 }
 #main-content hr {
   position: relative;
-  border-top: 3px solid #eda03f;
-  border-bottom: 3px solid #eda03f;
+  border-top: 3px solid #ee9f4a;
+  border-bottom: 3px solid #ee9f4a;
   height: 16px;
   width: 50%;
   margin-left: auto;
@@ -3868,7 +3868,7 @@ a.book-tickets-btn-lg:focus:after {
   top: -10px;
   width: 30px;
   height: 30px;
-  background-color: #eda03f;
+  background-color: #ee9f4a;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   border-radius: 100%;
@@ -3942,7 +3942,7 @@ a.book-tickets-btn-lg:focus:after {
   line-height: 40px;
 }
 #main-content .main-txt blockquote {
-  border-color: #eda03f;
+  border-color: #ee9f4a;
   font-weight: bold;
   color: #006f9c;
   padding-right: 100px;
@@ -3981,7 +3981,7 @@ a.book-tickets-btn-lg:focus:after {
 #main-content .main-txt .main-text-header .social-links a:hover,
 #main-content .main-txt .main-text-header .social-links a:active,
 #main-content .main-txt .main-text-header .social-links a:focus {
-  background-color: #eda03f;
+  background-color: #ee9f4a;
 }
 #main-content .main-txt .main-text-header h1 {
   font-size: 50px;
@@ -3989,7 +3989,7 @@ a.book-tickets-btn-lg:focus:after {
   margin-bottom: 0px;
 }
 #main-content .main-txt .main-text-header a.artist-website {
-  color: #eda03f;
+  color: #ee9f4a;
   font-weight: bold;
   font-size: 25px;
   line-height: 35px;
@@ -4002,7 +4002,7 @@ a.book-tickets-btn-lg:focus:after {
   border-radius: 20px;
 }
 #main-content .main-txt .main-text-body blockquote {
-  border-color: #eda03f;
+  border-color: #ee9f4a;
   font-weight: bold;
   color: #006f9c;
 }
@@ -4025,13 +4025,13 @@ a.book-tickets-btn-lg:focus:after {
 }
 .social-section-links a {
   display: block;
-  color: #eda03f;
+  color: #ee9f4a;
   height: 150px;
   padding: 20px 20px 20px 150px;
   position: relative;
   font-size: 35px;
   line-height: 33px;
-  border: #eda03f 5px dashed;
+  border: #ee9f4a 5px dashed;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
@@ -4065,7 +4065,7 @@ a.book-tickets-btn-lg:focus:after {
 .social-section-links a:hover,
 .social-section-links a:active,
 .social-section-links a:focus {
-  background-color: #eda03f;
+  background-color: #ee9f4a;
   color: #FFF;
 }
 .social-section-links a.facebook span {
@@ -4130,11 +4130,11 @@ a.book-tickets-btn-lg:focus:after {
   border-top: 10px solid #006f9c;
 }
 .pg-section-full.orange-border-top {
-  border-top: 10px solid #eda03f;
+  border-top: 10px solid #ee9f4a;
 }
 .pg-section-full #map {
   height: 450px;
-  background-color: #f6ce9c;
+  background-color: #f7d0a7;
 }
 .pg-section-full dl.info-list {
   font-size: 20px;
@@ -4292,7 +4292,7 @@ a.book-tickets-btn-lg:focus:after {
   -moz-border-radius: 10px;
   border-radius: 10px;
   padding: 0px 20px 20px 20px;
-  border: 5px solid #eda03f;
+  border: 5px solid #ee9f4a;
 }
 .pg-section-full#stage-sponsor-package .stage-info h3 {
   margin: 0px auto 20px auto;
@@ -4358,7 +4358,7 @@ a.book-tickets-btn-lg:focus:after {
   font-size: 20px;
 }
 .pg-section-full#press-quotes .item .quote-wrap a.media-link {
-  background-color: #eda03f;
+  background-color: #ee9f4a;
   color: #FFF;
   text-decoration: none;
   font-size: 20px;
@@ -4385,7 +4385,7 @@ a.book-tickets-btn-lg:focus:after {
 }
 #map-wrapper {
   position: relative;
-  border-bottom: 10px solid #eda03f;
+  border-bottom: 10px solid #ee9f4a;
 }
 #map-wrapper .section-header {
   position: absolute;
@@ -4515,7 +4515,7 @@ a.book-tickets-btn-lg:focus:after {
 .info-panel ul.list-arrows li:before {
   font-family: FontAwesome;
   content: "\f058";
-  color: #eda03f;
+  color: #ee9f4a;
 }
 .info-panel ul.list-arrows li {
   padding-left: 30px;
@@ -4534,7 +4534,7 @@ a.book-tickets-btn-lg:focus:after {
   border-radius: 10px;
 }
 .info-panel a.enquiry-btn {
-  background-color: #eda03f;
+  background-color: #ee9f4a;
   border: 4px solid #FFF;
   color: #FFF;
 }
@@ -4542,7 +4542,7 @@ a.book-tickets-btn-lg:focus:after {
 .info-panel a.enquiry-btn:active,
 .info-panel a.enquiry-btn:focus {
   background-color: #FFF;
-  color: #eda03f;
+  color: #ee9f4a;
 }
 .info-panel a.enquiry-btn i {
   float: right;
@@ -4562,7 +4562,7 @@ a.book-tickets-btn-lg:focus:after {
 }
 .info-panel.panel-blue a.contact-btn {
   margin-top: 20px;
-  background-color: #eda03f;
+  background-color: #ee9f4a;
   border: 5px solid #FFF;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -4577,15 +4577,15 @@ a.book-tickets-btn-lg:focus:after {
 .info-panel.panel-blue a.contact-btn:active,
 .info-panel.panel-blue a.contact-btn:focus {
   background-color: #FFF;
-  color: #eda03f;
+  color: #ee9f4a;
 }
 .info-panel.panel-orange {
-  background: #eda03f;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #a3712b), color-stop(1, #eda03f));
-  background: -ms-linear-gradient(bottom, #a3712b, #eda03f);
-  background: -moz-linear-gradient(center bottom, #a3712b 0%, #eda03f 100%);
-  background: -o-linear-gradient(#eda03f, #a3712b);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eda03f', endColorstr='#a3712b', GradientType=0);
+  background: #ee9f4a;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #a3712b), color-stop(1, #ee9f4a));
+  background: -ms-linear-gradient(bottom, #a3712b, #ee9f4a);
+  background: -moz-linear-gradient(center bottom, #a3712b 0%, #ee9f4a 100%);
+  background: -o-linear-gradient(#ee9f4a, #a3712b);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ee9f4a', endColorstr='#a3712b', GradientType=0);
 }
 .info-panel .contact-info {
   font-size: 30px;
@@ -4632,7 +4632,7 @@ a.book-tickets-btn-lg:focus:after {
 .info-panel .contact-info a:hover,
 .info-panel .contact-info a:active,
 .info-panel .contact-info a:focus {
-  color: #eda03f;
+  color: #ee9f4a;
 }
 .info-panel .contact-info-sml {
   font-size: 25px;
@@ -4651,10 +4651,10 @@ a.book-tickets-btn-lg:focus:after {
 .info-panel .contact-info-sml a:hover,
 .info-panel .contact-info-sml a:active,
 .info-panel .contact-info-sml a:focus {
-  color: #eda03f;
+  color: #ee9f4a;
 }
 .social-media-stats {
-  border: #eda03f 5px dashed;
+  border: #ee9f4a 5px dashed;
   padding: 20px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -4703,7 +4703,7 @@ a.book-tickets-btn-lg:focus:after {
 .download-panel a.download-btn {
   margin-top: 35px;
   background-color: #006f9c;
-  border: 5px solid #eda03f;
+  border: 5px solid #ee9f4a;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -4716,7 +4716,7 @@ a.book-tickets-btn-lg:focus:after {
 .download-panel a.download-btn:hover,
 .download-panel a.download-btn:active,
 .download-panel a.download-btn:focus {
-  background-color: #eda03f;
+  background-color: #ee9f4a;
 }
 #sponsors-and-stalls {
   border-top: 10px solid #FFF;
@@ -4796,7 +4796,7 @@ a.book-tickets-btn-lg:focus:after {
   height: 30px;
   line-height: 30px;
   font-size: 20px;
-  background-color: #eda03f;
+  background-color: #ee9f4a;
   color: #FFF;
   margin-left: 5px;
   margin-right: 5px;
@@ -4820,7 +4820,7 @@ a.book-tickets-btn-lg:focus:after {
 }
 #sponsors-and-stalls .slides-nav a.active {
   background-color: #FFF;
-  color: #eda03f;
+  color: #ee9f4a;
   -moz-opacity: 1;
   -khtml-opacity: 1;
   -webkit-opacity: 1;
@@ -4892,7 +4892,7 @@ a.book-tickets-btn-lg:focus:after {
   background-clip: padding-box;
   border: none;
   background-color: #FFF;
-  color: #eda03f;
+  color: #ee9f4a;
   padding: 0px;
   -webkit-box-shadow: -2px -2px 10px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: -2px -2px 10px rgba(0, 0, 0, 0.7);
@@ -4907,7 +4907,7 @@ a.book-tickets-btn-lg:focus:after {
 .img-viewer button#close-img-viewer:hover,
 .img-viewer button#close-img-viewer:active,
 .img-viewer button#close-img-viewer:focus {
-  background-color: #eda03f;
+  background-color: #ee9f4a;
   color: #006f9c;
 }
 .img-viewer .view-nav-btn {
@@ -4918,7 +4918,7 @@ a.book-tickets-btn-lg:focus:after {
   padding: 0px;
   border: none;
   background-color: #FFF;
-  color: #eda03f;
+  color: #ee9f4a;
   margin-top: -45px;
 }
 .img-viewer .view-nav-btn i {
@@ -4964,7 +4964,7 @@ a.book-tickets-btn-lg:focus:after {
 .img-viewer .view-nav-btn:hover,
 .img-viewer .view-nav-btn:active,
 .img-viewer .view-nav-btn:focus {
-  background-color: #eda03f;
+  background-color: #ee9f4a;
   color: #006f9c;
 }
 .img-viewer figure {
@@ -5111,7 +5111,7 @@ a.book-tickets-btn-lg:focus:after {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
-  background-color: #eda03f;
+  background-color: #ee9f4a;
 }
 #main-content .img-grid .btn-wrap .btn span {
   display: block;
@@ -5390,7 +5390,7 @@ a.book-tickets-btn-lg:focus:after {
 #main-content #artists-slider button#scroller-left-btn:active,
 #main-content #artists-slider button#scroller-right-btn:focus,
 #main-content #artists-slider button#scroller-left-btn:focus {
-  background-color: #eda03f;
+  background-color: #ee9f4a;
 }
 #main-content #artists-slider button#scroller-right-btn:hover i,
 #main-content #artists-slider button#scroller-left-btn:hover i,
@@ -5516,7 +5516,7 @@ a.book-tickets-btn-lg:focus:after {
 #main-content .sidebar .info-panel ul.artist-list a:hover,
 #main-content .sidebar .info-panel ul.artist-list a:active,
 #main-content .sidebar .info-panel ul.artist-list a:focus {
-  color: #eda03f;
+  color: #ee9f4a;
 }
 #main-content .sidebar .info-panel .well {
   border: 5px solid #FFF;
@@ -5594,7 +5594,7 @@ a.book-tickets-btn-lg:focus:after {
   line-height: 35px;
 }
 .contact-section .ticket-info a.site-link {
-  color: #eda03f;
+  color: #ee9f4a;
   font-size: 30px;
 }
 .contact-section .ticket-info a.site-link:hover,
@@ -5619,7 +5619,7 @@ a.book-tickets-btn-lg:focus:after {
   width: 80px;
   line-height: 80px;
   text-align: center;
-  color: #eda03f;
+  color: #ee9f4a;
   font-size: 40px;
 }
 .contact-section .ticket-info .btn:before {
@@ -5634,7 +5634,7 @@ a.book-tickets-btn-lg:focus:after {
 .contact-section .ticket-info .btn:hover,
 .contact-section .ticket-info .btn:active,
 .contact-section .ticket-info .btn:focus {
-  background-color: #eda03f;
+  background-color: #ee9f4a;
 }
 .contact-section .ticket-info .btn:hover:before,
 .contact-section .ticket-info .btn:active:before,
@@ -6191,7 +6191,7 @@ footer#footer-site-info .ticket-details .btn {
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
   border-radius: 12px;
-  background-color: #eda03f;
+  background-color: #ee9f4a;
   color: #FFF;
   font-size: 25px;
 }
@@ -6199,7 +6199,7 @@ footer#footer-site-info .ticket-details .btn:hover,
 footer#footer-site-info .ticket-details .btn:active,
 footer#footer-site-info .ticket-details .btn:focus {
   background-color: #FFF;
-  color: #eda03f;
+  color: #ee9f4a;
 }
 footer#footer-site-info .ticket-details .btn:before,
 footer#footer-site-info .ticket-details .btn:after {
@@ -6430,7 +6430,7 @@ body#user-page .user-form #rememberme {
   margin-right: 5px;
 }
 body#user-page .user-form .submit-btn {
-  background-color: #eda03f;
+  background-color: #ee9f4a;
   color: #FFF;
   border: none;
 }
@@ -6486,7 +6486,7 @@ body#user-page .user-form a.back-btn:focus {
 .profile-wrap button.wp-generate-pw:hover,
 .profile-wrap button.wp-generate-pw:active,
 .profile-wrap button.wp-generate-pw:focus {
-  background-color: #eda03f;
+  background-color: #ee9f4a;
 }
 .profile-wrap .tml-form-table {
   width: 100%;
@@ -6522,7 +6522,7 @@ body#user-page .user-form a.back-btn:focus {
 .profile-wrap input.button-primary {
   border: none;
   color: #FFF;
-  background-color: #eda03f;
+  background-color: #ee9f4a;
 }
 .profile-wrap input.button-primary:hover,
 .profile-wrap input.button-primary:active,

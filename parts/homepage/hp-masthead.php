@@ -9,10 +9,8 @@ $gbl_tickets_url = get_field('gbl_tickets_url', 'options');
 ?>
 
 <header id="hp-masthead" class="masthead" role="banner">
-	<div class="mast-bg-stripes"></div>
 	
 	<div class="container">
-		
 			
 				<?php if ($location_active) { ?>
 				<div class="date-location text-center tk-azo-sans-uber">
