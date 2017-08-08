@@ -48,8 +48,9 @@ function chaseparkfest_scripts() {
 	
 	// Load JS
 	wp_enqueue_script( 'jquery');
+	wp_enqueue_script('modernizr-cpf', get_template_directory_uri() . '/_/js/modernizr-min.js', array('jquery'), '2.8.3', false);
 	wp_enqueue_script( 'bootstrap-js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js', array( 'jquery' ), '3.3.6', true );
-	wp_enqueue_script( 'chaseparkfest-script', get_template_directory_uri() . '/_/js/functions.js', array( 'jquery', 'bootstrap-js' ), filemtime( get_stylesheet_directory().'/_/js/functions.js' ), true );
+	wp_enqueue_script( 'chaseparkfest-script', get_template_directory_uri() . '/_/js/functions-min.js', array( 'jquery', 'bootstrap-js' ), filemtime( get_stylesheet_directory().'/_/js/functions.js' ), true );
 }
 add_action( 'wp_enqueue_scripts', 'chaseparkfest_scripts' );
 
