@@ -8,7 +8,7 @@ Theme My Login will always look in your theme's directory first, before using th
 	<?php $template->the_action_template_message( 'login' ); ?>
 	<?php $template->the_errors(); ?>
 	<form name="loginform" id="loginform<?php $template->the_instance(); ?>" action="<?php $template->the_action_url( 'login', 'login_post' ); ?>" method="post">
-		<div class="form-group">
+		<div class="form-group tml-user-login-wrap">
 			<label for="user_login<?php $template->the_instance(); ?>"><?php
 				if ( 'username' == $theme_my_login->get_option( 'login_type' ) ) {
 					_e( 'Username', 'theme-my-login' );
@@ -21,7 +21,7 @@ Theme My Login will always look in your theme's directory first, before using th
 			<input type="text" name="log" id="user_login<?php $template->the_instance(); ?>" class="input-lg form-control text-center" value="<?php $template->the_posted_value( 'log' ); ?>" size="20" />
 		</div>
 
-		<div class="form-group">
+		<div class="form-group tml-user-pass-wrap">
 			<label for="user_pass<?php $template->the_instance(); ?>"><?php _e( 'Password', 'theme-my-login' ); ?></label>
 			<input type="password" name="pwd" id="user_pass<?php $template->the_instance(); ?>" class="input-lg form-control text-center" value="" size="20" autocomplete="off" />
 		</div>
@@ -29,12 +29,12 @@ Theme My Login will always look in your theme's directory first, before using th
 		<?php do_action( 'login_form' ); ?>
 
 		<div class="tml-rememberme-submit-wrap">
-			<div class="form-group">
+			<div class="form-group tml-rememberme-wrap">
 				<input name="rememberme" type="checkbox" id="rememberme<?php $template->the_instance(); ?>" value="forever" />
 				<label for="rememberme<?php $template->the_instance(); ?>"><?php esc_attr_e( 'Remember Me', 'theme-my-login' ); ?></label>
 			</div>
 
-			<div class="form-group">
+			<div class="form-group tml-submit-wrap">
 				<input type="submit" name="wp-submit" class="submit-btn btn btn-default btn-block btn-lg tk-azo-sans-uber" id="wp-submit<?php $template->the_instance(); ?>" value="<?php esc_attr_e( 'Log In', 'theme-my-login' ); ?>" />
 				<input type="hidden" name="redirect_to" value="<?php $template->the_redirect_url( 'login' ); ?>" />
 				<input type="hidden" name="instance" value="<?php $template->the_instance(); ?>" />
