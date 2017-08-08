@@ -33,6 +33,8 @@ Theme My Login will always look in your theme's directory first, before using th
 				<input name="rememberme" type="checkbox" id="rememberme<?php $template->the_instance(); ?>" value="forever" />
 				<label for="rememberme<?php $template->the_instance(); ?>"><?php esc_attr_e( 'Remember Me', 'theme-my-login' ); ?></label>
 			</div>
+			
+			<div class="g-recaptcha" data-sitekey="6Ld2EywUAAAAAE93nw8_eWksbOSAUuPQ8H6pvF0r"></div>
 
 			<div class="form-group tml-submit-wrap">
 				<input type="submit" name="wp-submit" class="submit-btn btn btn-default btn-block btn-lg tk-azo-sans-uber" id="wp-submit<?php $template->the_instance(); ?>" value="<?php esc_attr_e( 'Log In', 'theme-my-login' ); ?>" />
