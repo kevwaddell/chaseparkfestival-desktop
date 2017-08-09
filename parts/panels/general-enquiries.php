@@ -4,7 +4,7 @@ $gbl_contact_email = get_field('gbl_contact_email', 'options');
 $gbl_contact_telephone = get_field('gbl_contact_telephone', 'options');
 ?>
 
-<div class="info-panel panel-orange">
+<div class="info-panel panel-orange mag-bot-30">
 	<h3 class="panel-header tk-azo-sans-uber text-center txt-col-orange">General Enquiries</h3>
 	<div class="panel-inner">
 		<div class="contact-info panel-name text-center txt-col-wht tk-azo-sans-uber"><?php echo $gbl_contact_name; ?></div>
