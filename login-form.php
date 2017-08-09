@@ -4,11 +4,10 @@ If you would like to edit this file, copy it to your current theme's directory a
 Theme My Login will always look in your theme's directory first, before using this default template.
 */
 ?>
+<?php echo '<pre>';print_r($_POST);echo '</pre>'; ?>
 <div id="theme-my-login<?php $template->the_instance(); ?>">
 	<?php $template->the_action_template_message( 'login' ); ?>
-	<div class="tml-erros">
-		<?php $template->the_errors(); ?>
-	</div>
+	<?php $template->the_errors(); ?>
 	<form name="loginform" id="loginform<?php $template->the_instance(); ?>" action="<?php $template->the_action_url( 'login', 'login_post' ); ?>" method="post">
 		<div class="form-group tml-user-login-wrap">
 			<label for="user_login<?php $template->the_instance(); ?>"><?php
