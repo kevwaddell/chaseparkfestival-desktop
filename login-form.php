@@ -6,7 +6,9 @@ Theme My Login will always look in your theme's directory first, before using th
 ?>
 <div id="theme-my-login<?php $template->the_instance(); ?>">
 	<?php $template->the_action_template_message( 'login' ); ?>
-	<?php $template->the_errors(); ?>
+	<div class="tml-erros">
+		<?php $template->the_errors(); ?>
+	</div>
 	<form name="loginform" id="loginform<?php $template->the_instance(); ?>" action="<?php $template->the_action_url( 'login', 'login_post' ); ?>" method="post">
 		<div class="form-group tml-user-login-wrap">
 			<label for="user_login<?php $template->the_instance(); ?>"><?php
