@@ -6429,11 +6429,8 @@ body#user-page .user-form .error {
 body#user-page .user-form #rememberme {
   margin-right: 5px;
 }
-body#user-page .user-form .g-recaptcha {
-  margin-bottom: 10px;
-}
-body#user-page .user-form .g-recaptcha div {
-  margin: auto;
+body#user-page .user-form p.forgetmenot {
+  margin-top: 10px;
 }
 body#user-page .user-form .submit-btn {
   background-color: #ee9f4a;
