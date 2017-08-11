@@ -15,18 +15,13 @@ $ticket_provider_http = get_field('gbl_ticket_provider', 'options');
 $ticket_provider = explode("http://", $ticket_provider_http);
 $tickets_url = get_field('gbl_tickets_url', 'options');
 ?>
-<div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber">
-	<div class="container">
-		<h1><?php the_title(); ?></h1>
-	</div>
-</div>
-
 <main id="main-content"> 
 
 		<article <?php post_class(); ?>>
 			<div class="container">
 			
 				<div class="main-txt pad-top-30">
+					<h1 class="header-label text-center"><?php the_title(); ?></h1>
 					<?php the_content(); ?>
 				</div>
 			

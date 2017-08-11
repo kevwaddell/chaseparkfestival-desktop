@@ -3327,7 +3327,6 @@ h5 {
   min-height: 500px;
   position: relative;
   background-color: #FFF;
-  border-top: 10px solid #FFF;
 }
 #main-content article.hp-content {
   padding-top: 50px;
@@ -3581,6 +3580,20 @@ a.book-tickets-btn-lg:focus:after {
 /* --------------------------- */
 /* Masthead styles */
 /* --------------------------- */
+#main-partner-advert {
+  border-bottom: 4px solid #FFF;
+}
+#main-partner-advert a.main-partner-link {
+  display: block;
+  margin: auto;
+  height: 100px;
+  background-color: #FFF;
+  text-decoration: none;
+}
+#main-partner-advert a.main-partner-link img {
+  border-left: 2px solid #FFF;
+  border-right: 2px solid #FFF;
+}
 .masthead {
   position: relative;
 }
@@ -3931,6 +3944,11 @@ a.book-tickets-btn-lg:focus:after {
 #main-content .main-txt.with-pad {
   padding-top: 40px;
   padding-bottom: 60px;
+}
+#main-content .main-txt h1.header-label {
+  text-transform: uppercase;
+  color: #009ee3;
+  font-size: 30px;
 }
 #main-content .main-txt h2 {
   font-size: 45px;
@@ -4379,6 +4397,40 @@ a.book-tickets-btn-lg:focus:after {
 .pg-section-full#press-quotes .item .quote-wrap a.media-link:active,
 .pg-section-full#press-quotes .item .quote-wrap a.media-link:focus {
   background-color: #006f9c;
+}
+.pg-section-full#main-partner-panel {
+  margin-top: 10px;
+  padding-bottom: 40px;
+}
+.pg-section-full#main-partner-panel h2.section-header {
+  margin-bottom: 30px;
+}
+.pg-section-full#main-partner-panel .partner-logo {
+  height: 360px;
+  line-height: 320px;
+  padding: 20px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+.pg-section-full#main-partner-panel .partner-logo img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.pg-section-full#main-partner-panel .partner-txt h3 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 300;
+}
+.pg-section-full#main-partner-panel .partner-txt .btn {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 0px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 25px;
+  margin-top: 30px;
 }
 #map-and-directions-section {
   border-top: 10px solid #006f9c;

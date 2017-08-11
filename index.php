@@ -9,7 +9,7 @@ $place_holders = 3 - ($wp_query->found_posts % 3);
 
 <main id="main-content">
 	<section id="blog-posts">
-		<header class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber">
+		<header class="strip-header txt-col-blue-dk tk-azo-sans-uber">
 			<div class="container">
 				<h1><?php echo get_the_title( get_option('page_for_posts')); ?></h1>
 			</div>

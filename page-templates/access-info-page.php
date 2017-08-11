@@ -13,12 +13,6 @@ $year = date("Y", time());
 $access_info_active = get_field('access_info_active', 'options');
 ?>
 
-<div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber">
-	<div class="container">
-		<h1><?php the_title(); ?></h1>
-	</div>
-</div>
-
 <?php if ($access_info_active) { ?>
 <main id="main-content">
 
@@ -26,6 +20,7 @@ $access_info_active = get_field('access_info_active', 'options');
 	
 		<div class="main-txt with-pad">
 			<div class="container">
+			<h1 class="header-label text-center"><?php the_title(); ?></h1>
 			<?php the_content(); ?>
 			</div>
 		</div>

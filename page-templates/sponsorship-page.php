@@ -15,13 +15,10 @@ $gbl_contact_name = get_field('gbl_contact_name', 'options');
 $gbl_contact_email = get_field('gbl_contact_email', 'options');
 $gbl_contact_telephone = get_field('gbl_contact_telephone', 'options');
 ?>
-<div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber">
-	<div class="container">
-		<h1><?php the_title(); ?></h1>
-	</div>
-</div>
-
 <main id="main-content"> 
+
+	<?php get_template_part( 'parts/sections/section', 'partner' ); ?>
+	
 	<div class="container">
 		
 		<?php if ($sponsor_active) { ?>
@@ -29,6 +26,7 @@ $gbl_contact_telephone = get_field('gbl_contact_telephone', 'options');
 			<div class="row">
 				<div class="col-xs-8">
 					<div class="main-txt with-pad">
+						<h1 class="header-label"><?php the_title(); ?></h1>
 						<?php the_content(); ?>
 					</div>
 				</div>

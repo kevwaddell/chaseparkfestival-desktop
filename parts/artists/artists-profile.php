@@ -8,11 +8,6 @@
 	$artist_logo = get_field('artist_logo');
 	?>
 	<article <?php post_class(); ?>>
-		<div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber">
-			<div class="container">
-				<?php echo get_the_title($post->post_parent); ?>
-			</div>
-		</div>
 	
 		<div class="main-txt with-pad">
 			

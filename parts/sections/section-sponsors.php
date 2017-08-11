@@ -4,12 +4,20 @@ $sponsors_active = get_field('sponsors_active', 'options');
 
 <?php if ($sponsors_active) { ?>
 <?php  
+$main_partners_active = get_field( 'main_partners_active', 'options' );
 $section_title = get_field('gbl_sponsors_section_title', 'options');	
 $sponsors_and_stalls = get_field('gbl_sponsors_and_stalls', 'options');	
-$sponsors_total = count($sponsors_and_stalls);
-$slides_total = ceil($sponsors_total / 5);
 $sponsor_counter = 0;
 $slides_count = 1;
+if ($main_partners_active) {
+$main_partner_name = get_field( 'main_partner_name', 'options' );
+$main_partner_website = get_field( 'main_partner_website', 'options' );	
+$main_partner_logo = get_field( 'main_partner_logo', 'options' );		
+$sponsors_and_stalls_extra = array('sponsor_name' => $main_partner_name,'sponsor_website' => $main_partner_website, 'sponsor_logo' => $main_partner_logo);
+array_unshift($sponsors_and_stalls, $sponsors_and_stalls_extra);
+}
+$sponsors_total = count($sponsors_and_stalls);
+$slides_total = ceil($sponsors_total / 5);
 ?>
 <section id="sponsors-and-stalls" class="wide-panel bg-col-blue-dk text-center">
 	<h3 class="panel-header in-block bg-col-wht tk-azo-sans-uber txt-col-orange"><?php echo $section_title; ?></h3>

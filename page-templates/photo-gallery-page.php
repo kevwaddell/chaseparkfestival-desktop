@@ -47,7 +47,7 @@ $prev_years = get_posts($prev_years_args);
 <?php if (!empty($gallery_imgs)) { ?>
 <main id="main-content">
 	<article <?php post_class(); ?>>
-		<header class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber">
+		<header class="strip-header txt-col-blue-dk tk-azo-sans-uber">
 			<div class="container">
 				<h1><?php the_title(); ?></h1>
 			</div>

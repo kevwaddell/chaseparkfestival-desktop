@@ -11,11 +11,6 @@ Template Name: Press page template
 $year = date("Y", time());
 $press_active = get_field('press_page_active', 'options');
 ?>
-<div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber">
-	<div class="container">
-		<h1><?php the_title(); ?></h1>
-	</div>
-</div>
 <main id="main-content"> 
 	<div class="container">
 <?php if ($press_active) { ?>
@@ -30,6 +25,8 @@ $press_quotes = get_field('press_quotes', 'options');
 					<div class="col-xs-7">
 						
 						<div class="main-txt with-pad">
+							<h1 class="header-label"><?php the_title(); ?></h1>
+							
 							<?php the_content(); ?>
 							
 							<?php get_template_part( 'parts/sections/section', 'socialStats' ); ?>
