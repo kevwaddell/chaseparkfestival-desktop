@@ -3590,10 +3590,6 @@ a.book-tickets-btn-lg:focus:after {
   background-color: #FFF;
   text-decoration: none;
 }
-#main-partner-advert a.main-partner-link img {
-  border-left: 2px solid #FFF;
-  border-right: 2px solid #FFF;
-}
 .masthead {
   position: relative;
 }
