@@ -35,7 +35,7 @@ $video_counter = 0;
 						<h3 class="txt-col-blue text-center"><?php echo $video['video_title']; ?></h3>
 						<iframe width="500" height="281" src="<?php echo $video['video_url']; ?>" frameborder="0" allowfullscreen></iframe>
 					</div>
-			<?php if ($video_counter == 2) { 
+			<?php if (($video_counter % 2) == 0) { 
 			$video_counter;
 			?>
 			</div>
