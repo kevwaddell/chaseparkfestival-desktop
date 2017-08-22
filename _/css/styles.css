@@ -3941,6 +3941,9 @@ a.book-tickets-btn-lg:focus:after {
   padding-top: 40px;
   padding-bottom: 60px;
 }
+#main-content .main-txt .wp-video {
+  margin: auto;
+}
 #main-content .main-txt h1.header-label {
   text-transform: uppercase;
   color: #009ee3;
