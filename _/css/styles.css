@@ -3577,6 +3577,26 @@ a.book-tickets-btn-lg:active:after,
 a.book-tickets-btn-lg:focus:after {
   color: #ee9f4a;
 }
+#reciteme {
+  width: 78px;
+  height: 30px;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  background-image: url(img/recite2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#reciteme:hover,
+#reciteme:active,
+#reciteme:focus {
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+  filter: alpha(opacity=50);
+}
 /* --------------------------- */
 /* Masthead styles */
 /* --------------------------- */
