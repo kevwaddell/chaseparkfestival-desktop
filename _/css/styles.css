@@ -3577,7 +3577,7 @@ a.book-tickets-btn-lg:active:after,
 a.book-tickets-btn-lg:focus:after {
   color: #ee9f4a;
 }
-#reciteme {
+.reciteme {
   width: 78px;
   height: 30px;
   position: absolute;
@@ -3587,9 +3587,9 @@ a.book-tickets-btn-lg:focus:after {
   background-repeat: no-repeat;
   background-position: center center;
 }
-#reciteme:hover,
-#reciteme:active,
-#reciteme:focus {
+.reciteme:hover,
+.reciteme:active,
+.reciteme:focus {
   -moz-opacity: 0.5;
   -khtml-opacity: 0.5;
   -webkit-opacity: 0.5;
