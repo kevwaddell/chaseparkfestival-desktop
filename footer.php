@@ -6,7 +6,7 @@
 		<?php get_template_part( 'parts/global/gbl', 'footer' ); ?>
 		
 		<?php if ($_SERVER['SERVER_NAME']=='www.chaseparkfestival.co.uk') { ?>
-		<div class="reciteme">Enable Recite</div>
+		<div class="reciteme"><span class="sr-only">Enable Recite</span></div>
 		<script type="text/javascript">
 	    jQuery(".reciteme").click(function(i,e){
 	        loadService();
