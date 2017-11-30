@@ -30,9 +30,11 @@ $gbl_tickets_url = get_field('gbl_tickets_url', 'options');
 			
 			<div class="festival-tag text-center tk-azo-sans-uber txt-col-wht"><?php bloginfo('description'); ?></div>
 
-			
 			<button id="main-nav-btn" class="btn btn-default btn-block"><span class="menu-label txt-col-wht tk-azo-sans-uber">Menu</span><i class="fa fa-bars fa-lg"></i></button>
-		
+			<?php if ($_SERVER['SERVER_NAME']=='www.chaseparkfestival.co.uk') { ?>
+		<button id="reciteme-btn" class="reciteme btn btn-default tk-azo-sans-uber"><i class="fa fa-universal-access"></i> Accessibility</button>
+			<?php } ?>
+			
 		<?php if ($tickets_active) { ?>
 		<a href="<?php echo $gbl_tickets_url; ?>" target="_blank" class="btn btn-default btn-block btn-lg book-tickets-btn-lg tk-azo-sans-uber">Book Your Tickets</a>			
 		<?php } ?>

@@ -40,16 +40,22 @@ a.book-tickets-btn-lg {
 }
 
 .reciteme {
-.w(13);
-.h(5);
-.fixed;
-.left(2);
-.bottom(2);
-.bg-img('recite1.png');
-.bg-repeat;
-background-position: center center;
+.abs;
+.top(3);
+.left(1.5);
+.no-rounded;
+.no-border;
+.h(3);
+.pad(0;1;0;1);
+.font-size(1.5);
+.line-h(3);	
+.bg-col(@wht);
+.col(@orange);	
+	i {
+	.txt-col-blue;	
+	}
 	&:hover, &:active, &:focus {
-	.opacity(0.5);
-	cursor: pointer;
-	}	
+	.bg-col(@orange);
+	.col(@wht);	
+	}
 }

@@ -3578,25 +3578,28 @@ a.book-tickets-btn-lg:focus:after {
   color: #ee9f4a;
 }
 .reciteme {
-  width: 130px;
-  height: 50px;
-  position: fixed;
-  left: 20px;
-  bottom: 20px;
-  background-image: url(img/recite1.png);
-  background-repeat: no-repeat;
-  background-position: center center;
+  position: absolute;
+  top: 30px;
+  left: 15px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  border: none;
+  height: 30px;
+  padding: 0px 10px 0px 10px;
+  font-size: 15px;
+  line-height: 30px;
+  background-color: #FFF;
+  color: #ee9f4a;
+}
+.reciteme i {
+  color: #009ee3;
 }
 .reciteme:hover,
 .reciteme:active,
 .reciteme:focus {
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  -webkit-opacity: 0.5;
-  opacity: 0.5;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
-  filter: alpha(opacity=50);
-  cursor: pointer;
+  background-color: #ee9f4a;
+  color: #FFF;
 }
 /* --------------------------- */
 /* Masthead styles */

@@ -5,22 +5,16 @@
 		
 		<?php get_template_part( 'parts/global/gbl', 'footer' ); ?>
 		
-		<?php if ($_SERVER['SERVER_NAME']=='www.chaseparkfestival.co.uk') { ?>
-		<div class="reciteme"><span class="sr-only">Enable Recite</span></div>
-		<script type="text/javascript">
-	    jQuery(".reciteme").click(function(i,e){
-	        loadService();
-	        return false;
-	    });
-	
-		</script>
-		<?php } ?>
 	</div><!-- .cpf-wrapper end -->
 	
 	<?php wp_footer(); ?>
 	
 	<?php if ($_SERVER['SERVER_NAME']=='www.chaseparkfestival.co.uk') { ?>
 	<script type="text/javascript">
+		 jQuery(".reciteme").click(function(i,e){
+	        loadService();
+	        return false;
+	    });
 	    var serviceUrl = "//api.reciteme.com/asset/js?key=";
 	    var serviceKey = "73c7291e2150423df6c8bdfea2c7e0e575c34c45";
 	    var options = {};  // Options can be added as needed
