@@ -4365,9 +4365,7 @@ a.book-tickets-btn-lg:focus:after {
   line-height: 40px;
 }
 .pg-section-full#press-quotes {
-  background-image: url(img/gbl-mast-cloud-left.png);
-  background-repeat: no-repeat;
-  background-position: left top;
+  min-height: 350px;
 }
 .pg-section-full#press-quotes .section-header {
   position: absolute;
@@ -4378,23 +4376,12 @@ a.book-tickets-btn-lg:focus:after {
 .pg-section-full#press-quotes .carousel,
 .pg-section-full#press-quotes .carousel-inner,
 .pg-section-full#press-quotes .item {
-  min-height: 400px;
-}
-.pg-section-full#press-quotes .carousel {
-  background-image: url(img/gbl-mast-cloud-right.png);
-  background-repeat: no-repeat;
-  background-position: right bottom;
+  min-height: 350px;
 }
 .pg-section-full#press-quotes .item .quote-wrap {
-  min-height: 400px;
-  background-image: url(img/quote-wrap.png);
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  min-height: 350px;
   background-position: center center;
-  padding: 100px 200px 0px 250px;
+  padding: 100px 100px 0px 100px;
 }
 .pg-section-full#press-quotes .item .quote-wrap .media-title {
   font-size: 25px;
@@ -4405,13 +4392,11 @@ a.book-tickets-btn-lg:focus:after {
   font-size: 20px;
 }
 .pg-section-full#press-quotes .item .quote-wrap a.media-link {
-  background-color: #ff00ff;
+  background-color: black;
   color: #FFF;
   text-decoration: none;
   font-size: 20px;
   line-height: 40px;
-  margin-left: -100px;
-  margin-right: -120px;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
