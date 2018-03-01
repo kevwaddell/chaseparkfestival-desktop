@@ -1,7 +1,7 @@
 <?php  
-$gbl_contact_name = get_field('gbl_contact_name', 'options');
-$gbl_contact_email = get_field('gbl_contact_email', 'options');
-$gbl_contact_telephone = get_field('gbl_contact_telephone', 'options');
+$gbl_contact_name  = get_field('gbl_ae_contact_name', 'options');
+$gbl_contact_email = get_field('gbl_ae_contact_email', 'options');
+$gbl_contact_telephone = get_field('gbl_ae_contact_telephone', 'options');
 $contact_page = get_page_by_title("Contact us");
 ?>
 <div class="info-panel panel-blue mag-bot-30">
