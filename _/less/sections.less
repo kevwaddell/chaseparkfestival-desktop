@@ -1,5 +1,5 @@
 .divider {
-.h(1);
+.h(0.5);
 .mag-top(4);	
 }
 
@@ -20,7 +20,7 @@
 	.font-size(3.5);
 	.line-h(3.3);
 	border: @orange 5px dashed;
-	.rounded(20px);
+	//.rounded(20px);
 	.bg-col-wht;
 	.no-text-dec;
 		i {
@@ -674,23 +674,26 @@ border: @orange 5px dashed;
 
 .download-panel {
 	img {
-	.drop-shadow(0, 3px, 10px, 0.5);	
+	.drop-shadow(0, 3px, 10px, 0.5);
+	.mag-bot-10;	
 	}
 	
-	span {
+	.info-txt {
 	.font-size(1.6);	
 	.line-h(2);
 	}
 	
 	a.download-btn {
-	.mag-top(3.5);
+	.mag-top(1);
 	.bg-col-blue-dk;
-	.border(@orange; 0.5);
-	.rounded(10px);	
-	.h(7);
+	//.border(@orange; 0.5);
+	//.rounded(10px);	
+	.no-border;
+	.no-rounded;
+	.h(5);
 	.txt-col-wht;
 	.pad-all(0);
-	.line-h(6);
+	.line-h(5);
 	.font-size(2);
 		&:hover, &:active, &:focus {
 		.bg-col-orange;

@@ -11,6 +11,7 @@ Template Name: Contact page with form template
 $form_active = get_field('form_active');	
 
 /* TICKET DATA */
+$tickets_active = get_field('tickets_active', 'options');
 $ticket_provider_http = get_field('gbl_ticket_provider', 'options');
 $ticket_provider = explode("http://", $ticket_provider_http);
 $tickets_url = get_field('gbl_tickets_url', 'options');
@@ -30,12 +31,13 @@ $tickets_url = get_field('gbl_tickets_url', 'options');
 					<div class="row">	
 						<div class="col-xs-10 col-xs-offset-1">
 							<?php get_template_part( 'parts/panels/general', 'enquiries' ); ?>
-					
+							<?php if ($tickets_active) { ?>
 							<div class="ticket-info text-center pad-bot-60">
 								<span class="bold txt-col-blue-dk">Tickets are available for purchase from</span><br />
 								<a href="<?php echo $ticket_provider_http; ?>" class="mag-bot-10 block bold site-link"><?php echo $ticket_provider[1]; ?></a>
 								<a href="<?php echo $tickets_url; ?>" target="_blank" class="btn btn-default btn-block book-tickets-btn tk-azo-sans-uber">Book Your Tickets</a>
 							</div>
+							<?php } ?>
 						</div>
 					</div>
 

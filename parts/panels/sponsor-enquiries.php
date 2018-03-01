@@ -5,7 +5,7 @@ $gbl_contact_telephone = get_field('gbl_contact_telephone', 'options');
 $contact_page = get_page_by_title("Contact us");
 ?>
 <div class="info-panel panel-blue mag-bot-30">
-	<div class="sponsor-icon-img"></div>
+<!-- 	<div class="sponsor-icon-img"></div> -->
 	<h3 class="txt-col-orange text-center tk-azo-sans-uber">Sponsorship enquiries</h3>
 	<div class="panel-inner">
 		<div class="contact-info-sml panel-name text-center txt-col-wht tk-azo-sans-uber"><?php echo $gbl_contact_name; ?></div>

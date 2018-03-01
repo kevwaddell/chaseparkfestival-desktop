@@ -4059,7 +4059,7 @@ a.book-tickets-btn-lg:focus:after {
 /* SECTIONS */
 /* --------------------------- */
 .divider {
-  height: 10px;
+  height: 5px;
   margin-top: 40px;
 }
 /* SOCIAL LINKS SECTIONS */
@@ -4076,9 +4076,6 @@ a.book-tickets-btn-lg:focus:after {
   font-size: 35px;
   line-height: 33px;
   border: #a6529a 5px dashed;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
   background-color: #FFF;
   text-decoration: none;
 }
@@ -4773,22 +4770,23 @@ a.book-tickets-btn-lg:focus:after {
   -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
 }
-.download-panel span {
+.download-panel .info-txt {
   font-size: 16px;
   line-height: 20px;
 }
 .download-panel a.download-btn {
-  margin-top: 35px;
+  margin-top: 10px;
   background-color: #203e91;
-  border: 5px solid #a6529a;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  height: 70px;
+  border: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  height: 50px;
   color: #FFF;
   padding: 0px;
-  line-height: 60px;
+  line-height: 50px;
   font-size: 20px;
 }
 .download-panel a.download-btn:hover,
