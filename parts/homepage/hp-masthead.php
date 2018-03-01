@@ -8,7 +8,7 @@ $tickets_active = get_field('tickets_active', 'options');
 $gbl_tickets_url = get_field('gbl_tickets_url', 'options');
 ?>
 
-<header id="hp-masthead" class="masthead" role="banner">
+<header id="hp-masthead" class="masthead<?php echo($tickets_active) ? '':' no-tickets'; ?>" role="banner">
 	
 	<div class="container">
 			
