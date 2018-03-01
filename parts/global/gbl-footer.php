@@ -21,10 +21,6 @@ $social_links = get_field('gbl_social_links', 'options');
 ?>
 <footer id="footer-site-info" role="contentinfo" class="bg-col-blue">
 	<div class="footer-top">
-		<div class="footer-bg-imgs">
-			<div class="footer-guitar-bg"></div>
-			<div class="footer-grass-bg"></div>
-		</div>
 		
 		<div class="container">
 			<div class="row">
@@ -52,9 +48,9 @@ $social_links = get_field('gbl_social_links', 'options');
 			
 			<?php if ($location_active) { ?>
 			<div class="date-location clearfix tk-azo-sans-uber txt-col-wht">
-				<time class="footer-date dl-item bg-col-blue pull-left"><?php echo $fest_date; ?></time>
-				<div class="footer-location dl-item bg-col-orange in-block pull-left"><?php echo $fest_location; ?></div>
-				<time class="footer-time dl-item bg-col-blue-dk in-block pull-right"><?php echo $fest_time; ?></time>
+				<time class="footer-date dl-item in-block"><?php echo $fest_date; ?></time>
+				<div class="footer-location dl-item in-block"><?php echo $fest_location; ?></div>
+				<time class="footer-time dl-item in-block"><?php echo $fest_time; ?></time>
 			</div>
 			<?php } ?>
 				

@@ -1,13 +1,19 @@
 footer#footer-site-info {
-.border-top(@wht; 1);
+.border-top(@wht; 0.5);
 	
 	.footer-top {
 	.min-h(50);
 	.rel;
 	.pad-top(3);
 	.pad-bot(3);
-	.gradient(@blue, @wht, @blue);	
-	.border-bot(@wht; 0.2);
+	.bg-col(black);
+	.bg-img("halfone-bg-2018.png");
+	.bg-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	.bg-size;
+	//.gradient(@blue, @wht, @blue);	
+	.border-bot(@wht; 0.5);
 	}
 	
 	.footer-base {
@@ -76,10 +82,10 @@ footer#footer-site-info {
 		.txt-col-wht;
 		.no-text-dec;
 			i {
-			.txt-col-blue-dk;	
+			.txt-col-pink;	
 			}
 			&:hover, &:active, &:focus {
-			.txt-col-blue-dk;
+			.txt-col-pink;
 			}	
 		}
 		
@@ -90,8 +96,9 @@ footer#footer-site-info {
 		.btn {	
 		.pad-all(0);
 		.line-h(6);
-		.border(@wht; 0.5);
-		.rounded(12px);
+		.no-border;
+		.no-rounded;
+		//.rounded(12px);
 		.bg-col-orange;
 		.txt-col-wht;
 		.font-size(2.5);
@@ -132,7 +139,7 @@ footer#footer-site-info {
 		.txt-col-wht;	
 		.no-text-dec;
 			&:hover, &:active, &:focus {
-			.txt-col-blue-dk;
+			.txt-col-pink;
 			}
 		}
 	}
@@ -141,40 +148,40 @@ footer#footer-site-info {
 	.font-size(1.8);	
 	.line-h(2.2);
 	.pad-bot(3);
+	.txt-col-pink;
 		a {
 		.no-text-dec;
 		.txt-col-wht;
 			&:hover, &:active, &:focus {
-			.txt-col-blue-dk;
+			.txt-col-pink;
 			text-decoration: underline;
 			}	
 		}
 	}
 	
 	.date-location {
-		
+	text-align: center;	
 		.dl-item {
 		.line-h(6);	
 		.font-size(2);
 		.pad-left(2);
 		.pad-right(2);
-		.rounded(8px);
-		.transform(skewX(-10deg));	
+		//text-align: center;
 		}
 		
 		.footer-date {
-		width: 35%;	
-		.pad-right(4);
+		//width: 35%;	
+		//.pad-right(4);
 		}
 		.footer-location {
-		width: 56%;	
-		.mag-left(-2);	
-		text-align: center;
+		//width: 56%;	
+		//.mag-left(-2);	
+		//text-align: center;
 		}
 		.footer-time {
-		width: 12%;	
-		.mag-left(-2);	
-		text-align: right;
+		//width: 12%;	
+		//.mag-left(-2);	
+		//text-align: right;
 		}
 	}
 	

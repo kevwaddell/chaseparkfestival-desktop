@@ -3047,6 +3047,10 @@ Copyright (c) 2014 Daniel Eden
 }
 /* BASE SIZES */
 /* COLORS */
+/*
+@orange: #ee9f4a;
+@orange-dk: #a3712b;
+*/
 /* SOCIAL COLOURS */
 /* FONTS */
 /* LINKS */
@@ -3066,22 +3070,25 @@ Copyright (c) 2014 Daniel Eden
   color: #FFF;
 }
 .txt-col-green {
-  color: #5bae31;
+  color: #66b32e;
 }
 .txt-col-green-dk {
-  color: #315e1b;
+  color: #386219;
 }
 .txt-col-orange {
-  color: #ee9f4a;
+  color: #a6529a;
 }
 .txt-col-orange-dk {
-  color: #a3712b;
+  color: #89378c;
+}
+.txt-col-pink {
+  color: #a6529a;
 }
 .txt-col-blue {
-  color: #009ee3;
+  color: black;
 }
 .txt-col-blue-dk {
-  color: #006f9c;
+  color: #203e91;
 }
 .txt-col-facebook {
   color: #3b5998;
@@ -3101,19 +3108,19 @@ Copyright (c) 2014 Daniel Eden
   background-color: #FFF;
 }
 .bg-col-green {
-  background-color: #5bae31;
+  background-color: #66b32e;
 }
 .bg-col-orange {
-  background-color: #ee9f4a;
+  background-color: #a6529a;
 }
 .bg-col-orange-dk {
-  background-color: #a3712b;
+  background-color: #89378c;
 }
 .bg-col-blue {
-  background-color: #009ee3;
+  background-color: black;
 }
 .bg-col-blue-dk {
-  background-color: #006f9c;
+  background-color: #203e91;
 }
 .bg-col-facebook {
   background-color: #3b5998;
@@ -3131,20 +3138,20 @@ Copyright (c) 2014 Daniel Eden
   background-color: transparent;
 }
 .blue-grad {
-  background: #009ee3;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #009ee3), color-stop(1, #006f9c));
-  background: -ms-linear-gradient(bottom, #009ee3, #006f9c);
-  background: -moz-linear-gradient(center bottom, #009ee3 0%, #006f9c 100%);
-  background: -o-linear-gradient(#006f9c, #009ee3);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#006f9c', endColorstr='#009ee3', GradientType=0);
+  background: black;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(1, #203e91));
+  background: -ms-linear-gradient(bottom, black, #203e91);
+  background: -moz-linear-gradient(center bottom, black 0%, #203e91 100%);
+  background: -o-linear-gradient(#203e91, black);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#203e91', endColorstr='black', GradientType=0);
 }
 .orange-grad {
-  background: #ee9f4a;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ee9f4a), color-stop(1, #a3712b));
-  background: -ms-linear-gradient(bottom, #ee9f4a, #a3712b);
-  background: -moz-linear-gradient(center bottom, #ee9f4a 0%, #a3712b 100%);
-  background: -o-linear-gradient(#a3712b, #ee9f4a);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a3712b', endColorstr='#ee9f4a', GradientType=0);
+  background: #a6529a;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #a6529a), color-stop(1, #89378c));
+  background: -ms-linear-gradient(bottom, #a6529a, #89378c);
+  background: -moz-linear-gradient(center bottom, #a6529a 0%, #89378c 100%);
+  background: -o-linear-gradient(#89378c, #a6529a);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#89378c', endColorstr='#a6529a', GradientType=0);
 }
 /* SIZE */
 /* DISPLAY */
@@ -3332,7 +3339,7 @@ h5 {
   padding-top: 50px;
 }
 #main-content.notes-bg-orange {
-  background-color: #ee9f4a;
+  background-color: #a6529a;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -3425,7 +3432,7 @@ h5 {
 #main-nav ul.quick-menu a:active,
 #main-nav ul.quick-menu a:focus {
   background-color: #FFF;
-  color: #ee9f4a;
+  color: #a6529a;
 }
 #main-nav ul.menu {
   margin-bottom: 0px;
@@ -3457,13 +3464,13 @@ h5 {
   float: left;
   line-height: 60px;
   width: 60px;
-  color: #a3712b;
+  color: #89378c;
 }
 #main-nav ul.menu a:hover,
 #main-nav ul.menu a:active,
 #main-nav ul.menu a:focus {
   background-color: #FFF;
-  color: #ee9f4a;
+  color: #a6529a;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
@@ -3481,19 +3488,19 @@ h5 {
   width: 50px;
   height: 50px;
   background-color: #FFF;
-  color: #a3712b;
+  color: #89378c;
 }
 #main-nav #close-nav-btn:hover,
 #main-nav #close-nav-btn:active,
 #main-nav #close-nav-btn:focus {
-  background-color: #a3712b;
+  background-color: #89378c;
   color: #FFF;
 }
 nav.more-links a {
   display: block;
   text-decoration: none;
   color: #FFF;
-  background-color: #ee9f4a;
+  background-color: #a6529a;
   font-size: 50px;
   border-bottom: 10px solid #FFF;
 }
@@ -3503,23 +3510,23 @@ nav.more-links a:last-child {
 nav.more-links a:hover,
 nav.more-links a:active,
 nav.more-links a:focus {
-  background-color: #a3712b;
+  background-color: #89378c;
 }
 nav.more-links a:first-child {
-  background-color: #006f9c;
+  background-color: #203e91;
 }
 nav.more-links a:first-child:hover,
 nav.more-links a:first-child:active,
 nav.more-links a:first-child:focus {
-  background-color: #009ee3;
+  background-color: black;
 }
 nav.more-links a:nth-child(2) {
-  background-color: #009ee3;
+  background-color: black;
 }
 nav.more-links a:nth-child(2):hover,
 nav.more-links a:nth-child(2):active,
 nav.more-links a:nth-child(2):focus {
-  background-color: #006f9c;
+  background-color: #203e91;
 }
 nav.more-links a span {
   line-height: 90px;
@@ -3534,23 +3541,19 @@ nav.more-links a span:after {
 a.book-tickets-btn-lg {
   padding: 0px;
   height: 100px;
-  line-height: 90px;
+  line-height: 100px;
   font-size: 50px;
-  background-color: #ee9f4a;
-  border: 5px solid #FFF;
+  background-color: #a6529a;
   color: #FFF;
   position: relative;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
 }
 a.book-tickets-btn-lg:before,
 a.book-tickets-btn-lg:after {
   font-family: FontAwesome;
-  width: 90px;
-  line-height: 90px;
+  width: 100px;
+  line-height: 100px;
   text-align: center;
-  color: #006f9c;
+  color: #203e91;
   font-size: 50px;
 }
 a.book-tickets-btn-lg:before {
@@ -3565,9 +3568,9 @@ a.book-tickets-btn-lg:after {
 a.book-tickets-btn-lg:hover,
 a.book-tickets-btn-lg:active,
 a.book-tickets-btn-lg:focus {
-  background-color: #006f9c;
+  background-color: #203e91;
   color: #FFF;
-  border-color: #006f9c;
+  border-color: #203e91;
 }
 a.book-tickets-btn-lg:hover:before,
 a.book-tickets-btn-lg:active:before,
@@ -3575,7 +3578,7 @@ a.book-tickets-btn-lg:focus:before,
 a.book-tickets-btn-lg:hover:after,
 a.book-tickets-btn-lg:active:after,
 a.book-tickets-btn-lg:focus:after {
-  color: #ee9f4a;
+  color: #a6529a;
 }
 .reciteme {
   position: absolute;
@@ -3590,15 +3593,15 @@ a.book-tickets-btn-lg:focus:after {
   font-size: 15px;
   line-height: 30px;
   background-color: #FFF;
-  color: #ee9f4a;
+  color: #a6529a;
 }
 .reciteme i {
-  color: #009ee3;
+  color: black;
 }
 .reciteme:hover,
 .reciteme:active,
 .reciteme:focus {
-  background-color: #ee9f4a;
+  background-color: #a6529a;
   color: #FFF;
 }
 /* --------------------------- */
@@ -3641,12 +3644,12 @@ a.book-tickets-btn-lg:focus:after {
   font-size: 20px;
 }
 .masthead #main-nav-btn i {
-  color: #ee9f4a;
+  color: #a6529a;
 }
 .masthead #main-nav-btn:hover,
 .masthead #main-nav-btn:active,
 .masthead #main-nav-btn:focus {
-  background-color: #ee9f4a;
+  background-color: #a6529a;
 }
 .masthead #main-nav-btn:hover i,
 .masthead #main-nav-btn:active i,
@@ -3659,7 +3662,7 @@ a.book-tickets-btn-lg:focus:after {
 }
 #hp-masthead {
   height: 750px;
-  background-image: url(img/hp-mast-image-bg-2017.png);
+  background-image: url(img/hp-mast-image-bg-2018.png);
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -3674,7 +3677,6 @@ a.book-tickets-btn-lg:focus:after {
   left: 0px;
   width: 100%;
   height: 100%;
-  background-image: url(img/hp-mast-stripes-bg.png);
   background-repeat: no-repeat;
   background-position: -2px -2px;
   -webkit-background-size: cover;
@@ -3704,7 +3706,7 @@ a.book-tickets-btn-lg:focus:after {
 #hp-masthead .logo {
   width: 100%;
   height: 100%;
-  background-image: url(img/logo-lrg.png);
+  background-image: url(img/logo-lrg-2018.png);
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: 80%;
@@ -3742,10 +3744,11 @@ a.book-tickets-btn-lg:focus:after {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
+  border: none;
 }
 #gbl-masthead {
   height: 280px;
-  background-image: url(img/gbl-mast-image-bg-2017.png);
+  background-image: url(img/gbl-mast-image-bg-2018.png);
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -3760,7 +3763,6 @@ a.book-tickets-btn-lg:focus:after {
   left: 0px;
   width: 100%;
   height: 100%;
-  background-image: url(img/hp-mast-stripes-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -3788,7 +3790,7 @@ a.book-tickets-btn-lg:focus:after {
   display: inline-block;
   width: 510px;
   height: 230px;
-  background-image: url(img/logo-lrg.png);
+  background-image: url(img/logo-lrg-2018.png);
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: contain;
@@ -3803,12 +3805,13 @@ a.book-tickets-btn-lg:focus:after {
   z-index: 2;
   color: #FFF;
   font-size: 16px;
+  border-top: 5px solid #FFF;
 }
 #gbl-masthead .breadcrumbs a {
   display: block;
   color: #FFF;
   text-decoration: none;
-  background-color: #a3712b;
+  background-color: #89378c;
   margin-left: -15px;
   margin-right: -15px;
   padding-left: 15px;
@@ -3818,15 +3821,15 @@ a.book-tickets-btn-lg:focus:after {
 #gbl-masthead .breadcrumbs a:hover,
 #gbl-masthead .breadcrumbs a:active,
 #gbl-masthead .breadcrumbs a:focus {
-  background-color: #006f9c;
+  background-color: #203e91;
 }
 #gbl-masthead .breadcrumbs a.home {
-  background-color: #ee9f4a;
+  background-color: #a6529a;
 }
 #gbl-masthead .breadcrumbs a.home:hover,
 #gbl-masthead .breadcrumbs a.home:active,
 #gbl-masthead .breadcrumbs a.home:focus {
-  background-color: #006f9c;
+  background-color: #203e91;
 }
 #gbl-masthead .breadcrumbs span[property="itemListElement"] {
   display: inline-block;
@@ -3842,7 +3845,7 @@ a.book-tickets-btn-lg:focus:after {
   padding-left: 15px;
 }
 #gbl-masthead .breadcrumbs span[property="itemListElement"]:last-child {
-  background-color: #006f9c;
+  background-color: #203e91;
 }
 /* --------------------------- */
 /* TYPOGRAHY */
@@ -3877,13 +3880,13 @@ a.book-tickets-btn-lg:focus:after {
 }
 #main-content hr {
   position: relative;
-  border-top: 3px solid #ee9f4a;
-  border-bottom: 3px solid #ee9f4a;
+  border-top: 3px solid #a6529a;
+  border-bottom: 3px solid #a6529a;
   height: 16px;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  background-color: #009ee3;
+  background-color: black;
   margin-top: 40px;
   margin-bottom: 50px;
   -webkit-border-radius: 20px;
@@ -3901,7 +3904,7 @@ a.book-tickets-btn-lg:focus:after {
   top: -10px;
   width: 30px;
   height: 30px;
-  background-color: #ee9f4a;
+  background-color: #a6529a;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   border-radius: 100%;
@@ -3915,7 +3918,7 @@ a.book-tickets-btn-lg:focus:after {
   top: 0px;
   width: 10px;
   height: 10px;
-  background-color: #009ee3;
+  background-color: black;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   border-radius: 100%;
@@ -3957,7 +3960,7 @@ a.book-tickets-btn-lg:focus:after {
   line-height: 60px;
 }
 #main-content header.post-header .post-date {
-  color: #006f9c;
+  color: #203e91;
   font-size: 20px;
   font-weight: bold;
 }
@@ -3970,7 +3973,7 @@ a.book-tickets-btn-lg:focus:after {
 }
 #main-content .main-txt h1.header-label {
   text-transform: uppercase;
-  color: #009ee3;
+  color: black;
   font-size: 30px;
 }
 #main-content .main-txt h2 {
@@ -3983,9 +3986,9 @@ a.book-tickets-btn-lg:focus:after {
   line-height: 40px;
 }
 #main-content .main-txt blockquote {
-  border-color: #ee9f4a;
+  border-color: #a6529a;
   font-weight: bold;
-  color: #006f9c;
+  color: #203e91;
   padding-right: 100px;
 }
 #main-content .main-txt blockquote p {
@@ -4022,7 +4025,7 @@ a.book-tickets-btn-lg:focus:after {
 #main-content .main-txt .main-text-header .social-links a:hover,
 #main-content .main-txt .main-text-header .social-links a:active,
 #main-content .main-txt .main-text-header .social-links a:focus {
-  background-color: #ee9f4a;
+  background-color: #a6529a;
 }
 #main-content .main-txt .main-text-header h1 {
   font-size: 50px;
@@ -4030,7 +4033,7 @@ a.book-tickets-btn-lg:focus:after {
   margin-bottom: 0px;
 }
 #main-content .main-txt .main-text-header a.artist-website {
-  color: #ee9f4a;
+  color: #a6529a;
   font-weight: bold;
   font-size: 25px;
   line-height: 35px;
@@ -4043,9 +4046,9 @@ a.book-tickets-btn-lg:focus:after {
   border-radius: 20px;
 }
 #main-content .main-txt .main-text-body blockquote {
-  border-color: #ee9f4a;
+  border-color: #a6529a;
   font-weight: bold;
-  color: #006f9c;
+  color: #203e91;
 }
 #main-content .main-txt .main-text-body blockquote p {
   font-size: 25px;
@@ -4066,13 +4069,13 @@ a.book-tickets-btn-lg:focus:after {
 }
 .social-section-links a {
   display: block;
-  color: #ee9f4a;
+  color: #a6529a;
   height: 150px;
   padding: 20px 20px 20px 150px;
   position: relative;
   font-size: 35px;
   line-height: 33px;
-  border: #ee9f4a 5px dashed;
+  border: #a6529a 5px dashed;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
@@ -4106,7 +4109,7 @@ a.book-tickets-btn-lg:focus:after {
 .social-section-links a:hover,
 .social-section-links a:active,
 .social-section-links a:focus {
-  background-color: #ee9f4a;
+  background-color: #a6529a;
   color: #FFF;
 }
 .social-section-links a.facebook span {
@@ -4165,17 +4168,17 @@ a.book-tickets-btn-lg:focus:after {
   background-clip: padding-box;
 }
 .pg-section-full.blue-border-top {
-  border-top: 10px solid #009ee3;
+  border-top: 10px solid black;
 }
 .pg-section-full.blue-dk-border-top {
-  border-top: 10px solid #006f9c;
+  border-top: 10px solid #203e91;
 }
 .pg-section-full.orange-border-top {
-  border-top: 10px solid #ee9f4a;
+  border-top: 10px solid #a6529a;
 }
 .pg-section-full #map {
   height: 450px;
-  background-color: #f7d0a7;
+  background-color: #ca94c2;
 }
 .pg-section-full dl.info-list {
   font-size: 20px;
@@ -4209,7 +4212,7 @@ a.book-tickets-btn-lg:focus:after {
 .pg-section-full ul.ticks-list li:before {
   font-family: FontAwesome;
   content: "\f058";
-  color: #009ee3;
+  color: black;
 }
 .pg-section-full .extra-info-panel {
   padding-bottom: 30px;
@@ -4333,7 +4336,7 @@ a.book-tickets-btn-lg:focus:after {
   -moz-border-radius: 10px;
   border-radius: 10px;
   padding: 0px 20px 20px 20px;
-  border: 5px solid #ee9f4a;
+  border: 5px solid #a6529a;
 }
 .pg-section-full#stage-sponsor-package .stage-info h3 {
   margin: 0px auto 20px auto;
@@ -4399,7 +4402,7 @@ a.book-tickets-btn-lg:focus:after {
   font-size: 20px;
 }
 .pg-section-full#press-quotes .item .quote-wrap a.media-link {
-  background-color: #ee9f4a;
+  background-color: #a6529a;
   color: #FFF;
   text-decoration: none;
   font-size: 20px;
@@ -4419,7 +4422,7 @@ a.book-tickets-btn-lg:focus:after {
 .pg-section-full#press-quotes .item .quote-wrap a.media-link:hover,
 .pg-section-full#press-quotes .item .quote-wrap a.media-link:active,
 .pg-section-full#press-quotes .item .quote-wrap a.media-link:focus {
-  background-color: #006f9c;
+  background-color: #203e91;
 }
 .pg-section-full#main-partner-panel {
   margin-top: 10px;
@@ -4456,11 +4459,11 @@ a.book-tickets-btn-lg:focus:after {
   margin-top: 30px;
 }
 #map-and-directions-section {
-  border-top: 10px solid #006f9c;
+  border-top: 10px solid #203e91;
 }
 #map-wrapper {
   position: relative;
-  border-bottom: 10px solid #ee9f4a;
+  border-bottom: 10px solid #a6529a;
 }
 #map-wrapper .section-header {
   position: absolute;
@@ -4590,7 +4593,7 @@ a.book-tickets-btn-lg:focus:after {
 .info-panel ul.list-arrows li:before {
   font-family: FontAwesome;
   content: "\f058";
-  color: #ee9f4a;
+  color: #a6529a;
 }
 .info-panel ul.list-arrows li {
   padding-left: 30px;
@@ -4609,7 +4612,7 @@ a.book-tickets-btn-lg:focus:after {
   border-radius: 10px;
 }
 .info-panel a.enquiry-btn {
-  background-color: #ee9f4a;
+  background-color: #a6529a;
   border: 4px solid #FFF;
   color: #FFF;
 }
@@ -4617,7 +4620,7 @@ a.book-tickets-btn-lg:focus:after {
 .info-panel a.enquiry-btn:active,
 .info-panel a.enquiry-btn:focus {
   background-color: #FFF;
-  color: #ee9f4a;
+  color: #a6529a;
 }
 .info-panel a.enquiry-btn i {
   float: right;
@@ -4628,16 +4631,16 @@ a.book-tickets-btn-lg:focus:after {
   line-height: 25px;
 }
 .info-panel.panel-blue {
-  background: #009ee3;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #006f9c), color-stop(1, #009ee3));
-  background: -ms-linear-gradient(bottom, #006f9c, #009ee3);
-  background: -moz-linear-gradient(center bottom, #006f9c 0%, #009ee3 100%);
-  background: -o-linear-gradient(#009ee3, #006f9c);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#009ee3', endColorstr='#006f9c', GradientType=0);
+  background: black;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #203e91), color-stop(1, black));
+  background: -ms-linear-gradient(bottom, #203e91, black);
+  background: -moz-linear-gradient(center bottom, #203e91 0%, black 100%);
+  background: -o-linear-gradient(black, #203e91);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='black', endColorstr='#203e91', GradientType=0);
 }
 .info-panel.panel-blue a.contact-btn {
   margin-top: 20px;
-  background-color: #ee9f4a;
+  background-color: #a6529a;
   border: 5px solid #FFF;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -4652,15 +4655,15 @@ a.book-tickets-btn-lg:focus:after {
 .info-panel.panel-blue a.contact-btn:active,
 .info-panel.panel-blue a.contact-btn:focus {
   background-color: #FFF;
-  color: #ee9f4a;
+  color: #a6529a;
 }
 .info-panel.panel-orange {
-  background: #ee9f4a;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #a3712b), color-stop(1, #ee9f4a));
-  background: -ms-linear-gradient(bottom, #a3712b, #ee9f4a);
-  background: -moz-linear-gradient(center bottom, #a3712b 0%, #ee9f4a 100%);
-  background: -o-linear-gradient(#ee9f4a, #a3712b);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ee9f4a', endColorstr='#a3712b', GradientType=0);
+  background: #a6529a;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #89378c), color-stop(1, #a6529a));
+  background: -ms-linear-gradient(bottom, #89378c, #a6529a);
+  background: -moz-linear-gradient(center bottom, #89378c 0%, #a6529a 100%);
+  background: -o-linear-gradient(#a6529a, #89378c);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6529a', endColorstr='#89378c', GradientType=0);
 }
 .info-panel .contact-info {
   font-size: 30px;
@@ -4707,7 +4710,7 @@ a.book-tickets-btn-lg:focus:after {
 .info-panel .contact-info a:hover,
 .info-panel .contact-info a:active,
 .info-panel .contact-info a:focus {
-  color: #ee9f4a;
+  color: #a6529a;
 }
 .info-panel .contact-info-sml {
   font-size: 25px;
@@ -4726,10 +4729,10 @@ a.book-tickets-btn-lg:focus:after {
 .info-panel .contact-info-sml a:hover,
 .info-panel .contact-info-sml a:active,
 .info-panel .contact-info-sml a:focus {
-  color: #ee9f4a;
+  color: #a6529a;
 }
 .social-media-stats {
-  border: #ee9f4a 5px dashed;
+  border: #a6529a 5px dashed;
   padding: 20px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -4777,8 +4780,8 @@ a.book-tickets-btn-lg:focus:after {
 }
 .download-panel a.download-btn {
   margin-top: 35px;
-  background-color: #006f9c;
-  border: 5px solid #ee9f4a;
+  background-color: #203e91;
+  border: 5px solid #a6529a;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -4791,10 +4794,10 @@ a.book-tickets-btn-lg:focus:after {
 .download-panel a.download-btn:hover,
 .download-panel a.download-btn:active,
 .download-panel a.download-btn:focus {
-  background-color: #ee9f4a;
+  background-color: #a6529a;
 }
 #sponsors-and-stalls {
-  border-top: 10px solid #FFF;
+  border-top: 5px solid #FFF;
 }
 #sponsors-and-stalls .sponsors-outer-wrap {
   position: relative;
@@ -4871,7 +4874,7 @@ a.book-tickets-btn-lg:focus:after {
   height: 30px;
   line-height: 30px;
   font-size: 20px;
-  background-color: #ee9f4a;
+  background-color: #a6529a;
   color: #FFF;
   margin-left: 5px;
   margin-right: 5px;
@@ -4895,7 +4898,7 @@ a.book-tickets-btn-lg:focus:after {
 }
 #sponsors-and-stalls .slides-nav a.active {
   background-color: #FFF;
-  color: #ee9f4a;
+  color: #a6529a;
   -moz-opacity: 1;
   -khtml-opacity: 1;
   -webkit-opacity: 1;
@@ -4967,7 +4970,7 @@ a.book-tickets-btn-lg:focus:after {
   background-clip: padding-box;
   border: none;
   background-color: #FFF;
-  color: #ee9f4a;
+  color: #a6529a;
   padding: 0px;
   -webkit-box-shadow: -2px -2px 10px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: -2px -2px 10px rgba(0, 0, 0, 0.7);
@@ -4982,8 +4985,8 @@ a.book-tickets-btn-lg:focus:after {
 .img-viewer button#close-img-viewer:hover,
 .img-viewer button#close-img-viewer:active,
 .img-viewer button#close-img-viewer:focus {
-  background-color: #ee9f4a;
-  color: #006f9c;
+  background-color: #a6529a;
+  color: #203e91;
 }
 .img-viewer .view-nav-btn {
   position: absolute;
@@ -4993,7 +4996,7 @@ a.book-tickets-btn-lg:focus:after {
   padding: 0px;
   border: none;
   background-color: #FFF;
-  color: #ee9f4a;
+  color: #a6529a;
   margin-top: -45px;
 }
 .img-viewer .view-nav-btn i {
@@ -5039,8 +5042,8 @@ a.book-tickets-btn-lg:focus:after {
 .img-viewer .view-nav-btn:hover,
 .img-viewer .view-nav-btn:active,
 .img-viewer .view-nav-btn:focus {
-  background-color: #ee9f4a;
-  color: #006f9c;
+  background-color: #a6529a;
+  color: #203e91;
 }
 .img-viewer figure {
   position: relative;
@@ -5186,7 +5189,7 @@ a.book-tickets-btn-lg:focus:after {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
-  background-color: #ee9f4a;
+  background-color: #a6529a;
 }
 #main-content .img-grid .btn-wrap .btn span {
   display: block;
@@ -5198,7 +5201,7 @@ a.book-tickets-btn-lg:focus:after {
 #main-content .img-grid .btn-wrap .btn:hover,
 #main-content .img-grid .btn-wrap .btn:active,
 #main-content .img-grid .btn-wrap .btn:focus {
-  background-color: #a3712b;
+  background-color: #89378c;
 }
 #main-content .page-links {
   font-size: 20px;
@@ -5213,7 +5216,7 @@ a.book-tickets-btn-lg:focus:after {
 }
 #main-content .page-links .current {
   display: inline-block;
-  background-color: #009ee3;
+  background-color: black;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -5313,7 +5316,7 @@ a.book-tickets-btn-lg:focus:after {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
-  border: 10px solid #006f9c;
+  border: 10px solid #203e91;
   padding: 0px 40px 0px 40px;
   -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
@@ -5331,7 +5334,7 @@ a.book-tickets-btn-lg:focus:after {
   font-size: 20px;
   line-height: 30px;
   font-weight: bold;
-  color: #006f9c;
+  color: #203e91;
   margin-bottom: 0px;
 }
 #main-content .no-content-message .social-links {
@@ -5465,7 +5468,7 @@ a.book-tickets-btn-lg:focus:after {
 #main-content #artists-slider button#scroller-left-btn:active,
 #main-content #artists-slider button#scroller-right-btn:focus,
 #main-content #artists-slider button#scroller-left-btn:focus {
-  background-color: #ee9f4a;
+  background-color: #a6529a;
 }
 #main-content #artists-slider button#scroller-right-btn:hover i,
 #main-content #artists-slider button#scroller-left-btn:hover i,
@@ -5540,7 +5543,7 @@ a.book-tickets-btn-lg:focus:after {
   max-width: 90%;
 }
 #main-content .sidebar .info-panel {
-  padding: 30px 30px 10px 30px;
+  padding: 30px 30px 30px 30px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
@@ -5591,7 +5594,7 @@ a.book-tickets-btn-lg:focus:after {
 #main-content .sidebar .info-panel ul.artist-list a:hover,
 #main-content .sidebar .info-panel ul.artist-list a:active,
 #main-content .sidebar .info-panel ul.artist-list a:focus {
-  color: #ee9f4a;
+  color: #a6529a;
 }
 #main-content .sidebar .info-panel .well {
   border: 5px solid #FFF;
@@ -5605,8 +5608,6 @@ a.book-tickets-btn-lg:focus:after {
   min-height: 140px;
   margin-bottom: 10px;
   margin-top: 10px;
-  margin-left: -45px;
-  margin-right: -45px;
 }
 #main-content .sidebar .info-panel .well figure.line-up-img img {
   display: block;
@@ -5669,22 +5670,22 @@ a.book-tickets-btn-lg:focus:after {
   line-height: 35px;
 }
 .contact-section .ticket-info a.site-link {
-  color: #ee9f4a;
+  color: #a6529a;
   font-size: 30px;
 }
 .contact-section .ticket-info a.site-link:hover,
 .contact-section .ticket-info a.site-link:active,
 .contact-section .ticket-info a.site-link:focus {
-  color: #a3712b;
+  color: #89378c;
 }
 .contact-section .ticket-info .btn {
   padding: 0px;
   line-height: 80px;
-  border: 5px solid #006f9c;
+  border: 5px solid #203e91;
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
   border-radius: 12px;
-  background-color: #006f9c;
+  background-color: #203e91;
   color: #FFF;
   font-size: 30px;
 }
@@ -5694,7 +5695,7 @@ a.book-tickets-btn-lg:focus:after {
   width: 80px;
   line-height: 80px;
   text-align: center;
-  color: #ee9f4a;
+  color: #a6529a;
   font-size: 40px;
 }
 .contact-section .ticket-info .btn:before {
@@ -5709,7 +5710,7 @@ a.book-tickets-btn-lg:focus:after {
 .contact-section .ticket-info .btn:hover,
 .contact-section .ticket-info .btn:active,
 .contact-section .ticket-info .btn:focus {
-  background-color: #ee9f4a;
+  background-color: #a6529a;
 }
 .contact-section .ticket-info .btn:hover:before,
 .contact-section .ticket-info .btn:active:before,
@@ -5717,7 +5718,7 @@ a.book-tickets-btn-lg:focus:after {
 .contact-section .ticket-info .btn:hover:after,
 .contact-section .ticket-info .btn:active:after,
 .contact-section .ticket-info .btn:focus:after {
-  color: #006f9c;
+  color: #203e91;
 }
 /* --------------------------- */
 /* FORMS */
@@ -6005,7 +6006,7 @@ figure.alignnone {
 }
 #contact-form .gform_confirmation_message {
   padding: 40px;
-  background-color: #5bae31;
+  background-color: #66b32e;
   color: #FFF;
   border: 5px solid #FFF;
   -webkit-border-radius: 10px;
@@ -6054,7 +6055,7 @@ figure.alignnone {
 #contact-form .gform_wrapper input[type=number]:focus,
 #contact-form .gform_wrapper input[type=password]:focus {
   outline: none;
-  border: 5px solid #009ee3;
+  border: 5px solid black;
   -webkit-box-shadow: 0 0 0px rgba(0, 0, 0, 0);
   -moz-box-shadow: 0 0 0px rgba(0, 0, 0, 0);
   box-shadow: 0 0 0px rgba(0, 0, 0, 0);
@@ -6069,7 +6070,7 @@ figure.alignnone {
 }
 #contact-form .gform_wrapper textarea:focus {
   outline: none;
-  border: 5px solid #009ee3;
+  border: 5px solid black;
   -webkit-box-shadow: 0 0 0px rgba(0, 0, 0, 0);
   -moz-box-shadow: 0 0 0px rgba(0, 0, 0, 0);
   box-shadow: 0 0 0px rgba(0, 0, 0, 0);
@@ -6080,7 +6081,7 @@ figure.alignnone {
 }
 #contact-form .gform_wrapper select:focus {
   outline: none;
-  border: 1px solid #009ee3;
+  border: 1px solid black;
 }
 #contact-form .gform_wrapper div.validation_error {
   font-size: 20px !important;
@@ -6135,13 +6136,13 @@ figure.alignnone {
 #contact-form .gform_wrapper .gform_footer button.gform_button {
   display: block;
   width: 98%;
-  background-color: #a3712b;
+  background-color: #89378c;
   color: #FFF;
   line-height: 60px;
   padding: 0px;
   font-size: 25px;
   text-decoration: none;
-  border: 5px solid #a3712b;
+  border: 5px solid #89378c;
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
   border-radius: 12px;
@@ -6149,7 +6150,7 @@ figure.alignnone {
 #contact-form .gform_wrapper .gform_footer button.gform_button:hover,
 #contact-form .gform_wrapper .gform_footer button.gform_button:active,
 #contact-form .gform_wrapper .gform_footer button.gform_button:focus {
-  background-color: #006f9c;
+  background-color: #203e91;
   border-color: #FFF;
 }
 #contact-form .gform_wrapper .gform_footer button.gform_button:active {
@@ -6166,20 +6167,23 @@ figure.alignnone {
 /* FOOTER */
 /* --------------------------- */
 footer#footer-site-info {
-  border-top: 10px solid #FFF;
+  border-top: 5px solid #FFF;
 }
 footer#footer-site-info .footer-top {
   min-height: 500px;
   position: relative;
   padding-top: 30px;
   padding-bottom: 30px;
-  background: #009ee3;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFF), color-stop(1, #009ee3));
-  background: -ms-linear-gradient(bottom, #FFF, #009ee3);
-  background: -moz-linear-gradient(center bottom, #FFF 0%, #009ee3 100%);
-  background: -o-linear-gradient(#009ee3, #FFF);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#009ee3', endColorstr='#FFF', GradientType=0);
-  border-bottom: 2px solid #FFF;
+  background-color: black;
+  background-image: url(img/halfone-bg-2018.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-bottom: 5px solid #FFF;
 }
 footer#footer-site-info .footer-base {
   min-height: 50px;
@@ -6249,12 +6253,12 @@ footer#footer-site-info ul.footer-menu a {
   text-decoration: none;
 }
 footer#footer-site-info ul.footer-menu a i {
-  color: #006f9c;
+  color: #a6529a;
 }
 footer#footer-site-info ul.footer-menu a:hover,
 footer#footer-site-info ul.footer-menu a:active,
 footer#footer-site-info ul.footer-menu a:focus {
-  color: #006f9c;
+  color: #a6529a;
 }
 footer#footer-site-info .ticket-details {
   padding-bottom: 30px;
@@ -6262,11 +6266,11 @@ footer#footer-site-info .ticket-details {
 footer#footer-site-info .ticket-details .btn {
   padding: 0px;
   line-height: 60px;
-  border: 5px solid #FFF;
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 12px;
-  border-radius: 12px;
-  background-color: #ee9f4a;
+  border: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  background-color: #a6529a;
   color: #FFF;
   font-size: 25px;
 }
@@ -6274,7 +6278,7 @@ footer#footer-site-info .ticket-details .btn:hover,
 footer#footer-site-info .ticket-details .btn:active,
 footer#footer-site-info .ticket-details .btn:focus {
   background-color: #FFF;
-  color: #ee9f4a;
+  color: #a6529a;
 }
 footer#footer-site-info .ticket-details .btn:before,
 footer#footer-site-info .ticket-details .btn:after {
@@ -6282,7 +6286,7 @@ footer#footer-site-info .ticket-details .btn:after {
   width: 60px;
   line-height: 60px;
   text-align: center;
-  color: #006f9c;
+  color: #203e91;
   font-size: 30px;
 }
 footer#footer-site-info .ticket-details .btn:before {
@@ -6308,12 +6312,13 @@ footer#footer-site-info .ticket-info a {
 footer#footer-site-info .ticket-info a:hover,
 footer#footer-site-info .ticket-info a:active,
 footer#footer-site-info .ticket-info a:focus {
-  color: #006f9c;
+  color: #a6529a;
 }
 footer#footer-site-info .contact-info {
   font-size: 18px;
   line-height: 22px;
   padding-bottom: 30px;
+  color: #a6529a;
 }
 footer#footer-site-info .contact-info a {
   text-decoration: none;
@@ -6322,36 +6327,17 @@ footer#footer-site-info .contact-info a {
 footer#footer-site-info .contact-info a:hover,
 footer#footer-site-info .contact-info a:active,
 footer#footer-site-info .contact-info a:focus {
-  color: #006f9c;
+  color: #a6529a;
   text-decoration: underline;
+}
+footer#footer-site-info .date-location {
+  text-align: center;
 }
 footer#footer-site-info .date-location .dl-item {
   line-height: 60px;
   font-size: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 8px;
-  -webkit-transform: skewX(-10deg);
-  -moz-transform: skewX(-10deg);
-  -o-transform: skewX(-10deg);
-  -ms-transform: skewX(-10deg);
-  transform: skewX(-10deg);
-}
-footer#footer-site-info .date-location .footer-date {
-  width: 35%;
-  padding-right: 40px;
-}
-footer#footer-site-info .date-location .footer-location {
-  width: 56%;
-  margin-left: -20px;
-  text-align: center;
-}
-footer#footer-site-info .date-location .footer-time {
-  width: 12%;
-  margin-left: -20px;
-  text-align: right;
 }
 footer#footer-site-info .social-links {
   padding-top: 30px;
@@ -6485,7 +6471,7 @@ body#user-page .user-form {
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
 }
 body#user-page .user-form .message {
-  background-color: #5bae31;
+  background-color: #66b32e;
   color: #FFF;
   font-weight: bold;
   padding: 10px;
@@ -6508,14 +6494,14 @@ body#user-page .user-form p.forgetmenot {
   margin-top: 10px;
 }
 body#user-page .user-form .submit-btn {
-  background-color: #ee9f4a;
+  background-color: #a6529a;
   color: #FFF;
   border: none;
 }
 body#user-page .user-form .submit-btn:hover,
 body#user-page .user-form .submit-btn:active,
 body#user-page .user-form .submit-btn:focus {
-  background-color: #a3712b;
+  background-color: #89378c;
 }
 body#user-page .user-form ul.tml-action-links {
   list-style: none;
@@ -6525,7 +6511,7 @@ body#user-page .user-form ul.tml-action-links a,
 body#user-page .user-form a.back-btn {
   display: block;
   padding: 7px;
-  background-color: #009ee3;
+  background-color: black;
   color: #FFF;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -6540,7 +6526,7 @@ body#user-page .user-form ul.tml-action-links a:active,
 body#user-page .user-form a.back-btn:active,
 body#user-page .user-form ul.tml-action-links a:focus,
 body#user-page .user-form a.back-btn:focus {
-  background-color: #006f9c;
+  background-color: #203e91;
 }
 .profile-wrap {
   padding: 40px;
@@ -6548,7 +6534,7 @@ body#user-page .user-form a.back-btn:focus {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
-  border: 5px solid #006f9c;
+  border: 5px solid #203e91;
   -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
@@ -6557,14 +6543,14 @@ body#user-page .user-form a.back-btn:focus {
   margin-bottom: 20px;
 }
 .profile-wrap button.wp-generate-pw {
-  background-color: #006f9c;
+  background-color: #203e91;
   color: #FFF;
   border: none;
 }
 .profile-wrap button.wp-generate-pw:hover,
 .profile-wrap button.wp-generate-pw:active,
 .profile-wrap button.wp-generate-pw:focus {
-  background-color: #ee9f4a;
+  background-color: #a6529a;
 }
 .profile-wrap .tml-form-table {
   width: 100%;
@@ -6578,13 +6564,13 @@ body#user-page .user-form a.back-btn:focus {
   border: none;
 }
 .profile-wrap button.wp-hide-pw {
-  background-color: #5bae31;
+  background-color: #66b32e;
   color: #FFF;
 }
 .profile-wrap button.wp-hide-pw:hover,
 .profile-wrap button.wp-hide-pw:active,
 .profile-wrap button.wp-hide-pw:focus {
-  background-color: #006f9c;
+  background-color: #203e91;
   color: #FFF;
 }
 .profile-wrap button.wp-cancel-pw {
@@ -6594,17 +6580,17 @@ body#user-page .user-form a.back-btn:focus {
 .profile-wrap button.wp-cancel-pw:hover,
 .profile-wrap button.wp-cancel-pw:active,
 .profile-wrap button.wp-cancel-pw:focus {
-  background-color: #006f9c;
+  background-color: #203e91;
   color: #FFF;
 }
 .profile-wrap input.button-primary {
   border: none;
   color: #FFF;
-  background-color: #ee9f4a;
+  background-color: #a6529a;
 }
 .profile-wrap input.button-primary:hover,
 .profile-wrap input.button-primary:active,
 .profile-wrap input.button-primary:focus {
-  background-color: #006f9c;
+  background-color: #203e91;
   color: #FFF;
 }
