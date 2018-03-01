@@ -47,7 +47,7 @@ $social_links = get_field('gbl_social_links', 'options');
 			<div class="well text-center bg-col-orange txt-col-wht bold">
 				
 				<figure class="line-up-img">
-					<img src="<?php bloginfo('stylesheet_directory'); ?>/_/img/line-up-panel-imgs.png" class="img-responsive" />
+					<img src="<?php bloginfo('stylesheet_directory'); ?>/_/img/line-up-panel-imgs-2018.png" class="img-responsive" />
 				</figure>
 				
 				<p>The line up for this years <span class="txt-col-blue-dk">Chase Park Festival</span> will be available soon.</p>
