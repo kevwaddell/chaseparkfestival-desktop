@@ -3817,7 +3817,7 @@ a.book-tickets-btn-lg:focus:after {
   display: block;
   color: #FFF;
   text-decoration: none;
-  background-color: #cc00cc;
+  background-color: black;
   margin-left: -15px;
   margin-right: -15px;
   padding-left: 15px;
@@ -3830,7 +3830,8 @@ a.book-tickets-btn-lg:focus:after {
   background-color: #203e91;
 }
 #gbl-masthead .breadcrumbs a.home {
-  background-color: #ff00ff;
+  background-color: black;
+  border-left: 5px solid #FFF;
 }
 #gbl-masthead .breadcrumbs a.home:hover,
 #gbl-masthead .breadcrumbs a.home:active,
@@ -3852,6 +3853,7 @@ a.book-tickets-btn-lg:focus:after {
 }
 #gbl-masthead .breadcrumbs span[property="itemListElement"]:last-child {
   background-color: #203e91;
+  border-right: 5px solid #FFF;
 }
 /* --------------------------- */
 /* TYPOGRAHY */
