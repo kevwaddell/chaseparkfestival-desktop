@@ -523,7 +523,9 @@ text-align: center;
 	
 	a.enquiry-btn {
 	.bg-col-orange;
-	.border(@wht; 0.4);
+	//.border(@wht; 0.4);
+	.no-border;
+	.no-rounded;
 	.txt-col-wht;	
 		&:hover, &:active, &:focus {
 		.bg-col-wht;
@@ -546,9 +548,11 @@ text-align: center;
 		a.contact-btn {
 		.mag-top(2);
 		.bg-col-orange;
-		.border(@wht; 0.5);
-		.rounded(10px);	
-		.h(7);
+		//.border(@wht; 0.5);
+		//.rounded(10px);	
+		.no-border;
+		.no-rounded;
+		.h(6);
 		.txt-col-wht;
 		.pad-all(0);
 		.line-h(6);

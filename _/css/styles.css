@@ -4610,7 +4610,10 @@ a.book-tickets-btn-lg:focus:after {
 }
 .info-panel a.enquiry-btn {
   background-color: #a6529a;
-  border: 4px solid #FFF;
+  border: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
   color: #FFF;
 }
 .info-panel a.enquiry-btn:hover,
@@ -4638,11 +4641,11 @@ a.book-tickets-btn-lg:focus:after {
 .info-panel.panel-blue a.contact-btn {
   margin-top: 20px;
   background-color: #a6529a;
-  border: 5px solid #FFF;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  height: 70px;
+  border: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  height: 60px;
   color: #FFF;
   padding: 0px;
   line-height: 60px;
