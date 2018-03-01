@@ -4513,9 +4513,6 @@ a.book-tickets-btn-lg:focus:after {
   color: #333;
 }
 .info-panel {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
   padding: 0px 40px 20px 40px;
   position: relative;
 }
@@ -5545,9 +5542,6 @@ a.book-tickets-btn-lg:focus:after {
 }
 #main-content .sidebar .info-panel {
   padding: 30px 30px 30px 30px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 8px;
 }
 #main-content .sidebar .info-panel h3 {
   margin-bottom: 20px;
