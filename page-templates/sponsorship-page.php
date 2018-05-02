@@ -34,7 +34,7 @@ $gbl_contact_telephone = get_field('gbl_contact_telephone', 'options');
 					
 					<?php get_template_part( 'parts/panels/sponsor', 'enquiries' ); ?>
 					
-					<?php get_template_part( 'parts/panels/download', 'package' ); ?>
+					<?php //get_template_part( 'parts/panels/download', 'package' ); ?>
 					
 				</aside>
 			</div>
@@ -43,11 +43,11 @@ $gbl_contact_telephone = get_field('gbl_contact_telephone', 'options');
 		
 	</div>
 	
-	<?php get_template_part( 'parts/sections/section', 'reason2sponsor' ); ?>
+	<?php //get_template_part( 'parts/sections/section', 'reason2sponsor' ); ?>
 	
-	<?php get_template_part( 'parts/sections/section', 'sponsorPackages' ); ?>
+	<?php //get_template_part( 'parts/sections/section', 'sponsorPackages' ); ?>
 	
-	<?php get_template_part( 'parts/sections/section', 'sponsorStage' ); ?>
+	<?php //get_template_part( 'parts/sections/section', 'sponsorStage' ); ?>
 	
 	<?php } else { ?>
 <main id="main-content" class="notes-bg-orange"> 

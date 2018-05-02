@@ -7,7 +7,7 @@
 		"uuidString": "8F4BC145-B460-48D2-BBD6-C87E8E0C93A6"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -191,6 +191,7 @@
 	"\/_\/css\/img\/gbl-mast-image-bg.jpg": {
 		"ft": 16384,
 		"iS": 54636,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/gbl-mast-image-bg.jpg",
 		"oF": 0,
@@ -308,6 +309,7 @@
 	"\/_\/css\/img\/hp-mast-image-bg.jpg": {
 		"ft": 16384,
 		"iS": 139145,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/hp-mast-image-bg.jpg",
 		"oF": 0,
@@ -437,6 +439,7 @@
 	"\/_\/css\/img\/user-bg.jpg": {
 		"ft": 16384,
 		"iS": 1443060,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/user-bg.jpg",
 		"oF": 0,
@@ -474,6 +477,7 @@
 	"\/_\/img\/around-site-left.jpg": {
 		"ft": 16384,
 		"iS": 25642,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_\/img\/around-site-left.jpg",
 		"oF": 0,
@@ -484,6 +488,7 @@
 	"\/_\/img\/around-site-right.jpg": {
 		"ft": 16384,
 		"iS": 22206,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_\/img\/around-site-right.jpg",
 		"oF": 0,
@@ -1493,7 +1498,8 @@
 	"creationDate": 510077943,
 	"displayValue": "chaseparkfestival-desktop",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-krieger"
+	"iconImageName": "meme-krieger",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3296,6 +3302,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
