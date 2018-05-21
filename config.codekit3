@@ -1349,6 +1349,13 @@
 		"oAP": "\/parts\/sections\/section-assistance.php",
 		"oF": 0
 		},
+	"\/parts\/sections\/section-mainPartner.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/parts\/sections\/section-mainPartner.php",
+		"oF": 0
+		},
 	"\/parts\/sections\/section-parking.php": {
 		"cB": 0,
 		"ft": 8192,

@@ -17,7 +17,7 @@ $gbl_contact_telephone = get_field('gbl_contact_telephone', 'options');
 ?>
 <main id="main-content"> 
 
-	<?php get_template_part( 'parts/sections/section', 'partner' ); ?>
+	<?php get_template_part( 'parts/sections/section', 'mainPartner' ); ?>
 	
 	<div class="container">
 		
@@ -42,6 +42,8 @@ $gbl_contact_telephone = get_field('gbl_contact_telephone', 'options');
 		</article>
 		
 	</div>
+	
+	<?php get_template_part( 'parts/sections/section', 'partner' ); ?>
 	
 	<?php //get_template_part( 'parts/sections/section', 'reason2sponsor' ); ?>
 	
